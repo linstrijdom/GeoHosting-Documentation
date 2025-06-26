@@ -41,31 +41,3 @@ The platform enables collaboration across teams and organizations, offering shar
 
 Dedicated Customer Support
 Our expert support team is available to assist you with any technical issues, ensuring smooth operation of your geospatial applications and services.
-## Disclaimer
-
-<div class="admonition warning">
-The software provided by this project is provided 'as is'. All information provided 
-within the platform should be independently verified before using as the basis for
-action. The contributors and developers of this platform take no responsibility
-for any loss of revenue, life, physical harm or any other adverse outcome that may 
-occur as a result of the use of this platform. 
-</div>
-
-## Project Badges
-
-|  |  |  |
-| :---: | :---: | :---: |
-| ![License](https://img.shields.io/github/license/kartoza/Geohosting.svg) | ![Commits](https://img.shields.io/github/commits-since/kartoza/Geohosting/0.1.15.svg) | ![Issue Tracker](https://img.shields.io/github/issues/kartoza/Geohosting.svg) |
-| ![Closed Issues](https://img.shields.io/github/issues-closed/kartoza/Geohosting.svg) | ![Pull requests](https://img.shields.io/github/issues-pr/kartoza/Geohosting.svg) | ![Version](https://img.shields.io/github/release/kartoza/Geohosting.svg) |
-
-## Releases
-
-<!-- ![Latest Release](https://img.shields.io/github/v/release/kartoza/Geohosting) -->
-
-To find out more about the current release and what has been changed please visit the [releases](https://github.com/kartoza/Geohosting/releases/latest) page. 
-
-## License
-
-This project is open source, published under the [AGPL-3](https://github.com/kartoza/GeoHosting?tab=AGPL-3.0-1-ov-file#readme).
-You can read our license to find out what rights this license bestows to users and contributors.
-

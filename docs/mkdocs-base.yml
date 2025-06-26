@@ -5,9 +5,6 @@ site_description: "Project technical and user documentation."
 site_author: "Kartoza"
 docs_dir: ./src
 site_dir: ./site
-repo_name: "GeoHosting Controller"
-repo_url: "https://github.com/kartoza/GeoHosting"
-edit_uri: "https://github.com/kartoza/GeoHosting/edit/main/docs/src/"
 
 copyright: Kartoza and Contributors
 
