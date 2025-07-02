@@ -10,7 +10,7 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-## GeoSpatialHosting
+<!-- ## GeoSpatialHosting -->
 
 ![Geohosting-full.sbg](./img/geohosting-full.svg)
 
