@@ -43,7 +43,7 @@ markdown_extensions:
       base_path: .
 
 nav:
-  - Introduction: index.md
+  - Home: index.md
   - Subscription process: subscription.md
   - Dashboard:
       - dashboard/index.md  
