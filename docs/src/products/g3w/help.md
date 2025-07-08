@@ -12,3 +12,9 @@ context_id: nDU6LLGiXPTLADXY
 ---
 
 # G3W Help
+
+## Troubleshooting Common Issues
+
+## Frequently Asked Questions (FAQ)
+
+## Getting Support & Contact Info
