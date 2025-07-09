@@ -316,3 +316,23 @@ blockquote p {
 .product-grid .product-item:hover img {
   transform: scale(1.1);
 }
+
+/* Footer */
+/* Make the buttons rounded and larger */
+/* Change entire footer background */
+.md-footer {
+    background-color: #f5f0ff; /* light purple */
+  }
+  
+  /* Optional: change text color */
+  .md-footer,
+  .md-footer a {
+    color: #333333; /* darker text for contrast */
+  }
+  
+  /* Optional: add padding */
+  .md-footer__inner {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  

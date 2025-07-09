@@ -18,6 +18,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
+    - navigation.footer
     - search.highlight
     - search.share
     - search.suggest
