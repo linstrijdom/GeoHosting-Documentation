@@ -55,7 +55,7 @@ p {
 /* Accent color: UNICEF blue */
 /* Define accent and hover colors */
 :root {
-    --accent-color: #1cabe2;
+    --accent-color: #57A0C7;
     /* UNICEF blue */
     --hover-color: #e57373;
     /* Off red (material red lighten-2) */
@@ -63,9 +63,9 @@ p {
 
 /* Primary foreground color for Material Design */
 :root>* {
-    --md-primary-fg-color: #1cabe2;
-    --md-primary-fg-color--light: #1cabe2;
-    --md-primary-fg-color--dark: #1cabe2;
+    --md-primary-fg-color: #57A0C7;
+    --md-primary-fg-color--light: #57A0C7;
+    --md-primary-fg-color--dark: #57A0C7;
 }
 
 /* Side menu theming from Irwan */
@@ -252,7 +252,7 @@ blockquote p {
 }
 
 :root {
-    --md-accent-fg-color: #2094f3;
+    --md-accent-fg-color: #57A0C7;
 }
 
 #__mermaid_0 .nodeLabel, #__mermaid_0 .nodeLabel p {
@@ -321,18 +321,31 @@ blockquote p {
 /* Make the buttons rounded and larger */
 /* Change entire footer background */
 .md-footer {
-    background-color: #f5f0ff; /* light purple */
+    background-color: #57A0C7; /* light purple */
   }
   
   /* Optional: change text color */
   .md-footer,
   .md-footer a {
-    color: #333333; /* darker text for contrast */
+    color: #fff; /* darker text for contrast */
   }
   
   /* Optional: add padding */
   .md-footer__inner {
     padding-top: 1em;
     padding-bottom: 1em;
+  }
+  
+  .md-footer__button {
+    background-color: #ECB44B;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.6em 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .md-footer__button:hover {
+    background-color: #e0a832;
   }
   
