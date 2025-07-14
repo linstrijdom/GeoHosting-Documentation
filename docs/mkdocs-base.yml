@@ -83,8 +83,10 @@ nav:
       #    - Guide: products/bims/guide.md
       - GeoServer:
           - products/geoserver/index.md
-        #   - Introduction: products/geoserver/introduction.md
+          - Overview: products/geoserver/overview.md
           - Guide: products/geoserver/guide.md
+          - Manual: products/geoserver/manual.md
+          - Help: products/geoserver/help.md
       #- GeoSight:
       #    - products/geosight/index.md
       #    - Introduction: products/geosight/introduction.md
