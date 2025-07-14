@@ -14,6 +14,20 @@ context_id: nDU6LLGiXPTLADXY
 
 # GeoNode Guide
 
+## Creating Your Instance
+
+## First Log In & Setting Your Password
+
+## Quickstart: 5-Minute Tutorial
+
+## Navigating the Dashboard
+
+## Managing Users & Permissions
+
+## Integrating With Other Tools
+
+## Glossary of Terms
+
 ## Using the Kartoza GeoSpatialHosting Dashboard
 
 After your service has finished setting up, you will be redirected to the Hosted Services page of the GeoSpatial Hosting Dashboard. Here, you can view all your purchased services.

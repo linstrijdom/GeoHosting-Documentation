@@ -49,7 +49,7 @@ Follow these steps to upload your dataset to GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-12.png" alt="Datasets Tab" width=auto>
+      <img src="../../img/geonode-img-12.png" alt="Datasets Tab" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -62,7 +62,7 @@ Follow these steps to upload your dataset to GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-13.png" alt="Upload Dataset Dropdon" width=auto>
+      <img src="../../img/geonode-img-13.png" alt="Upload Dataset Dropdon" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -75,7 +75,7 @@ Follow these steps to upload your dataset to GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-14.png" alt="Select Files" width=auto>
+      <img src="../../img/geonode-img-14.png" alt="Select Files" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -88,7 +88,7 @@ Follow these steps to upload your dataset to GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-15.png" alt="Selected Files" width=auto>
+      <img src="../../img/geonode-img-15.png" alt="Selected Files" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -105,7 +105,7 @@ A progress bar will display the upload status and notify you when the upload is 
 <br>
 
 <div style="text-align: center;">
- <img src="../img/geonode-img-16.png" alt="View Uploaded Datasets" width=auto>
+ <img src="../../img/geonode-img-16.png" alt="View Uploaded Datasets" width=auto>
  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
  Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
  </div>
