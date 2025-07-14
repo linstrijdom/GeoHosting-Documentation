@@ -93,3 +93,8 @@ You should have received a copy of the GNU General Public License with GeoNode. 
 > **Note:** For full license details, refer to the [GNU General Public License](http://www.gnu.org/licenses).
 
 ---
+
+<div class="nav-buttons">
+  <a href="previous-page/" class="prev">⬅️ Previous</a>
+  <a href="next-page/" class="next">Next ➡️</a>
+</div>

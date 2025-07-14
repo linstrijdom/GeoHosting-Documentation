@@ -1,17 +1,4 @@
-/**
-* GeoSight is UNICEF's geospatial web-based business intelligence platform.
-*
-* Contact : geosight-no-reply@unicef.org
-*
-* .. note:: This program is free software; you can redistribute it and/or modify
-*     it under the terms of the GNU Affero General Public License as published by
-*     the Free Software Foundation; either version 3 of the License, or
-*     (at your option) any later version.
-*
-* __author__ = 'irwan@kartoza.com'
-* __date__ = '13/06/2023'
-* __copyright__ = ('Copyright 2023, Unicef')
-*/
+
 
 @font-face {
     src: url(../assets/AvenirLTStd-Book.otf);
@@ -52,20 +39,20 @@ p {
     margin-bottom: 1em;
 }
 
-/* Accent color: UNICEF blue */
+/* Accent color: #57A0C7 Kartoza blue - Style guide located here: https://www.figma.com/design/LYPvfzpLxVTJgFrmzjeUVQ/GeoHosting_Workflow?node-id=1-10&p=f&t=5Fy5K6oTxUQ51tTU-0 */
 /* Define accent and hover colors */
 :root {
-    --accent-color: #1cabe2;
-    /* UNICEF blue */
+    --accent-color: #57A0C7; 
+    /* Kartoza blue */
     --hover-color: #e57373;
     /* Off red (material red lighten-2) */
 }
 
 /* Primary foreground color for Material Design */
 :root>* {
-    --md-primary-fg-color: #1cabe2;
-    --md-primary-fg-color--light: #1cabe2;
-    --md-primary-fg-color--dark: #1cabe2;
+    --md-primary-fg-color: #57A0C7;
+    --md-primary-fg-color--light: #57A0C7;
+    --md-primary-fg-color--dark: #57A0C7;
 }
 
 /* Side menu theming from Irwan */
@@ -252,9 +239,127 @@ blockquote p {
 }
 
 :root {
-    --md-accent-fg-color: #2094f3;
+    --md-accent-fg-color: #57A0C7;
 }
 
 #__mermaid_0 .nodeLabel, #__mermaid_0 .nodeLabel p {
 
+}
+/* nav button styling */
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  color: #000;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.nav-buttons a.prev {
+  background: #e6e6e6;
+}
+
+.nav-buttons a.next {
+  background: #e6e6e6;
+}
+
+/* product page table */
+/* === Product Grid Styling === */
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 2em;
+  padding: 1em 0;
+}
+
+.product-grid .product-item {
+  flex: 1 1 30%;
+  text-align: center;
+}
+
+.product-grid .product-item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-grid .product-item img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5em auto;
+  transition: transform 0.2s ease;
+}
+
+.product-grid .product-item:hover img {
+  transform: scale(1.1);
+}
+
+/* Footer */
+/* Make the buttons rounded and larger */
+/* Change entire footer background */
+.md-footer {
+    background-color: #57A0C7; /* light purple */
+  }
+  
+  /* Optional: change text color */
+  .md-footer,
+  .md-footer a {
+    color: #fff; /* darker text for contrast */
+  }
+  
+  /* Optional: add padding */
+  .md-footer__inner {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  .md-footer__button {
+    background-color: #ECB44B;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.6em 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .md-footer__button:hover {
+    background-color: #e0a832;
+  }
+  
+/* Increase logo height */
+.md-header__button.md-logo img {
+    height: 50px !important;  /* Try 32–48px for best balance */
+    padding: 0 0.5rem;
+  }
+
+  /* Optional: shrink site name slightly to balance the visual layout */
+.md-header__title {
+    font-size: 1.1rem;  /* Adjust as needed */;
+  }
+
+
+.md-header {
+    position: relative;
+    z-index: 1;
+  }
+  
+.md-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../img/background.png'); /* your image path */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; /* adjust to control transparency */
+  z-index: -1; /* send it behind the header content */
 }
