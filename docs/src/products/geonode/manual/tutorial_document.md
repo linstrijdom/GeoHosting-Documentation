@@ -69,7 +69,7 @@ Follow these steps to upload your document to GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-17.png" alt="Documents Tab" width=auto>
+      <img src="../../img/geonode-img-17.png" alt="Documents Tab" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -82,7 +82,7 @@ Follow these steps to upload your document to GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-18.png" alt="New Document Button" width=auto>
+      <img src="../../img/geonode-img-18.png" alt="New Document Button" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -102,7 +102,7 @@ Follow these steps to upload your document to GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-19.png" alt="Select Files" width=auto>
+      <img src="../../img/geonode-img-19.png" alt="Select Files" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -115,7 +115,7 @@ Follow these steps to upload your document to GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-20.png" alt="Selected Files" width=auto>
+      <img src="../../img/geonode-img-20.png" alt="Selected Files" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -132,7 +132,7 @@ Once the upload is complete, click **View** to open the document’s detail page
 <br>
 
 <div style="text-align: center;">
- <img src="../img/geonode-img-21.png" alt="View Uploaded Document" width=auto>
+ <img src="../../img/geonode-img-21.png" alt="View Uploaded Document" width=auto>
  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
  Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
  </div>

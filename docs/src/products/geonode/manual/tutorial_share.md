@@ -47,7 +47,7 @@ Follow these steps to share you map:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-28.png" alt="All Resources" width=auto>
+      <img src="../../img/geonode-img-28.png" alt="All Resources" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -60,7 +60,7 @@ Follow these steps to share you map:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-29.png" alt="Share Button" width=auto>
+      <img src="../../img/geonode-img-29.png" alt="Share Button" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -80,7 +80,7 @@ Follow these steps to share you map:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-30.png" alt="Share Permissions" width=auto>
+      <img src="../../img/geonode-img-30.png" alt="Share Permissions" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -93,7 +93,7 @@ Follow these steps to share you map:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-31.png" alt="Save" width=auto>
+      <img src="../../img/geonode-img-31.png" alt="Save" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>

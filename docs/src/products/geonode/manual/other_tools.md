@@ -25,7 +25,7 @@ context_id: nDU6LLGiXPTLADXY
 <br>
 
 <div style="text-align: center;">
- <img src="../img/geonode-img-35.png" alt="Dashboard" width=auto>
+ <img src="../../img/geonode-img-35.png" alt="Dashboard" width=auto>
  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
  Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
  </div>
@@ -46,7 +46,7 @@ GeoNode allows you to enrich your GeoStory with **internal GeoNode documents and
 <br>
 
 <div style="text-align: center;">
- <img src="../img/geonode-img-36.png" alt="GeoStory" width=auto>
+ <img src="../../img/geonode-img-36.png" alt="GeoStory" width=auto>
  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
  Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
  </div>

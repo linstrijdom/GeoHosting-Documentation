@@ -62,26 +62,35 @@ nav:
       - products/index.md 
       - GeoNode:
           - products/geonode/index.md
-          - GSH Dashboard: products/geonode/setup.md
-          - Getting Started: products/geonode/getting_started.md
-          - Tutorial Setup: products/geonode/tutorial_setup.md
-          - Datasets: products/geonode/tutorial_dataset.md
-          - Documents: products/geonode/tutorial_document.md
-          - Maps: products/geonode/tutorial_map.md
-          - Share: products/geonode/tutorial_share.md
-          - Search: products/geonode/tutorial_search.md
-          - Other Tools: products/geonode/other_tools.md
+          - Overview: products/geonode/overview.md
+          - Guide: products/geonode/guide.md
+          - Manual:
+            - GSH Dashboard: products/geonode/manual/setup.md
+            - Getting Started: products/geonode/manual/getting_started.md
+            - Tutorial Setup: products/geonode/manual/tutorial_setup.md
+            - Datasets: products/geonode/manual/tutorial_dataset.md
+            - Documents: products/geonode/manual/tutorial_document.md
+            - Maps: products/geonode/manual/tutorial_map.md
+            - Share: products/geonode/manual/tutorial_share.md
+            - Search: products/geonode/manual/tutorial_search.md
+            - Other Tools: products/geonode/manual/other_tools.md
+          - Help: products/geonode/help.md
       - G3W:
           - products/g3w/index.md
+          - Overview: products/g3w/overview.md
           - Guide: products/g3w/guide.md
+          - Manual: products/g3w/manual.md
+          - Help: products/g3w/help.md
       #- BIMS:
       #    - products/bims/index.md
       #    - Introduction: products/bims/introduction.md
       #    - Guide: products/bims/guide.md
       - GeoServer:
           - products/geoserver/index.md
-        #   - Introduction: products/geoserver/introduction.md
+          - Overview: products/geoserver/overview.md
           - Guide: products/geoserver/guide.md
+          - Manual: products/geoserver/manual.md
+          - Help: products/geoserver/help.md
       #- GeoSight:
       #    - products/geosight/index.md
       #    - Introduction: products/geosight/introduction.md

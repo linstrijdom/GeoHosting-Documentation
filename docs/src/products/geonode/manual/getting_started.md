@@ -35,7 +35,7 @@ You can access the GeoNode Homepage in two ways:
 <br>
 
 <div style="text-align: center;">
-  <img src="../img/geonode-img-5.png" alt="Homepage" width="auto">
+  <img src="../../img/geonode-img-5.png" alt="Homepage" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -52,7 +52,7 @@ You can access the GeoNode Homepage in two ways:
      <br>
   
      <div style="text-align: center;">
-      <img src="../img/geonode-img-6.png" alt="Register" width=auto>
+      <img src="../../img/geonode-img-6.png" alt="Register" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -65,7 +65,7 @@ You can access the GeoNode Homepage in two ways:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-7.png" alt="Sign Up" width=auto>
+      <img src="../../img/geonode-img-7.png" alt="Sign Up" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -88,7 +88,7 @@ You will be redirected to the **GeoNode Homepage** where you can begin using you
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-8.png" alt="Avatar Icon" width=auto>
+      <img src="../../img/geonode-img-8.png" alt="Avatar Icon" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -101,7 +101,7 @@ You will be redirected to the **GeoNode Homepage** where you can begin using you
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-9.png" alt="Profile" width=auto>
+      <img src="../../img/geonode-img-9.png" alt="Profile" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -119,7 +119,7 @@ You will be redirected to the **GeoNode Homepage** where you can begin using you
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-10.png" alt="Edit Profile" width=auto>
+      <img src="../../img/geonode-img-10.png" alt="Edit Profile" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -132,7 +132,7 @@ You will be redirected to the **GeoNode Homepage** where you can begin using you
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-11.png" alt="Update Profile" width=auto>
+      <img src="../../img/geonode-img-11.png" alt="Update Profile" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>

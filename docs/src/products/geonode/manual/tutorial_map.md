@@ -55,7 +55,7 @@ Follow these steps to create a map in GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-22.png" alt="Maps Tab" width=auto>
+      <img src="../../img/geonode-img-22.png" alt="Maps Tab" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -68,7 +68,7 @@ Follow these steps to create a map in GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-23.png" alt="New Map Button" width=auto>
+      <img src="../../img/geonode-img-23.png" alt="New Map Button" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -81,7 +81,7 @@ Follow these steps to create a map in GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-24.png" alt="Add Dataset Button" width=auto>
+      <img src="../../img/geonode-img-24.png" alt="Add Dataset Button" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -94,7 +94,7 @@ Follow these steps to create a map in GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-25.png" alt="Add Dataset" width=auto>
+      <img src="../../img/geonode-img-25.png" alt="Add Dataset" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -107,7 +107,7 @@ Follow these steps to create a map in GeoNode:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-26.png" alt="Save As" width=auto>
+      <img src="../../img/geonode-img-26.png" alt="Save As" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -124,7 +124,7 @@ You should now see your map listed on the **All Resources** page.
 <br>
 
 <div style="text-align: center;">
- <img src="../img/geonode-img-27.png" alt="New Map" width=auto>
+ <img src="../../img/geonode-img-27.png" alt="New Map" width=auto>
  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
  Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
  </div>

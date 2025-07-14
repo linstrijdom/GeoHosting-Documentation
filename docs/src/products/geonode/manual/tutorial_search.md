@@ -59,7 +59,7 @@ Follow these steps to find specific data:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-32.png" alt="Search Box" width=auto>
+      <img src="../../img/geonode-img-32.png" alt="Search Box" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -72,7 +72,7 @@ Follow these steps to find specific data:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-33.png" alt="Search Page" width=auto>
+      <img src="../../img/geonode-img-33.png" alt="Search Page" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
@@ -85,7 +85,7 @@ Follow these steps to find specific data:
      <br>
 
      <div style="text-align: center;">
-      <img src="../img/geonode-img-34.png" alt="Filters" width=auto>
+      <img src="../../img/geonode-img-34.png" alt="Filters" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
