@@ -363,3 +363,20 @@ blockquote p {
   opacity: 0.2; /* adjust to control transparency */
   z-index: -1; /* send it behind the header content */
 }
+
+/* Reusable Image Blocks */
+.image-with-caption {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.image-with-caption img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-with-caption .caption {
+  font-size: 0.6em;
+  color: gray;
+  margin-top: 4px;
+}
