@@ -16,7 +16,7 @@ test('GeoHosting home page loads', async ({ page }) => {
   await fs.mkdir(imgDir, { recursive: true });
 
   await page.screenshot({
-    path: path.join(imgDir, 'homepage.png'),
+    path: path.join(imgDir, 'GHS_home.png'),
     fullPage: true,
   });
 });
