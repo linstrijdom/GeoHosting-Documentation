@@ -165,7 +165,6 @@ GeoNode is © 2018 by the Open Source Geospatial Foundation (OSGeo).
 
 It is **free and open-source software**, licensed under the GNU General Public License v3. This means you are free to redistribute and/or modify GeoNode under the terms of the GPL.
 
-
 > **Note:** For full license details, refer to the [GNU General Public License](http://www.gnu.org/licenses).
 
 <br>

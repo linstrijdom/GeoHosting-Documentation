@@ -380,3 +380,63 @@ blockquote p {
   color: gray;
   margin-top: 4px;
 }
+
+/* Reusable Table*/
+.my-table-style {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #57A0C7;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  color: #333;
+  overflow: hidden;
+}
+
+.my-table-style th,
+.my-table-style td {
+  padding: 10px 15px;
+  text-align: left;
+  border-style: solid;
+  border-color: #57A0C7;
+  border-width: 0 1px 1px 0;
+  background-clip: padding-box;
+}
+
+.my-table-style th:last-child,
+.my-table-style td:last-child {
+  border-right-width: 0;
+}
+
+.my-table-style tbody tr:last-child td {
+  border-bottom-width: 0;
+}
+
+/* Header styling — keep blue background and white text */
+.my-table-style th {
+  background-color: #57A0C7;
+  color: white;
+  font-weight: 600;
+  border-width: 0 1px 2px 0;
+}
+
+/* Body cells background white */
+.my-table-style tbody td {
+  background-color: white;
+}
+
+/* First column bold */
+.my-table-style td:first-child {
+  font-weight: 600;
+}
+
+/* Remove alternate row background */
+.my-table-style tbody tr:nth-child(even) td {
+  background-color: white;
+}
+
+/* Remove hover background */
+.my-table-style tbody tr:hover td {
+  background-color: white;
+}
