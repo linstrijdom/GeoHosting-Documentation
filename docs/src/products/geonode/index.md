@@ -24,12 +24,13 @@ It also includes **social features** like user profiles, commenting, and rating 
 
 <br>
 
-<div style="text-align: center;">
+<div class="image-with-caption">
   <img src="./img/geonode-img-1.png" alt="GeoNode Logo" width="350">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+  <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
 </div>
+
 
 ---
 
@@ -94,7 +95,3 @@ You should have received a copy of the GNU General Public License with GeoNode. 
 
 ---
 
-<div class="nav-buttons">
-  <a href="previous-page/" class="prev">⬅️ Previous</a>
-  <a href="next-page/" class="next">Next ➡️</a>
-</div>

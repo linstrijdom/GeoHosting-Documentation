@@ -145,7 +145,7 @@ blockquote p {
 
 .card:hover {
     border-color: var(--accent-color);
-    /* match your UNICEF blue */
+    /* match your Kartoza blue */
     transform: translateY(-2px);
     /* subtle lift on hover */
 }
@@ -289,7 +289,7 @@ blockquote p {
 .product-grid .product-item a {
   text-decoration: none;
   font-weight: bold;
-  color: #333;
+  color: var(--md-typeset-color);/*#333;*/
 }
 
 .product-grid .product-item img {
@@ -347,7 +347,7 @@ blockquote p {
     font-size: 1.1rem;  /* Adjust as needed */;
   }
 
-
+/* Navbar image */
 .md-header {
     position: relative;
     z-index: 1;
@@ -357,11 +357,15 @@ blockquote p {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('../img/background.png'); /* your image path */
+  background-image: url('../img/background.png'); 
   background-size: cover;
   background-position: center;
-  opacity: 0.2; /* adjust to control transparency */
-  z-index: -1; /* send it behind the header content */
+  opacity: 0.2; 
+  z-index: -1; 
+}
+
+.md-tabs {
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 /* Reusable Image Blocks */
