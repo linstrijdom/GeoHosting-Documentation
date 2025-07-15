@@ -15,7 +15,7 @@ context_id: nDU6LLGiXPTLADXY
 
 [![Profile](./img/profile-img-1.png)](./img/profile-img-1.png)
 
-1. **Profile:** Users can access the profile page by clicking on the `Profile` tab from the left navigation bar.
+   **Profile:** Users can access the profile page by clicking on the `Profile` tab from the left navigation bar.
 
 * **[Edit Profile](./edit.md):** Users can use this page as a walkthrough on how to edit their profile.
 

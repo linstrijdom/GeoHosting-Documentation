@@ -17,6 +17,6 @@ test('G3W page', async ({ page }) => {
   await page.waitForLoadState('domcontentloaded');
   await page.screenshot({
       path: path.join(DOC_SRC, 'products', 'g3w', 'img', 'subscription-img-2.png'),
-      
+
     });
 });

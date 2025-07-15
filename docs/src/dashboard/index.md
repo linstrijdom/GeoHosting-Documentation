@@ -15,7 +15,7 @@ context_id: nDU6LLGiXPTLADXY
 
 [![Home Page](./img/dashboard-img-1.png)](./img/dashboard-img-1.png)
 
-1. **Dashboard:** Users can access the dashboard by clicking on this link from the top navigation bar, this will redirects the users to the dashboard page.
+   **Dashboard:** Users can access the dashboard by clicking on this link from the top navigation bar, this will redirects the users to the dashboard page.
 
 [![Dashboard](./img/dashboard-img-2.png)](./img/dashboard-img-2.png)
 

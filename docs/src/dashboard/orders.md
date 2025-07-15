@@ -15,4 +15,4 @@ context_id: nDU6LLGiXPTLADXY
 
 [![Order](./img/orders-img-1.png)](./img/orders-img-1.png)
 
-1. **Orders:** Users can click on this `Orders` tab from the left navigation bar to view all their orders.
+   **Orders:** Users can click on this `Orders` tab from the left navigation bar to view all their orders.

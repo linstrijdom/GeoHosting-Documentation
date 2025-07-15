@@ -15,4 +15,4 @@ context_id: nDU6LLGiXPTLADXY
 
 [![Hosted Services](./img/hosted-services-img-1.png)](./img/hosted-services-img-1.png)
 
-1. **Hosted Services:** Users can access this section by clicking on the `Hosted Services` tab in the left navigation bar.
+   **Hosted Services:** Users can access this section by clicking on the `Hosted Services` tab in the left navigation bar.
