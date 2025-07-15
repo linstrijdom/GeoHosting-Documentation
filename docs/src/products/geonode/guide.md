@@ -22,12 +22,7 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/geonode-img-3.png" alt="GeoSpatialHosting Dashboard" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://geohosting.sta.do.kartoza.com/" target="_blank">Kartoza GeoSpatialHosting</a>
-  </div>
-</div>
+![Gehosting_Image](./img/geonode-img-3.png)
 
 <br>
 
@@ -40,11 +35,9 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 <br>
 
+
 <div style="text-align: center;">
   <img src="../img/geonode-img-4.png" alt="Hosted Services" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://geohosting.sta.do.kartoza.com/" target="_blank">Kartoza GeoSpatialHosting</a>
-  </div>
 </div>
 
 <br>
