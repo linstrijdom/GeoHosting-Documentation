@@ -12,7 +12,9 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# Using the Kartoza GeoSpatialHosting Dashboard
+# Creating Your Instance
+
+## Using the Kartoza GeoSpatialHosting Dashboard
 
 After your service has finished setting up, you will be redirected to the Hosted Services page of the GeoSpatial Hosting Dashboard. Here, you can view all your purchased services.
 
