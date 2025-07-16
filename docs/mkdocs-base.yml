@@ -78,7 +78,7 @@ nav:
             - Maps: products/geonode/manual/tutorial_map.md
             - Share: products/geonode/manual/tutorial_share.md
             - Search: products/geonode/manual/tutorial_search.md
-            - Other Tools: products/geonode/manual/other_tools.md
+            - Other Usefull Tools: products/geonode/manual/other_tools.md
           - Help: products/geonode/help.md
       - G3W:
           - products/g3w/index.md

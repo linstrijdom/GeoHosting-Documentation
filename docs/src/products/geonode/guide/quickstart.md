@@ -14,7 +14,18 @@ context_id: nDU6LLGiXPTLADXY
 
 # Quickstart: 5-Minute Tutorial
 
-## Tutorial Overview
+This quick tutorial will guide you through the steps needed to publish your first map. To start off, head to the **All resources** page. Click the **Add Resource** button, and select **Upload dataset**. 
+
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Datasets can also be uploaded from the Datasets page.
+  </div>
+</div>
+
+From the **Upload a Dataset** page, click **Select files...** to choose spatial data files from your computer. From your file browser select an ESRI shapefile and and click **Upload**. 
+
+### Overview
 
 **GeoNode** is a powerful platform for the management and publication of geospatial data. It integrates mature, stable open-source software projects under a user-friendly interface.
 
