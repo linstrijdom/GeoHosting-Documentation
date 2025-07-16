@@ -13,7 +13,9 @@ hide:
   footer: true
 ---
 
-Please select the appropriate product form the selection below:
+Explore our range of fully supported, open-source geospatial platforms. Each product is pre-configured, hosted, and ready to use. 
+
+Select the one that best fits your workflow to learn more and get started:
 
 <div class="product-grid">
   <div class="product-item">
