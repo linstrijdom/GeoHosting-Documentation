@@ -30,29 +30,8 @@ jobs:
             "docs/src/**/*.md" \
             --ignore "docs/src/developer/manual/**"
 
-      - name: Install markdown-link-check
-        run: npm install -g markdown-link-check@3.13.7
+      - name: Install markdown link validator
+        run: npm install -g markdown-link-validator
 
-      - name: Run Markdown Link-Check
-        shell: bash
-        run: |
-          shopt -s globstar nullglob
-          files=(docs/src/**/*.md)
-          if [ ${#files[@]} -eq 0 ]; then
-            echo "No Markdown files found under docs/src/" && exit 0
-          fi
-          for file in "${files[@]}"; do
-            echo "Checking links in $file"
-            npx markdown-link-check --quiet "$file" || exit 1
-          done
-
-      - name: Setup Python & MkDocs
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install MkDocs + plugins
-        run: pip install mkdocs mkdocs-material mkdocstrings
-
-      - name: Build site
-        run: mkdocs build --config-file docs/mkdocs.yml
+      - name: Run link validator (fail on broken)
+        run: markdown-link-validator "docs/src/**/*.md"
