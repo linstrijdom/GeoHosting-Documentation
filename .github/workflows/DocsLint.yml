@@ -30,10 +30,8 @@ jobs:
             "docs/src/**/*.md" \
             --ignore "docs/src/developer/manual/**"
 
-      - name: Install markdown link validator
-        run: npm install -g markdown-link-validator
-
-      - name: Run link validator (fail on broken)
-        run: |
-          npx markdown-link-validator docs/src \
-            --recursive
+      - name: Verify Markdown links
+        uses: tcort/markdown-link-check-action@v1
+        with:
+          folder-path: docs/src
+          use-quiet-mode: yes
