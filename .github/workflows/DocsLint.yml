@@ -1,0 +1,45 @@
+# .github/workflows/docs-lint.yml
+name: Docs Lint & Build Check
+
+on:
+  pull_request:
+    paths:
+      - 'docs/src/**'
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/src/**'
+
+jobs:
+  lint-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli@0.45.0
+
+      - name: Run MarkdownLint (check only)
+        run: markdownlint-cli "docs/src/**/*.md"
+
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check@3.13.7
+
+      - name: Run Markdown Link-Check
+        run: markdown-link-check --quiet "docs/src/**/*.md"
+
+      - name: Setup Python & MkDocs
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install MkDocs + plugins
+        run: pip install mkdocs mkdocs-material mkdocstrings
+
+      - name: Build site
+        run: mkdocs build --config-file docs/mkdocs.yml
