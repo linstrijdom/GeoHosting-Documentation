@@ -1,7 +1,4 @@
-import { test, expect, Locator } from '@playwright/test';
-import path from 'node:path';
-import fs from 'node:fs/promises';
-import { DOC_SRC } from '../playwright.config';
+import { test, expect } from '@playwright/test';
 import { saveScreenshot } from '../utils/screenshot';
 
 test.use({
@@ -24,10 +21,18 @@ test('GeoHosting: Dashboard flows + screenshots', async ({ page }) => {
     fullPage: false,
     padding: 20,
   });
-
-  // Hosted Services page (docs/src/dashboard/img/)
+  // Full page dashboard section
   await dashBtn.click();
   await page.waitForLoadState('domcontentloaded');
+  await expect(page.getByRole('heading', { name: 'Hosted Services' })).toBeVisible();
+  await saveScreenshot({
+    page,
+    name: 'dashboard-img-2.png',
+    pathSegments: ['dashboard'],
+    fullPage: true,
+  });
+
+  // Hosted Services page (docs/src/dashboard/img/)
   await expect(page.getByRole('heading', { name: 'Hosted Services' })).toBeVisible();
   await saveScreenshot({
     page,
