@@ -34,7 +34,17 @@ jobs:
         run: npm install -g markdown-link-check@3.13.7
 
       - name: Run Markdown Link-Check
-        run: npx markdown-link-check --quiet "docs/src/**/*.md"
+        shell: bash
+        run: |
+          shopt -s globstar nullglob
+          files=(docs/src/**/*.md)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No Markdown files found under docs/src/" && exit 0
+          fi
+          for file in "${files[@]}"; do
+            echo "Checking links in $file"
+            npx markdown-link-check --quiet "$file" || exit 1
+          done
 
       - name: Setup Python & MkDocs
         uses: actions/setup-python@v4
