@@ -31,7 +31,7 @@ jobs:
             --ignore "docs/src/developer/manual/**"
 
       - name: Verify Markdown links
-        uses: tcort/markdown-link-check-action@v1
+        uses: tcort/github-action-markdown-link-check@v1
         with:
           folder-path: docs/src
           use-quiet-mode: yes
