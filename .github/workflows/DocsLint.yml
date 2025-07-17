@@ -25,13 +25,13 @@ jobs:
         run: npm install -g markdownlint-cli@0.45.0
 
       - name: Run MarkdownLint (check only)
-        run: markdownlint-cli "docs/src/**/*.md"
+        run: npx markdownlint-cli "docs/src/**/*.md"
 
       - name: Install markdown-link-check
         run: npm install -g markdown-link-check@3.13.7
 
       - name: Run Markdown Link-Check
-        run: markdown-link-check --quiet "docs/src/**/*.md"
+        run: npx markdown-link-check --quiet "docs/src/**/*.md"
 
       - name: Setup Python & MkDocs
         uses: actions/setup-python@v4
