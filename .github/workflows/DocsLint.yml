@@ -35,3 +35,4 @@ jobs:
         with:
           folder-path: docs/src
           use-quiet-mode: yes
+          config-file: .mlc_config.json
