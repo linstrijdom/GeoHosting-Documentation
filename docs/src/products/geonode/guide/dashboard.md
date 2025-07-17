@@ -18,8 +18,8 @@ context_id: nDU6LLGiXPTLADXY
 
 When you log in, GeoNode opens on the **Home Page**. The layout features:
 
-- **Top Navigation Bar** – quick access to Datasets, Maps, Documents, Search, and your user menu.  
-- **Resource Tiles** – showcase the most recent or featured items.  
+- **Top Navigation Bar** – quick access to Datasets, Maps, Documents, Search, and your user menu.
+- **Resource Tiles** – showcase the most recent or featured items.
 - **Search Box** – global, full-text search across all resource types.
 
 <br>
@@ -62,9 +62,9 @@ Type any text in the top-bar **Search Box** and press **Enter** to see results a
 
 On the Search page you can refine results using:
 
-- **Resource Types** (datasets, maps, documents…)  
-- **Categories, Keywords, Owners, Groups**  
-- **Date range**  
+- **Resource Types** (datasets, maps, documents…)
+- **Categories, Keywords, Owners, Groups**
+- **Date range**
 - **Spatial Extent** (drag a bounding box on the mini-map)
 
 <br>
@@ -84,9 +84,9 @@ You can sort results by **Most Recent**, **Name**, or **Popularity** using the s
 
 Selecting any tab (Datasets, Maps, Documents) brings you to its **All Resources** view. Each entry has:
 
-- **Thumbnail** preview  
-- **Resource title** and owner  
-- **View** button (opens detail page)  
+- **Thumbnail** preview
+- **Resource title** and owner
+- **View** button (opens detail page)
 - **More ⋮** menu for actions (Edit, Share, Delete – depending on permissions)
 
 <br>
@@ -104,10 +104,10 @@ Selecting any tab (Datasets, Maps, Documents) brings you to its **All Resources*
 
 Click **View** on any item to open its detail page, where you can:
 
-- Inspect metadata  
-- Preview the map or document  
-- Download (if allowed)  
-- Rate or comment  
+- Inspect metadata
+- Preview the map or document
+- Download (if allowed)
+- Rate or comment
 - Access **Resource → Share** to adjust permissions
 
 Mastering these navigation tools lets you quickly locate, preview, and manage all content in your GeoNode portal.

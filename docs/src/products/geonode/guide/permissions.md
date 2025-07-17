@@ -48,7 +48,7 @@ Four permission levels are available:
 
 ## Setting Permissions
 
-1. In **Share with people and groups**, choose the role for **Anyone** (public) and **Registered Members**.  
+1. In **Share with people and groups**, choose the role for **Anyone** (public) and **Registered Members**.
 2. Use the **Add people or groups** box to grant specific roles to individual users or groups.
 
 <br>

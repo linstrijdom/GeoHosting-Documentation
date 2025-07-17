@@ -14,44 +14,44 @@ context_id: nDU6LLGiXPTLADXY
 
 # Glossary of Terms
 
-- **Bounding Box**  
+- **Bounding Box**
   The minimum rectangle (min X, min Y, max X, max Y) that fully encloses a dataset’s spatial extent.
 
-- **Dashboard**  
+- **Dashboard**
   A MapStore workspace that combines widgets (charts, tables, counters, maps, text) for interactive data exploration.
 
-- **Dataset**  
+- **Dataset**
   A single spatial layer (vector or raster) uploaded to GeoNode. Datasets are served via OGC services (WMS, WFS, WCS) and described by metadata.
 
-- **Document**  
+- **Document**
   A non-spatial file (reports, images, PDFs, spreadsheets, SLDs, etc.) stored in GeoNode and linked to projects or datasets.
 
-- **GeoStory**  
+- **GeoStory**
   A MapStore storytelling tool that mixes text, multimedia, and interactive maps into a scrollable narrative.
 
-- **Group**  
+- **Group**
   A collection of users. Groups can be granted view/edit/manage permissions on resources.
 
-- **Layer**  
+- **Layer**
   The renderable representation of a dataset inside GeoServer (raster or vector). In the GeoNode UI, “dataset” and “layer” are often used interchangeably.
 
-- **Map**  
+- **Map**
   A saved composition of one or more datasets displayed together in the Map Viewer. Maps can have their own metadata, sharing settings, and embed codes.
 
-- **Map Viewer**  
+- **Map Viewer**
   The interactive interface where users add layers, configure styles, and save maps.
 
-- **OGC Services**  
+- **OGC Services**
   Standards used by GeoServer to publish data: **WMS** (maps), **WFS** (features), **WCS** (coverages), and **CSW** (catalog metadata).
 
-- **Permission Levels**  
+- **Permission Levels**
   `View`, `Download`, `Edit`, and `Manage`—define what actions users or groups can perform on a resource.
 
-- **Resource**  
+- **Resource**
   Generic term for any item managed by GeoNode—datasets, maps, documents, dashboards, or geostories.
 
-- **SLD (Styled Layer Descriptor)**  
+- **SLD (Styled Layer Descriptor)**
   XML standard for describing layer styling; used by GeoServer and editable within GeoNode.
 
-- **Style**  
+- **Style**
   An SLD or CSS definition that controls how a layer is drawn (colors, symbols, line width, opacity, etc.).
