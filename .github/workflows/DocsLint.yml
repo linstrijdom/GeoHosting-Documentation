@@ -34,4 +34,6 @@ jobs:
         run: npm install -g markdown-link-validator
 
       - name: Run link validator (fail on broken)
-        run: markdown-link-validator "docs/src/**/*.md"
+        run: |
+          npx markdown-link-validator docs/src \
+            --recursive
