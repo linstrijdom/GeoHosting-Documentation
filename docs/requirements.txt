@@ -21,5 +21,4 @@ black
 cffi
 # Needed for PDF back page QR Code
 qrcode
-# Needed for dynamic page generation
-pypandoc
+pre-commit

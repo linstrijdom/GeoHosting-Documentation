@@ -18,9 +18,9 @@ context_id: nDU6LLGiXPTLADXY
 
 It is possible to explore GeoNode to find **datasets, maps, documents, and other resource types** by using different navigation paths, filters, and search functions.
 
-On every page, you’ll find a quick search tool. The **Search box** in the navigation bar allows you to type any text and quickly find all resources related to that text. 
+On every page, you’ll find a quick search tool. The **Search box** in the navigation bar allows you to type any text and quickly find all resources related to that text.
 
-When you perform a search, GeoNode takes you to the **Search page**, which displays results across all resource types. The Search page offers powerful options for customizing your search and provides much more precise filtering.  
+When you perform a search, GeoNode takes you to the **Search page**, which displays results across all resource types. The Search page offers powerful options for customizing your search and provides much more precise filtering.
 
 <br>
 
@@ -54,7 +54,7 @@ You can **sort search results** by:
 
 Follow these steps to find specific data:
 
-1. In the **Search Box** on the top navigation bar, type `buildings`.  
+1. In the **Search Box** on the top navigation bar, type `buildings`.
 
      <br>
 
@@ -78,7 +78,7 @@ Follow these steps to find specific data:
       </div>
      </div>
 
-     <br>     
+     <br>
 
 3. Click the **Filter** button and select the checkbox next to **Maps**.
 
@@ -91,7 +91,7 @@ Follow these steps to find specific data:
       </div>
      </div>
 
-     <br> 
+     <br>
 
 This allows you to filter the search results to display only maps, helping you refine your results to suit your needs.
 

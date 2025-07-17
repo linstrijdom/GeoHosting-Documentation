@@ -42,7 +42,7 @@ From the **Share Options Settings** panel of each resource, the following sharin
 
 Follow these steps to share you map:
 
-1. On the **All Resources** page, click **View** under your `Berlin Buildings` map. 
+1. On the **All Resources** page, click **View** under your `Berlin Buildings` map.
 
      <br>
 
@@ -66,7 +66,7 @@ Follow these steps to share you map:
       </div>
      </div>
 
-     <br>     
+     <br>
 
 3. The **Share with people and groups** page will open.
 
@@ -86,7 +86,7 @@ Follow these steps to share you map:
       </div>
      </div>
 
-     <br>      
+     <br>
 
 5. Under the **Resources** menu, select **Save**.
 
@@ -106,7 +106,6 @@ Your map is now public and can be viewed by anyone.
 <br>
 
 > **Note:** For more details, refer to the **Share Options** pages of the [Document](https://docs.geonode.org/en/master/usage/managing_documents/document_permissions.html#share-options), [Dataset](https://docs.geonode.org/en/master/usage/managing_datasets/dataset_permissions.html#share-options) and [Map](https://docs.geonode.org/en/master/usage/managing_maps/map_permissions.html#share-options) sections of the official GeoNode documentation.
-
 
 ---
 

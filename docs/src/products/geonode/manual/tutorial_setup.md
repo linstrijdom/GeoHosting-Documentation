@@ -84,12 +84,11 @@ The GeoNode development community is active, welcoming, and highly supportive of
 
 ## Data Preperation
 
-### Overview
+### Data Preperation Overview
 
 This tutorial uses an extract of the Berlin city center buildings map from the **BBBike OpenStreetMap extracts**. Download the **Tutorial Data** using the link below:
 
 - [`Tutorial_Data_GeoNode.zip` Download](https://github.com/kartoza/GeoHosting/tree/main/docs/src/products/tutorial_data/Tutorial_Data_GeoNode.zip)
-
 
 <br>
 

@@ -34,9 +34,9 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 **To access your login credentials:**
 
-1. Click the Get Credentials button under your hosted service.  
-2. Your credentials will be copied to your clipboard.  
-   > **Hint:** Paste and save your credentials in a secure location.  
+1. Click the Get Credentials button under your hosted service.
+2. Your credentials will be copied to your clipboard.
+   > **Hint:** Paste and save your credentials in a secure location.
 3. Click the application name you selected for your GeoServer instance to open it.
 
 <br>
@@ -56,10 +56,10 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 To modify server settings or configure spatial data in GeoServer, you must first log in using the administrator credentials.
 
-1. Navigate to the top-right corner of the web interface.  
-2. Click the **Login** button.  
-3. Enter the credentials you generated earlier from the GeoSpatialHosting Dashboard:  
-   - **Username:** `admin`  
+1. Navigate to the top-right corner of the web interface.
+2. Click the **Login** button.
+3. Enter the credentials you generated earlier from the GeoSpatialHosting Dashboard:
+   - **Username:** `admin`
    - **Password:** `GeoServer_Admin_Password`
 
 <br>
@@ -73,7 +73,7 @@ To modify server settings or configure spatial data in GeoServer, you must first
 
 <br>
 
-> **Hint:** Need help finding your credentials? See the section: [Using the Kartoza GeoSpatialHosting Dashboard](https://kartoza.github.io/GeoHosting/products/geoserver/guide/#using-the-kartoza-geospatialhosting-dashboard)  
+> **Hint:** Need help finding your credentials? See the section: [Using the Kartoza GeoSpatialHosting Dashboard](https://kartoza.github.io/GeoHosting/products/geoserver/guide/#using-the-kartoza-geospatialhosting-dashboard)
 > **Note:** You can change login details later under the [Security](https://docs.geoserver.org/latest/en/user/security/index.html#security) section of the GeoServer documentation.
 
 Once logged in, the Welcome screen expands to show administrative functions — primarily accessible through the navigation menu on the left.
@@ -111,7 +111,7 @@ Before publishing data in GeoServer, we need to gather and prepare a few shapefi
 
      - [Coastlines](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/110m/physical/ne_110m_coastline.zip)
      - [Countries](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/110m/cultural/ne_110m_admin_0_countries.zip)
-     
+
      <!-- - [Boundary lines](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/110m/cultural/ne_110m_admin_0_boundary_lines_land.zip)
       - [Populated places](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/110m/cultural/ne_110m_populated_places_simple.zip)-->
 
@@ -131,7 +131,7 @@ Before publishing data in GeoServer, we need to gather and prepare a few shapefi
 
 #### Adding data to your File Browser
 
-In order for the data to be accessible in the Web Administration Interface, it first needs to be added to your File Browser. 
+In order for the data to be accessible in the Web Administration Interface, it first needs to be added to your File Browser.
 
 <br>
 
@@ -139,7 +139,7 @@ In order for the data to be accessible in the Web Administration Interface, it f
 
 1. Open the file browser at:
 
-     ```
+     ```bash
      http://<application_name>.sta.do.kartoza.com/file
      ```
 
@@ -182,9 +182,9 @@ In order for the data to be accessible in the Web Administration Interface, it f
 
      <br>
 
-5. Locate and upload the `NaturalEarth` folder you previously prepared. 
+5. Locate and upload the `NaturalEarth` folder you previously prepared.
 
-The data will now be accessible in the Web Administration Interface. 
+The data will now be accessible in the Web Administration Interface.
 
 ---
 
@@ -198,7 +198,7 @@ The next step is to create a workspace for your layers. A workspace is essential
 
 1. Open a web browser and navigate to:
 
-     ```
+     ```bash
      http://<application_name>.sta.do.kartoza.com/geoserver
      ```
 
@@ -233,10 +233,9 @@ The next step is to create a workspace for your layers. A workspace is essential
      | Namespace URI     | `http://<application_name>.sta.do.kartoza.com/geoserver/tutorial`   |
 
      <br>
-     
-     > **Note:** The workspace name should describe your project. It must be 10 characters or fewer and cannot contain spaces.
 
-     > **Note:** The Namespace URI can be any URL-like string tied to your project. It typically includes a trailing identifier that reflects the workspace. This URI does not need to resolve to a real web address.
+     > **Note:** The workspace name should describe your project. It must be 10 characters or fewer and cannot contain spaces.
+     The Namespace URI can be any URL-like string tied to your project. It typically includes a trailing identifier that reflects the workspace. This URI does not need to resolve to a real web address.
 
      <br>
 
@@ -320,7 +319,7 @@ Once the workspace is set up, the next step is to add a new store. A store tells
 
 5. Under **Shapefile location**, enter the following:
 
-     ```
+     ```bash
      file:///files/geoserver_user_data/NaturalEarth/ne_110m_coastline/ne_110m_coastline.shp
      ```
 
@@ -352,7 +351,7 @@ Now that we've connected to the store, we can proceed to publish a layer.
 1. In the New Layer page, click Publish next to the `ne_110_coastline` layer name.
 
      <br>
-     
+
      <div style="text-align: center;">
        <img src="../img/geoserver-img-20.png" alt="New Layer Page" width=auto>
        <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
@@ -365,7 +364,7 @@ Now that we've connected to the store, we can proceed to publish a layer.
 2. The Edit Layer page defines the data and publishing parameters for the layer.
 
      <br>
-     
+
      <div style="text-align: center;">
        <img src="../img/geoserver-img-21.png" alt="Edit Layer Page" width=auto>
        <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
@@ -407,7 +406,7 @@ Now that we've connected to the store, we can proceed to publish a layer.
 
 5. Verify that the Coordinate Reference System (CRS) information is accurate:
 
-     | Field            | Value             |       
+     | Field            | Value             |
      |------------------|-------------------|
      | Native SRS       | EPSG:4326         |
      | Declaired SRS    | EPSG:4326         |
@@ -495,7 +494,7 @@ To confirm that the `tutorial:Coastline` layer has been published successfully, 
      </div>
 
       <br>
-      
+
       > **Note:** To filter results and make it easier to find, type `tutorial` in the search field.
 
       <br>
@@ -575,9 +574,9 @@ Now that we have the necessary layers published, we can group them together into
      </div>
 
       <br>
-   
+
 2. This page displays a list of existing layer groups along with the workspace each belongs to.
-   
+
       > **Note:** Layer groups can be *global*, allowing you to combine layers from multiple workspaces into one visual representation.
 
       <br>
@@ -606,7 +605,7 @@ Now that we have the necessary layers published, we can group them together into
 
 5. In the Basic Resource Info section, enter the following:
 
-      | Field       | Value                                                          |       
+      | Field       | Value                                                          |
       |-------------|----------------------------------------------------------------|
       | Name        | `basemap`                                                      |
       | Title       | `Basemap`                                                      |
@@ -614,7 +613,7 @@ Now that we have the necessary layers published, we can group them together into
       | Workspace   | `tutorial`                                                     |
 
       <br>
-   
+
       <div style="text-align: center;">
        <img src="../img/geoserver-img-45.png" alt="Basic Resource Info section" width=auto>
        <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
@@ -627,7 +626,7 @@ Now that we have the necessary layers published, we can group them together into
 6. Scroll down to the Layers list, which will initially be empty.
 
       <br>
-   
+
       <div style="text-align: center;">
        <img src="../img/geoserver-img-46.png" alt="Layers list" width=auto>
        <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
@@ -696,7 +695,7 @@ This tutorial walks through the steps of defining a style and associating it wit
 
 <br>
 
-#### Data preparation
+#### Data Preparation For Style
 
 Before we can create a style, we need to ensure the required data is available.
 
@@ -891,9 +890,9 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 **To access your login credentials:**
 
-1. Click the **Get Credentials** button under your hosted service.  
-2. Your credentials will be copied to your clipboard.  
-   > **Hint:** Paste and save your credentials in a secure location.  
+1. Click the **Get Credentials** button under your hosted service.
+2. Your credentials will be copied to your clipboard.
+   > **Hint:** Paste and save your credentials in a secure location.
 3. Click the application name you selected for your GeoServer instance to open it.
 
 <br>
@@ -911,7 +910,7 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 **To delete a hosted service:**
 
-1. Click the 3 dots in the corner of the hosted service pane.  
+1. Click the 3 dots in the corner of the hosted service pane.
 2. From the dropdown menu, select **Delete**.
 
 <br>
@@ -925,7 +924,7 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 <br>
 
-> **⚠️ IMPORTANT**  
+> **⚠️ IMPORTANT**
 > Deleting a hosted service is **permanent**. All associated data will be irreversibly removed with **no option for recovery**.
 
 ## Managing Users & Permissions
@@ -936,15 +935,17 @@ GeoServer’s OGC services (WMS, WFS, WCS) can be consumed by desktop GIS client
 
 ### Consuming GeoServer WMS in QGIS
 
-1. **Open QGIS** and go to **Layer → Add Layer → Add WMS/WMTS Layer…**  
-2. Click **New**, then enter:  
-   - **Name:** `GeoServer WMS`  
-   - **URL:**  
-     ```
+1. **Open QGIS** and go to **Layer → Add Layer → Add WMS/WMTS Layer…**
+2. Click **New**, then enter:
+   - **Name:** `GeoServer WMS`
+   - **URL:**
+
+     ```bash
      http://<application_name>.sta.do.kartoza.com/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities
-     ```  
-3. Click **OK**, then **Connect**.  
-4. From the list, select `tutorial:Coastline` (and any others), then click **Add**.  
+     ```
+
+3. Click **OK**, then **Connect**.
+4. From the list, select `tutorial:Coastline` (and any others), then click **Add**.
 5. Your GeoServer layer will appear in the QGIS map canvas.
 
 <div style="text-align: center;">
@@ -956,11 +957,13 @@ GeoServer’s OGC services (WMS, WFS, WCS) can be consumed by desktop GIS client
 
 ### Embedding GeoServer WMS in a Leaflet Map
 
-1. Include Leaflet’s CSS and JS in your HTML `<head>`:  
+1. Include Leaflet’s CSS and JS in your HTML `<head>`:
+
    ```html
    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
    ```
+
 2. In your `<body>`, add a `<div id="map" style="height: 400px;"></div>`
 
 3. Initialize the map and add the WMS layer:
@@ -976,6 +979,7 @@ GeoServer’s OGC services (WMS, WFS, WCS) can be consumed by desktop GIS client
      }).addTo(map);
    </script>
    ```
+
 4. Open your HTML file in a browser to see the GeoServer layer displayed via Leaflet.
 
       ```html
@@ -985,41 +989,41 @@ GeoServer’s OGC services (WMS, WFS, WCS) can be consumed by desktop GIS client
       Image credit: User’s web application
       </div>
       </div>
-      ``` 
+      ```
 
 ## Glossary of Terms
 
-- **Workspace**  
+- **Workspace**
   A container in GeoServer used to group related stores and layers. Often named for a project.
 
-- **Store**  
+- **Store**
   Defines how GeoServer connects to your data (shapefiles, PostGIS, GeoTIFF, etc.).
 
-- **Layer**  
+- **Layer**
   A published dataset in GeoServer, exposed via OGC services (WMS/WFS/WCS).
 
-- **Layer Group**  
+- **Layer Group**
   A set of layers combined into a single map view, with a defined drawing order and styles.
 
-- **Style**  
+- **Style**
   An SLD or CSS file that defines how features are rendered (colors, symbols, opacity).
 
-- **SRS / CRS**  
+- **SRS / CRS**
   Spatial Reference System (Coordinate Reference System) that defines how coordinates map to locations on Earth (e.g., EPSG:4326).
 
-- **WMS (Web Map Service)**  
+- **WMS (Web Map Service)**
   An OGC service for rendering map images from layers.
 
-- **WFS (Web Feature Service)**  
+- **WFS (Web Feature Service)**
   An OGC service for retrieving vector features (e.g., GeoJSON, GML).
 
-- **WCS (Web Coverage Service)**  
+- **WCS (Web Coverage Service)**
   An OGC service for retrieving raster data as coverages.
 
-- **GetCapabilities**  
+- **GetCapabilities**
   A request that returns an XML document describing available services, layers, and operations.
 
-- **GetMap**  
+- **GetMap**
   A WMS request that returns a map image for specified layers, bounding box, and format.
 
 > **Note:** For installation instructions, refer to [GeoServer Installation Guide](https://docs.geoserver.org/latest/en/user/installation/index.html#installation).

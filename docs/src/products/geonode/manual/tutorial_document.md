@@ -55,8 +55,7 @@ You can upload documents in two ways:
      <br>
 
 > **Note:** The default maximum upload size in GeoNode is 100 MB. Administrators can increase this limit in the admin panel.
-
-> **Note:** The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
+The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
 
 ---
 
@@ -88,7 +87,7 @@ Follow these steps to upload your document to GeoNode:
       </div>
      </div>
 
-     <br>     
+     <br>
 
 3. The **Document Upload** page offers two ways to add documents to GeoNode:
 
@@ -97,7 +96,7 @@ Follow these steps to upload your document to GeoNode:
 
      <br>
 
-4. Click **Select files...** to choose data files from your computer. 
+4. Click **Select files...** to choose data files from your computer.
 
      <br>
 
@@ -108,7 +107,7 @@ Follow these steps to upload your document to GeoNode:
       </div>
      </div>
 
-     <br>  
+     <br>
 
 5. From your file explorer, select the file: `README.txt`
 
@@ -121,7 +120,7 @@ Follow these steps to upload your document to GeoNode:
       </div>
      </div>
 
-     <br> 
+     <br>
 
 5. Click **Upload** to begin the document upload process.
 

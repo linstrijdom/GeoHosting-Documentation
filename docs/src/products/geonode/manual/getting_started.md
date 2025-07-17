@@ -22,7 +22,7 @@ You can access the GeoNode Homepage in two ways:
 
      Open your browser and navigate to:
 
-     ```
+     ```bash
      http://<geonode_application_name>.sta.do.kartoza.com/#/
      ```
 
@@ -50,14 +50,14 @@ You can access the GeoNode Homepage in two ways:
 1. On the GeoNode Homepage, click **Register** to start creating your account.
 
      <br>
-  
+
      <div style="text-align: center;">
       <img src="../../img/geonode-img-6.png" alt="Register" width=auto>
       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
       Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
       </div>
      </div>
-     
+
      <br>
 
 2. On the **Sign Up** form, enter your username, email, and password.

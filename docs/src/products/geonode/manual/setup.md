@@ -45,7 +45,7 @@ After your service has finished setting up, you will be redirected to the Hosted
        Image credit: <a href="https://geohosting.sta.do.kartoza.com/" target="_blank">Kartoza GeoSpatialHosting</a>
        </div>
      </div>
-     
+
 <br>
 
 **To delete a hosted service:**
@@ -56,8 +56,8 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 <br>
 
-> **⚠️ IMPORTANT** 
-> 
+> **⚠️ IMPORTANT**
+>
 > Deleting a hosted service is **permanent**. All associated data will be irreversibly removed with **no option for recovery**.
 
 ---

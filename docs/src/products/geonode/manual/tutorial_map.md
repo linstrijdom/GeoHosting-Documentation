@@ -40,7 +40,7 @@ You can create map in three ways:
 
      <br>
 
-When you create a new map, it will automatically open in the **Map Viewer**. In the upper left corner, you’ll find the **TOC (Table of Contents)** button. This opens the TOC panel, where you can manage all the datasets associated with the map. 
+When you create a new map, it will automatically open in the **Map Viewer**. In the upper left corner, you’ll find the **TOC (Table of Contents)** button. This opens the TOC panel, where you can manage all the datasets associated with the map.
 
 <br>
 
@@ -74,9 +74,9 @@ Follow these steps to create a map in GeoNode:
       </div>
      </div>
 
-     <br>     
+     <br>
 
-3. In the **Map Viewer**, click **Add Dataset** from the top-navigation bar. 
+3. In the **Map Viewer**, click **Add Dataset** from the top-navigation bar.
 
      <br>
 
@@ -119,7 +119,7 @@ Follow these steps to create a map in GeoNode:
 
      <br>
 
-You should now see your map listed on the **All Resources** page. 
+You should now see your map listed on the **All Resources** page.
 
 <br>
 

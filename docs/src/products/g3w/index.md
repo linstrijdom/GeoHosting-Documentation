@@ -11,7 +11,7 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# G3W-SUITE 
+# G3W-SUITE
 
 ## What is G3W?
 
@@ -51,10 +51,10 @@ G3W-SUITE is entirely based on well-established Open Source software components,
 
 <br>
 
-> **Current Compatibility:** 
-> 
+> **Current Compatibility:**
+>
 > G3W-SUITE version 3.9 is compatible with QGIS 3.34 LTR (both Server and Desktop).
-> 
+>
 > Only the latest LTR (Long-Term Release) version of QGIS is supported.
 
 ---
@@ -69,7 +69,7 @@ G3W-SUITE is composed of **three primary modules**:
 
      - Administration interface for project management
      - Handles ACL (Access Control List)
-     - Includes an OGC proxy server 
+     - Includes an OGC proxy server
      - Provides a REST API server
 
      <br>

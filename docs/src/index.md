@@ -22,6 +22,7 @@ GeoSpatialHosting is a specialized platform that offers high-performance hosting
 ![GHS_home.png](./img/GHS_home.png)
 
 ## Key Concepts
+
 1. **Geospatial Data Hosting**
 GeoSpatialHosting provides dedicated hosting solutions for geospatial data, ensuring fast and secure access to large datasets like maps, satellite imagery, and geographic information systems (GIS).
 

@@ -33,9 +33,9 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 **To access your login credentials:**
 
-1. Click the **Get Password** button under your hosted service.  
-2. Your credentials will be copied to your clipboard.  
-   > **Hint:** Paste and save your credentials in a secure location.  
+1. Click the **Get Password** button under your hosted service.
+2. Your credentials will be copied to your clipboard.
+   > **Hint:** Paste and save your credentials in a secure location.
 3. Click the application name you selected for your GeoNode instance to open it.
 
 <br>
@@ -51,12 +51,12 @@ After your service has finished setting up, you will be redirected to the Hosted
 
 **To delete a hosted service:**
 
-1. Click the 3 dots in the corner of the hosted service pane.  
+1. Click the 3 dots in the corner of the hosted service pane.
 2. From the dropdown menu, select **Delete**.
 
 <br>
 
-> **⚠️ IMPORTANT**  
+> **⚠️ IMPORTANT**
 > Deleting a hosted service is **permanent**. All associated data will be irreversibly removed with **no option for recovery**.
 
 ## First Log In & Setting Your Password
@@ -70,7 +70,6 @@ You can reach the GeoNode homepage in two ways:
    Open your browser and navigate to:
 
    `http://<geonode_application_name>.sta.do.kartoza.com/#/`
-
 
 2. **Via the GeoSpatial Hosting Dashboard**
 
@@ -115,7 +114,7 @@ Click the application name you selected for your GeoNode instance.
 
 <br>
 
-3. Click **Sign Up**.  
+3. Click **Sign Up**.
 You will be redirected to the GeoNode homepage, logged in with your new account.
 
 ---
@@ -150,10 +149,10 @@ You will be redirected to the GeoNode homepage, logged in with your new account.
 
 3. On **Edit Your Profile**, you can update:
 
-- Name & Surname  
-- Organization  
-- Contact Information  
-- Profile Picture  
+- Name & Surname
+- Organization
+- Contact Information
+- Profile Picture
 
 <br>
 
@@ -251,12 +250,11 @@ The GeoNode development community is active, welcoming, and highly supportive of
 
 ### Data Preperation
 
-#### Overview
+#### Data Preperation Overview
 
 This tutorial uses an extract of the Berlin city center buildings map from the **BBBike OpenStreetMap extracts**. Download the **Tutorial Data** using the link below:
 
 - [`Tutorial_Data_GeoNode.zip` Download](https://github.com/kartoza/GeoHosting/tree/main/docs/src/products/tutorial_data/Tutorial_Data_GeoNode.zip)
-
 
 <br>
 
@@ -266,7 +264,7 @@ This tutorial uses an extract of the Berlin city center buildings map from the *
 
 ### Uploading Datasets
 
-#### Overview
+#### Uploading Datasets Overview
 
 In GeoNode, **datasets** are the core published resources that represent either **raster** or **vector** spatial data sources. Each dataset can also include metadata, user ratings, and comments. This makes them collaborative and easy to manage within the GeoNode environment.
 
@@ -287,8 +285,7 @@ You can upload datasets in two ways:
      <br>
 
 > **Note:** The default maximum upload size in GeoNode is 100 MB. Administrators can increase this limit in the admin panel.
-
-> **Note:** The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
+The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
 
 ---
 
@@ -320,9 +317,9 @@ Follow these steps to upload your dataset to GeoNode:
       </div>
      </div>
 
-     <br>     
+     <br>
 
-3. From the **Upload a Dataset** page, click **Select files...** to choose spatial data files from your computer. 
+3. From the **Upload a Dataset** page, click **Select files...** to choose spatial data files from your computer.
 
      <br>
 
@@ -333,7 +330,7 @@ Follow these steps to upload your dataset to GeoNode:
       </div>
      </div>
 
-     <br>  
+     <br>
 
 4. From your file explorer, select the file: `Tutorial_Berlin-shp.zip`
 
@@ -346,7 +343,7 @@ Follow these steps to upload your dataset to GeoNode:
       </div>
      </div>
 
-     <br> 
+     <br>
 
 5. Click **Upload** to begin the dataset upload process.
 
@@ -371,7 +368,7 @@ A progress bar will display the upload status and notify you when the upload is 
 
 ### Uploading Documents
 
-#### Overview
+#### Uploading Documents Overview
 
 GeoNode allows users to share a wide variety of **documents**, such as:
 
@@ -412,12 +409,11 @@ You can upload documents in two ways:
      <br>
 
 > **Note:** The default maximum upload size in GeoNode is 100 MB. Administrators can increase this limit in the admin panel.
-
-> **Note:** The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
+The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
 
 ---
 
-#### Exercise
+#### Data Preperation Exercise
 
 Follow these steps to upload your document to GeoNode:
 
@@ -445,7 +441,7 @@ Follow these steps to upload your document to GeoNode:
       </div>
      </div>
 
-     <br>     
+     <br>
 
 3. The **Document Upload** page offers two ways to add documents to GeoNode:
 
@@ -454,7 +450,7 @@ Follow these steps to upload your document to GeoNode:
 
      <br>
 
-4. Click **Select files...** to choose data files from your computer. 
+4. Click **Select files...** to choose data files from your computer.
 
      <br>
 
@@ -465,7 +461,7 @@ Follow these steps to upload your document to GeoNode:
       </div>
      </div>
 
-     <br>  
+     <br>
 
 5. From your file explorer, select the file: `README.txt`
 
@@ -478,7 +474,7 @@ Follow these steps to upload your document to GeoNode:
       </div>
      </div>
 
-     <br> 
+     <br>
 
 5. Click **Upload** to begin the document upload process.
 
@@ -503,7 +499,7 @@ Once the upload is complete, click **View** to open the document’s detail page
 
 ### Creating a Map
 
-#### Overview
+#### Creating a Map Overview
 
 Maps are **collections of datasets** displayed together on an **interactive web map**. These maps can be composed using the map composer and saved as GeoNode resources. Additionally, maps can be enriched with metadata, ratings, and user comments.
 
@@ -529,13 +525,13 @@ You can create map in three ways:
 
      <br>
 
-When you create a new map, it will automatically open in the **Map Viewer**. In the upper left corner, you’ll find the **TOC (Table of Contents)** button. This opens the TOC panel, where you can manage all the datasets associated with the map. 
+When you create a new map, it will automatically open in the **Map Viewer**. In the upper left corner, you’ll find the **TOC (Table of Contents)** button. This opens the TOC panel, where you can manage all the datasets associated with the map.
 
 <br>
 
 ---
 
-#### Exercise
+#### Creating a Map Exercise
 
 Follow these steps to create a map in GeoNode:
 
@@ -563,9 +559,9 @@ Follow these steps to create a map in GeoNode:
       </div>
      </div>
 
-     <br>     
+     <br>
 
-3. In the **Map Viewer**, click **Add Dataset** from the top-navigation bar. 
+3. In the **Map Viewer**, click **Add Dataset** from the top-navigation bar.
 
      <br>
 
@@ -608,7 +604,7 @@ Follow these steps to create a map in GeoNode:
 
      <br>
 
-You should now see your map listed on the **All Resources** page. 
+You should now see your map listed on the **All Resources** page.
 
 <br>
 
@@ -627,7 +623,7 @@ You should now see your map listed on the **All Resources** page.
 
 ### Sharing Resources
 
-#### Overview
+#### Sharing Resources Overview
 
 GeoNode encourages users to publicly share and make information available for download on the platform. By default, resources are visible and accessible to everyone, but owners can restrict access to specific users or groups as needed.
 
@@ -651,11 +647,11 @@ From the **Share Options Settings** panel of each resource, the following sharin
 
 ---
 
-#### Exercise
+#### Sharing Resources Exercise
 
 Follow these steps to share you map:
 
-1. On the **All Resources** page, click **View** under your `Berlin Buildings` map. 
+1. On the **All Resources** page, click **View** under your `Berlin Buildings` map.
 
      <br>
 
@@ -679,7 +675,7 @@ Follow these steps to share you map:
       </div>
      </div>
 
-     <br>     
+     <br>
 
 3. The **Share with people and groups** page will open.
 
@@ -699,7 +695,7 @@ Follow these steps to share you map:
       </div>
      </div>
 
-     <br>      
+     <br>
 
 5. Under the **Resources** menu, select **Save**.
 
@@ -724,13 +720,13 @@ Your map is now public and can be viewed by anyone.
 
 ### Finding Data
 
-#### Overview
+#### Finding Data Overview
 
 It is possible to explore GeoNode to find **datasets, maps, documents, and other resource types** by using different navigation paths, filters, and search functions.
 
-On every page, you’ll find a quick search tool. The **Search box** in the navigation bar allows you to type any text and quickly find all resources related to that text. 
+On every page, you’ll find a quick search tool. The **Search box** in the navigation bar allows you to type any text and quickly find all resources related to that text.
 
-When you perform a search, GeoNode takes you to the **Search page**, which displays results across all resource types. The Search page offers powerful options for customizing your search and provides much more precise filtering.  
+When you perform a search, GeoNode takes you to the **Search page**, which displays results across all resource types. The Search page offers powerful options for customizing your search and provides much more precise filtering.
 
 <br>
 
@@ -760,11 +756,11 @@ You can **sort search results** by:
 
 ---
 
-#### Exercise
+#### Finding Data Exercise
 
 Follow these steps to find specific data:
 
-1. In the **Search Box** on the top navigation bar, type `buildings`.  
+1. In the **Search Box** on the top navigation bar, type `buildings`.
 
      <br>
 
@@ -788,7 +784,7 @@ Follow these steps to find specific data:
       </div>
      </div>
 
-     <br>     
+     <br>
 
 3. Click the **Filter** button and select the checkbox next to **Maps**.
 
@@ -801,7 +797,7 @@ Follow these steps to find specific data:
       </div>
      </div>
 
-     <br> 
+     <br>
 
 This allows you to filter the search results to display only maps, helping you refine your results to suit your needs.
 
@@ -817,8 +813,8 @@ This allows you to filter the search results to display only maps, helping you r
 
 When you log in, GeoNode opens on the **Home Page**. The layout features:
 
-- **Top Navigation Bar** – quick access to Datasets, Maps, Documents, Search, and your user menu.  
-- **Resource Tiles** – showcase the most recent or featured items.  
+- **Top Navigation Bar** – quick access to Datasets, Maps, Documents, Search, and your user menu.
+- **Resource Tiles** – showcase the most recent or featured items.
 - **Search Box** – global, full-text search across all resource types.
 
 <br>
@@ -861,9 +857,9 @@ Type any text in the top-bar **Search Box** and press **Enter** to see results a
 
 On the Search page you can refine results using:
 
-- **Resource Types** (datasets, maps, documents…)  
-- **Categories, Keywords, Owners, Groups**  
-- **Date range**  
+- **Resource Types** (datasets, maps, documents…)
+- **Categories, Keywords, Owners, Groups**
+- **Date range**
 - **Spatial Extent** (drag a bounding box on the mini-map)
 
 <br>
@@ -883,9 +879,9 @@ You can sort results by **Most Recent**, **Name**, or **Popularity** using the s
 
 Selecting any tab (Datasets, Maps, Documents) brings you to its **All Resources** view. Each entry has:
 
-- **Thumbnail** preview  
-- **Resource title** and owner  
-- **View** button (opens detail page)  
+- **Thumbnail** preview
+- **Resource title** and owner
+- **View** button (opens detail page)
 - **More ⋮** menu for actions (Edit, Share, Delete – depending on permissions)
 
 <br>
@@ -903,10 +899,10 @@ Selecting any tab (Datasets, Maps, Documents) brings you to its **All Resources*
 
 Click **View** on any item to open its detail page, where you can:
 
-- Inspect metadata  
-- Preview the map or document  
-- Download (if allowed)  
-- Rate or comment  
+- Inspect metadata
+- Preview the map or document
+- Download (if allowed)
+- Rate or comment
 - Access **Resource → Share** to adjust permissions
 
 Mastering these navigation tools lets you quickly locate, preview, and manage all content in your GeoNode portal.
@@ -947,7 +943,7 @@ Four permission levels are available:
 
 ### Setting Permissions
 
-1. In **Share with people and groups**, choose the role for **Anyone** (public) and **Registered Members**.  
+1. In **Share with people and groups**, choose the role for **Anyone** (public) and **Registered Members**.
 2. Use the **Add people or groups** box to grant specific roles to individual users or groups.
 
 <br>
@@ -994,34 +990,41 @@ GeoNode exposes all datasets through standard **OGC** services, so you can easil
 
 ### Consuming GeoNode WMS in QGIS
 
-1. **Open QGIS** and choose **Layer → Add Layer → Add WMS/WMTS Layer…**  
-2. Click **New**, then enter:  
-   *Name*: `GeoNode WMS`  
-   *URL*:  
-   ```
+1. **Open QGIS** and choose **Layer → Add Layer → Add WMS/WMTS Layer…**
+2. Click **New**, then enter:
+   *Name*: `GeoNode WMS`
+   *URL*:
+
+   ```bash
    http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities
-   ```  
-3. Click **OK**, then **Connect**.  
-4. Select the layer you want (e.g. `tutorial:buildings`) and click **Add**.  
+   ```
+
+3. Click **OK**, then **Connect**.
+4. Select the layer you want (e.g. `tutorial:buildings`) and click **Add**.
 5. The layer appears in the QGIS map canvas.
 
-![QGIS Add WMS Layer](../img/geonode-img-37.png)  
+![QGIS Add WMS Layer](../img/geonode-img-37.png)
 *Image credit: User’s GeoNode instance*
 
 ---
 
 ### Embedding a GeoNode Layer in Leaflet
 
-1. Include Leaflet’s CSS and JS in your HTML **`<head>`**:  
+1. Include Leaflet’s CSS and JS in your HTML **`<head>`**:
+
    ```html
    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
    ```
-2. In your **`<body>`**, add a map container:  
+
+2. In your **`<body>`**, add a map container:
+
    ```html
    <div id="map" style="height: 400px;"></div>
    ```
-3. Initialise the map and add the WMS layer:  
+
+3. Initialise the map and add the WMS layer:
+
    ```html
    <script>
      const map = L.map('map').setView([52.51, 13.40], 12); // Berlin centre
@@ -1033,9 +1036,10 @@ GeoNode exposes all datasets through standard **OGC** services, so you can easil
      }).addTo(map);
    </script>
    ```
+
 4. Open the HTML file in a browser to see the GeoNode layer displayed via Leaflet.
 
-![Leaflet WMS Example](../img/geonode-img-38.png)  
+![Leaflet WMS Example](../img/geonode-img-38.png)
 *Image credit: User’s web application*
 
 ---
@@ -1044,7 +1048,7 @@ GeoNode exposes all datasets through standard **OGC** services, so you can easil
 
 To retrieve raw feature data (GeoJSON, GML) use **WFS**:
 
-```
+```bash
 http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=tutorial:buildings&outputFormat=application/json
 ```
 
@@ -1056,46 +1060,46 @@ GeoNode’s standards-compliant services make it straightforward to integrate wi
 
 ## Glossary of Terms
 
-- **Bounding Box**  
+- **Bounding Box**
   The minimum rectangle (min X, min Y, max X, max Y) that fully encloses a dataset’s spatial extent.
 
-- **Dashboard**  
+- **Dashboard**
   A MapStore workspace that combines widgets (charts, tables, counters, maps, text) for interactive data exploration.
 
-- **Dataset**  
+- **Dataset**
   A single spatial layer (vector or raster) uploaded to GeoNode. Datasets are served via OGC services (WMS, WFS, WCS) and described by metadata.
 
-- **Document**  
+- **Document**
   A non-spatial file (reports, images, PDFs, spreadsheets, SLDs, etc.) stored in GeoNode and linked to projects or datasets.
 
-- **GeoStory**  
+- **GeoStory**
   A MapStore storytelling tool that mixes text, multimedia, and interactive maps into a scrollable narrative.
 
-- **Group**  
+- **Group**
   A collection of users. Groups can be granted view/edit/manage permissions on resources.
 
-- **Layer**  
+- **Layer**
   The renderable representation of a dataset inside GeoServer (raster or vector). In the GeoNode UI, “dataset” and “layer” are often used interchangeably.
 
-- **Map**  
+- **Map**
   A saved composition of one or more datasets displayed together in the Map Viewer. Maps can have their own metadata, sharing settings, and embed codes.
 
-- **Map Viewer**  
+- **Map Viewer**
   The interactive interface where users add layers, configure styles, and save maps.
 
-- **OGC Services**  
+- **OGC Services**
   Standards used by GeoServer to publish data: **WMS** (maps), **WFS** (features), **WCS** (coverages), and **CSW** (catalog metadata).
 
-- **Permission Levels**  
+- **Permission Levels**
   `View`, `Download`, `Edit`, and `Manage`—define what actions users or groups can perform on a resource.
 
-- **Resource**  
+- **Resource**
   Generic term for any item managed by GeoNode—datasets, maps, documents, dashboards, or geostories.
 
-- **SLD (Styled Layer Descriptor)**  
+- **SLD (Styled Layer Descriptor)**
   XML standard for describing layer styling; used by GeoServer and editable within GeoNode.
 
-- **Style**  
+- **Style**
   An SLD or CSS definition that controls how a layer is drawn (colors, symbols, line width, opacity, etc.).
 
 ---
