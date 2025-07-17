@@ -12,7 +12,7 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# Getting Started
+# First Log In & Setting Your Password
 
 ## Accessing the Homepage
 

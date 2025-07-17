@@ -18,59 +18,87 @@ context_id: nDU6LLGiXPTLADXY
 
 **GeoNode** is an open-source **geospatial content management system (CMS)** for managing, sharing, and publishing geospatial data and interactive maps via a web interface.
 
-It integrates **data creation, metadata editing, and map visualization** in one platform, making it accessible to both technical and non-technical users. GeoNode allows datasets to be shared publicly or restricted to specific users.
+It integrates data creation, metadata editing, and map visualization in one platform, making it accessible to both technical and non-technical users. GeoNode allows datasets to be shared publicly or restricted to specific users.
 
-It also includes **social features** like user profiles, commenting, and rating to support collaboration and data quality control. GeoNode is **flexible and developer-friendly**, making it easy to extend, customize, or integrate into other applications.
+It also includes social features like user profiles, commenting, and rating to support collaboration and data quality control. GeoNode is flexible and developer-friendly, making it easy to extend, customize, or integrate into other applications.
 
 <br>
 
-<div style="text-align: center;">
-  <img src="./img/geonode-img-1.png" alt="GeoNode Logo" width="350">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+<div class="image-with-caption">
+  <img src="./img/geonode-img-1.png" alt="GeoNode Logo" style="width: 50%;">
+  <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
 </div>
 
----
-
 ## Key Capabilities
 
-- Upload and manage **vector and raster datasets** efficiently
-- Create and customize **interactive web maps** for dynamic data visualization
-- Manage and publish comprehensive **metadata** to ensure data traceability and quality
-- Set detailed **user and group access permissions** for secure, role-based content management
-- Engage with **social features** such as user profiles, comments, and ratings to foster community interaction and feedback
-- Easily **extend or integrate** GeoNode with other systems thanks to its flexible, developer-friendly architecture
+- **Upload and manage datasets**
 
-<br>
+    Seamlessly handle vector and raster data for efficient storage and access
 
-<div style="text-align: center;">
-  <img src="./img/geonode-img-2.png" alt="Key Capabilities" width="350">
+- **Create interactive web maps**
+
+    Build dynamic, user-friendly maps for visualizing spatial information
+
+- **Publish rich metadata**
+
+    Maintain high data quality and traceability with detailed metadata records
+
+- **Control access securely**
+
+    Set precise user and group permissions for role-based content management
+
+- **Encourage community engagement**
+
+    Use social features like profiles, comments, and ratings to foster collaboration
+
+- **Extend and integrate easily**
+
+    Leverage GeoNode’s modular architecture and APIs to fit into your existing systems
+
+<div class="image-with-caption">
+  <img src="./img/geonode-img-2.png" alt="Key Capabilities" style="width: 45%;">
 </div>
-
----
-
-## Useful Links
-
-- [Homepage](https://geonode.org) – Official GeoNode website
-- [Source Code](https://github.com/GeoNode/geonode) – Access the full GeoNode codebase on GitHub
-- [Live Demo](http://stable.demo.geonode.org) – Explore a fully functional GeoNode instance
-- [Documentation](https://docs.geonode.org/en/master) – Comprehensive user and developer guides
-- [GeoNode on Docker](https://hub.docker.com/u/geonode) – Docker images for easy deployment
-- [GeoNode Wiki](https://github.com/GeoNode/geonode/wiki) – Community-driven knowledge base and additional resources
-
----
 
 ## Community & Contributions
 
-GeoNode is actively developed and supported by a growing, vibrant open-source community. You can get involved, contribute, or seek help through several channels:
+GeoNode is built and maintained by a vibrant, growing open-source community. Whether you're a user, developer, or advocate, there are many ways to get involved, contribute, and connect:
 
-- [User Mailing List](https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users) – for user support and discussions
-- [Developer Mailing List](https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-devel) – for development updates and technical collaboration
-- [Gitter Chat](https://gitter.im/GeoNode/general) – for real-time community discussions
-- [Community Bylaws](https://github.com/GeoNode/geonode/wiki/Community-Bylaws) – for governance, roles, and contribution guidelines
-
----
+<div class="cards-grid">
+  <div class="card">
+    <div class="card-header">
+      📬 <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users" target="_blank">User Mailing List</a>
+    </div>
+    <div class="card-body">
+      Ask questions, share feedback, and connect with other GeoNode users.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      🛠️ <a href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-devel" target="_blank">Developer Mailing List</a>
+    </div>
+    <div class="card-body">
+      Stay informed about development updates and collaborate on technical work.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      💬 <a href="https://gitter.im/GeoNode/general" target="_blank">Gitter Chat</a>
+    </div>
+    <div class="card-body">
+      Join real-time discussions and get help directly from the community.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      📜 <a href="https://github.com/GeoNode/geonode/wiki/Community-Bylaws" target="_blank">Community Bylaws</a>
+    </div>
+    <div class="card-body">
+      Understand how the GeoNode project is governed and how you can contribute.
+    </div>
+  </div>
+</div>
 
 ## Roadmap
 
@@ -78,23 +106,65 @@ GeoNode is actively developed and supported by a growing, vibrant open-source co
 
 Future enhancements and key initiatives are tracked through GNIPs, which are openly documented and actively discussed in the [GeoNode Wiki](https://github.com/GeoNode/geonode/wiki/GeoNode-Improvement-Proposals) and the [developer mailing list](http://lists.osgeo.org/pipermail/geonode-devel/).
 
----
+## Useful Links
+
+<div class="cards-grid">
+  <div class="card">
+    <div class="card-header">
+      🌐 <a href="https://geonode.org" target="_blank">Homepage</a>
+    </div>
+    <div class="card-body">
+      The official GeoNode website with news, features, and updates.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      💻 <a href="https://github.com/GeoNode/geonode" target="_blank">Source Code</a>
+    </div>
+    <div class="card-body">
+      Access the full GeoNode codebase on GitHub.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      🧪 <a href="http://stable.demo.geonode.org" target="_blank">Live Demo</a>
+    </div>
+    <div class="card-body">
+      Try a fully functional GeoNode instance online.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      📚 <a href="https://docs.geonode.org/en/master" target="_blank">Documentation</a>
+    </div>
+    <div class="card-body">
+      In-depth user and developer documentation.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      🐳 <a href="https://hub.docker.com/u/geonode" target="_blank">GeoNode on Docker</a>
+    </div>
+    <div class="card-body">
+      Official Docker images for fast deployment.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      📖 <a href="https://github.com/GeoNode/geonode/wiki" target="_blank">GeoNode Wiki</a>
+    </div>
+    <div class="card-body">
+      Community-contributed tips, guides, and resources.
+    </div>
+  </div>
+</div>
 
 ## License
 
-GeoNode is © 2018 by the **Open Source Geospatial Foundation (OSGeo)**.
+GeoNode is © 2018 by the Open Source Geospatial Foundation (OSGeo).
 
-It is **free and open-source software**, licensed under the **GNU General Public License v3**. This means you are free to redistribute and/or modify GeoNode under the terms of the GPL.
-
-You should have received a copy of the GNU General Public License with GeoNode. If not, visit: [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
-
-<br>
+It is **free and open-source software**, licensed under the GNU General Public License v3. This means you are free to redistribute and/or modify GeoNode under the terms of the GPL.
 
 > **Note:** For full license details, refer to the [GNU General Public License](http://www.gnu.org/licenses).
 
----
-
-<div class="nav-buttons">
-  <a href="previous-page/" class="prev">⬅️ Previous</a>
-  <a href="next-page/" class="next">Next ➡️</a>
-</div>
+<br>

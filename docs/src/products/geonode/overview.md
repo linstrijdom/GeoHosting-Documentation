@@ -15,42 +15,131 @@ context_id: nDU6LLGiXPTLADXY
 
 ## Why Choose this Product?
 
-GeoNode is a turnkey Spatial Data Infrastructure that empowers organizations to share, visualize, and collaborate on geospatial data without building custom systems from scratch. Key benefits include:
+GeoNode is a ready-to-use Spatial Data Infrastructure (SDI) platform designed to help organizations effortlessly share, visualize, and collaborate on geospatial data—eliminating the need to build complex systems from scratch. Here’s what makes GeoNode stand out:
 
-- **Seamless Data Publishing**
-  Upload vector and raster datasets (Shapefile, GeoJSON, GeoTIFF) through the browser and instantly expose them as OGC services (WMS/WFS/WCS).
+- **Effortless Data Publishing**
 
-- **Built-in Metadata Catalog**
-  Every upload is captured with ISO-style metadata (title, abstract, tags, bounding box), making content discoverable and interoperable.
+    Upload vector and raster datasets such as Shapefiles, GeoJSON, or GeoTIFF directly through your web browser. GeoNode instantly publishes them as standard OGC services (WMS, WFS, WCS), making your data accessible across platforms.
 
-- **Interactive Map Builder**
-  Combine uploaded layers into custom maps, style them on-the-fly, and generate embeddable viewers—no client application required.
+    <br>
 
-- **Fine-grained Access Control**
-  Define roles and permissions per user or group, controlling who can view, edit, download, or publish datasets and maps.
+- **Comprehensive Metadata Management**
 
-- **Rich Search & Discovery**
-  Full-text and faceted search across datasets, maps, documents, and users, with live map previews in results.
+    Each dataset is automatically documented with ISO-compliant metadata—title, abstract, tags, bounding box, and more—ensuring your content is easily discoverable, interoperable, and well-organized.
 
-- **Extensible Architecture**
-  Leverages Django, GeoServer, PostGIS, Celery, and optionally Elasticsearch—plug in additional modules or services as your needs grow.
+    <br>
+
+- **Dynamic Interactive Map Builder**
+
+    Create customized maps by combining uploaded layers. Style maps on the fly, configure symbology, and generate embeddable map viewers—all within the browser, no client software needed.
+
+    <br>
+
+- **Granular Access Control & Security**
+
+    Set precise permissions at the user or group level to control who can view, edit, download, or publish datasets and maps, helping you maintain data integrity and compliance.
+
+    <br>
+
+- **Powerful Search & Discovery Tools**
+
+    Utilize full-text and faceted search to quickly find datasets, maps, documents, and users. Search results include live map previews for easy visual context.
+
+    <br>
+
+- **Flexible, Extensible Architecture**
+
+    Built on robust open-source components like Django, GeoServer, PostGIS, Celery, and optionally Elasticsearch, GeoNode’s modular design allows you to extend functionality and integrate additional services as your needs evolve.
+
+<div class="image-with-caption">
+  <img src="../img/geonode-img-2-1.png" alt="Why" style="width: 70%;">
+</div>
 
 ## What Size Should I Buy?
 
-GeoNode is open-source (no licensing fees), but you can tailor your deployment to match your scale and performance requirements:
+GeoNode is fully open-source with no licensing fees, giving you the flexibility to tailor your deployment to fit your organization’s scale and performance needs. Here’s a quick guide to help you decide:
 
-1. **Small / Development**
-   - **All-in-One** on a single VM or container: Django + GeoServer + PostGIS + Celery.
-   - Ideal for proof-of-concept, small teams, or local testing.
+1. **Small / Development Deployment**
 
-2. **Medium / Production**
-   - **Two-Tier**: Separate database and GeoServer instances from the web application.
-   - Add a dedicated Celery worker, enable Elasticsearch for faceted search.
-   - Suitable for departmental portals and moderate user loads.
+    <table class="my-table-style">
+      <thead>
+        <tr>
+          <th>Aspect</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Architecture</td>
+          <td>All-in-One: Django, GeoServer, PostGIS, and Celery run together on a single (VM) or container</td>
+        </tr>
+        <tr>
+          <td>Use Cases</td>
+          <td>Proof-of-concept projects, small teams or individual users, and local testing environments</td>
+        </tr>
+        <tr>
+          <td>Benefits</td>
+          <td>Simple setup, minimal resource requirements, quick deployment.</td>
+        </tr>
+      </tbody>
+    </table>
 
-3. **Large / Enterprise**
-   - **High-Availability Cluster**: Multiple web nodes behind a load balancer, clustered GeoServer, redundant database, and Celery autoscaling.
-   - Integrate CDN, authentication federation (LDAP/SAML), and monitoring.
-   - Recommended for national-scale SDIs or mission-critical deployments.
+    <br>
 
-Choose the deployment size that aligns with your user base, data volume, and performance requirements—all within the free, community-driven GeoNode ecosystem.
+2. **Medium / Production Deployment**
+
+    <table class="my-table-style">
+      <thead>
+        <tr>
+          <th>Aspect</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Architecture</td>
+          <td>Two-Tier: Separate database and GeoServer from web application. Includes a dedicated Celery worker and optional Elasticsearch for faceted search.</td>
+        </tr>
+        <tr>
+          <td>Use Cases</td>
+          <td>Departmental portals and moderate user traffic and data volume.</td>
+        </tr>
+        <tr>
+          <td>Benefits</td>
+          <td>Improved performance, scalability, and search functionality.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+
+3. **Large / Enterprise Deployment**
+
+    <table class="my-table-style">
+      <thead>
+        <tr>
+          <th>Aspect</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Architecture</td>
+          <td>High-Availability Cluster: Multiple web servers behind a load balancer, clustered GeoServer instances, redundant databases, and Celery autoscaling. Supports integration with CDN, authentication federation (LDAP/SAML), and monitoring tools.</td>
+        </tr>
+        <tr>
+          <td>Use Cases</td>
+          <td>National-scale Spatial Data Infrastructures (SDIs) and mission-critical applications demanding high reliability and uptime.</td>
+        </tr>
+        <tr>
+          <td>Benefits</td>
+          <td>Maximum scalability, fault tolerance, security, and operational monitoring.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+
+Choose the deployment size that best aligns with your organization’s number of users and teams, data volume and complexity, as well as the required performance and reliability levels. All options leverage the **free, community-driven GeoNode ecosystem**, offering flexibility without any licensing costs.
+
+<br>

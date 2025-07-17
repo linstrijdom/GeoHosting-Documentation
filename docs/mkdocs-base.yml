@@ -63,10 +63,15 @@ nav:
       - GeoNode:
           - products/geonode/index.md
           - Overview: products/geonode/overview.md
-          - Guide: products/geonode/guide.md
+          - Guide:
+            - Creating Your Instance: products/geonode/guide/create_instance.md
+            - First Log In & Setting Your Password: products/geonode/guide/first_login.md
+            - Quickstart - 5-Minute Tutorial: products/geonode/guide/quickstart.md
+            - Navigating the Dashboard: products/geonode/guide/dashboard.md
+            - Managing Users & Permissions: products/geonode/guide/permissions.md
+            - Integrating With Other Tools: products/geonode/guide/other_tools.md
+            - Glossary of Terms: products/geonode/guide/glossary.md
           - Manual:
-            - GSH Dashboard: products/geonode/manual/setup.md
-            - Getting Started: products/geonode/manual/getting_started.md
             - Tutorial Setup: products/geonode/manual/tutorial_setup.md
             - Datasets: products/geonode/manual/tutorial_dataset.md
             - Documents: products/geonode/manual/tutorial_document.md
