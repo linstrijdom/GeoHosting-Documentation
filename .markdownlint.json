@@ -1,0 +1,11 @@
+{
+    "default": true,
+    "MD013": false,   // allow long lines
+    "MD025": false,   // allow multiple top-level headings
+    "MD029": false,   // allow ordered list items to be indented
+    "MD033": false,   // allow inline HTML
+    "MD036": false,   // allow emphasis markers to be balanced
+    "MD041": false,   // allow first line in file to be a heading
+    "MD046": false    // allow code blocks to be indented
+  }
+  

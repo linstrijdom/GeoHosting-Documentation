@@ -13,7 +13,7 @@ hide:
   footer: true
 ---
 
-Explore our range of fully supported, open-source geospatial platforms. Each product is pre-configured, hosted, and ready to use. 
+Explore our range of fully supported, open-source geospatial platforms. Each product is pre-configured, hosted, and ready to use.
 
 Select the one that best fits your workflow to learn more and get started:
 

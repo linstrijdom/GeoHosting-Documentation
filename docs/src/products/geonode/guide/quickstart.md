@@ -14,7 +14,7 @@ context_id: nDU6LLGiXPTLADXY
 
 # Quickstart: 5-Minute Tutorial
 
-### Overview
+## Tutorial Overview
 
 **GeoNode** is a powerful platform for the management and publication of geospatial data. It integrates mature, stable open-source software projects under a user-friendly interface.
 
@@ -22,7 +22,7 @@ With GeoNode's **simplified architecture**, non-specialized users can easily sha
 
 <br>
 
-#### Geospatial Data Storage
+### Geospatial Data Storage
 
 GeoNode supports uploading **vector** and **raster** datasets through a simple web form. Supported vector formats include Shapefiles, GeoJSON, CSV, KML, and KMZ, while raster data like satellite imagery is stored as GeoTIFFs in their original projections.
 
@@ -84,12 +84,11 @@ The GeoNode development community is active, welcoming, and highly supportive of
 
 ### Data Preperation
 
-#### Overview
+#### Data Preperation Overview
 
 This tutorial uses an extract of the Berlin city center buildings map from the **BBBike OpenStreetMap extracts**. Download the **Tutorial Data** using the link below:
 
 - [`Tutorial_Data_GeoNode.zip` Download](https://github.com/kartoza/GeoHosting/tree/main/docs/src/products/tutorial_data/Tutorial_Data_GeoNode.zip)
-
 
 <br>
 
@@ -99,7 +98,7 @@ This tutorial uses an extract of the Berlin city center buildings map from the *
 
 ### Uploading Datasets
 
-#### Overview
+#### Uploading Datasets Overview
 
 In GeoNode, **datasets** are the core published resources that represent either **raster** or **vector** spatial data sources. Each dataset can also include metadata, user ratings, and comments. This makes them collaborative and easy to manage within the GeoNode environment.
 
@@ -120,8 +119,7 @@ You can upload datasets in two ways:
      <br>
 
 > **Note:** The default maximum upload size in GeoNode is 100 MB. Administrators can increase this limit in the admin panel.
-
-> **Note:** The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
+The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
 
 ---
 
@@ -153,9 +151,9 @@ Follow these steps to upload your dataset to GeoNode:
       </div>
      </div>
 
-     <br>     
+     <br>
 
-3. From the **Upload a Dataset** page, click **Select files...** to choose spatial data files from your computer. 
+3. From the **Upload a Dataset** page, click **Select files...** to choose spatial data files from your computer.
 
      <br>
 
@@ -166,7 +164,7 @@ Follow these steps to upload your dataset to GeoNode:
       </div>
      </div>
 
-     <br>  
+     <br>
 
 4. From your file explorer, select the file: `Tutorial_Berlin-shp.zip`
 
@@ -179,7 +177,7 @@ Follow these steps to upload your dataset to GeoNode:
       </div>
      </div>
 
-     <br> 
+     <br>
 
 5. Click **Upload** to begin the dataset upload process.
 
@@ -245,12 +243,11 @@ You can upload documents in two ways:
      <br>
 
 > **Note:** The default maximum upload size in GeoNode is 100 MB. Administrators can increase this limit in the admin panel.
-
-> **Note:** The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
+The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
 
 ---
 
-#### Exercise
+#### Uploading Documents Exercise
 
 Follow these steps to upload your document to GeoNode:
 
@@ -278,7 +275,7 @@ Follow these steps to upload your document to GeoNode:
       </div>
      </div>
 
-     <br>     
+     <br>
 
 3. The **Document Upload** page offers two ways to add documents to GeoNode:
 
@@ -287,7 +284,7 @@ Follow these steps to upload your document to GeoNode:
 
      <br>
 
-4. Click **Select files...** to choose data files from your computer. 
+4. Click **Select files...** to choose data files from your computer.
 
      <br>
 
@@ -298,7 +295,7 @@ Follow these steps to upload your document to GeoNode:
       </div>
      </div>
 
-     <br>  
+     <br>
 
 5. From your file explorer, select the file: `README.txt`
 
@@ -311,7 +308,7 @@ Follow these steps to upload your document to GeoNode:
       </div>
      </div>
 
-     <br> 
+     <br>
 
 5. Click **Upload** to begin the document upload process.
 
@@ -336,7 +333,7 @@ Once the upload is complete, click **View** to open the document’s detail page
 
 ### Creating a Map
 
-#### Overview
+#### Creating a Map Overview
 
 Maps are **collections of datasets** displayed together on an **interactive web map**. These maps can be composed using the map composer and saved as GeoNode resources. Additionally, maps can be enriched with metadata, ratings, and user comments.
 
@@ -362,13 +359,13 @@ You can create map in three ways:
 
      <br>
 
-When you create a new map, it will automatically open in the **Map Viewer**. In the upper left corner, you’ll find the **TOC (Table of Contents)** button. This opens the TOC panel, where you can manage all the datasets associated with the map. 
+When you create a new map, it will automatically open in the **Map Viewer**. In the upper left corner, you’ll find the **TOC (Table of Contents)** button. This opens the TOC panel, where you can manage all the datasets associated with the map.
 
 <br>
 
 ---
 
-#### Exercise
+#### Creating a Map Exercise
 
 Follow these steps to create a map in GeoNode:
 
@@ -396,9 +393,9 @@ Follow these steps to create a map in GeoNode:
       </div>
      </div>
 
-     <br>     
+     <br>
 
-3. In the **Map Viewer**, click **Add Dataset** from the top-navigation bar. 
+3. In the **Map Viewer**, click **Add Dataset** from the top-navigation bar.
 
      <br>
 
@@ -441,7 +438,7 @@ Follow these steps to create a map in GeoNode:
 
      <br>
 
-You should now see your map listed on the **All Resources** page. 
+You should now see your map listed on the **All Resources** page.
 
 <br>
 
@@ -460,7 +457,7 @@ You should now see your map listed on the **All Resources** page.
 
 ### Sharing Resources
 
-#### Overview
+#### Sharing Resources Overview
 
 GeoNode encourages users to publicly share and make information available for download on the platform. By default, resources are visible and accessible to everyone, but owners can restrict access to specific users or groups as needed.
 
@@ -484,11 +481,11 @@ From the **Share Options Settings** panel of each resource, the following sharin
 
 ---
 
-#### Exercise
+#### Sharing Resources Exercise
 
 Follow these steps to share you map:
 
-1. On the **All Resources** page, click **View** under your `Berlin Buildings` map. 
+1. On the **All Resources** page, click **View** under your `Berlin Buildings` map.
 
      <br>
 
@@ -512,7 +509,7 @@ Follow these steps to share you map:
       </div>
      </div>
 
-     <br>     
+     <br>
 
 3. The **Share with people and groups** page will open.
 
@@ -532,7 +529,7 @@ Follow these steps to share you map:
       </div>
      </div>
 
-     <br>      
+     <br>
 
 5. Under the **Resources** menu, select **Save**.
 
@@ -557,13 +554,13 @@ Your map is now public and can be viewed by anyone.
 
 ### Finding Data
 
-#### Overview
+#### Finding Data Overview
 
 It is possible to explore GeoNode to find **datasets, maps, documents, and other resource types** by using different navigation paths, filters, and search functions.
 
-On every page, you’ll find a quick search tool. The **Search box** in the navigation bar allows you to type any text and quickly find all resources related to that text. 
+On every page, you’ll find a quick search tool. The **Search box** in the navigation bar allows you to type any text and quickly find all resources related to that text.
 
-When you perform a search, GeoNode takes you to the **Search page**, which displays results across all resource types. The Search page offers powerful options for customizing your search and provides much more precise filtering.  
+When you perform a search, GeoNode takes you to the **Search page**, which displays results across all resource types. The Search page offers powerful options for customizing your search and provides much more precise filtering.
 
 <br>
 
@@ -593,11 +590,11 @@ You can **sort search results** by:
 
 ---
 
-#### Exercise
+#### Finding Data Exercise
 
 Follow these steps to find specific data:
 
-1. In the **Search Box** on the top navigation bar, type `buildings`.  
+1. In the **Search Box** on the top navigation bar, type `buildings`.
 
      <br>
 
@@ -621,7 +618,7 @@ Follow these steps to find specific data:
       </div>
      </div>
 
-     <br>     
+     <br>
 
 3. Click the **Filter** button and select the checkbox next to **Maps**.
 
@@ -634,7 +631,7 @@ Follow these steps to find specific data:
       </div>
      </div>
 
-     <br> 
+     <br>
 
 This allows you to filter the search results to display only maps, helping you refine your results to suit your needs.
 

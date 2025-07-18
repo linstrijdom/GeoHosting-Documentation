@@ -4,8 +4,8 @@ let url = '/';
 
 // Fill in your credentials here
 // Don'nt push this file with real credentials
-let user_email = 'admin@example.com';
-let password = 'admin';
+let user_email = 'jeff@kartoza.com';
+let password = 'manjaro*342';
 const authFile = 'auth.json';
 
 
@@ -30,10 +30,10 @@ setup.describe('login', () => {
 
     await page.getByRole('button', { name: 'Login' }).click();
 
-    await expect(page.locator('img').nth(1)).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Dashboard' })).toBeVisible();
 
     await page.context().storageState({ path: authFile });
-    
+
   });
 
 });

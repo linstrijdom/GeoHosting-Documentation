@@ -11,7 +11,7 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# GeoSight GuideThis section describes the key steps for preparing a GeoSight dashboard.
+# GeoSight GuideThis section describes the key steps for preparing a GeoSight dashboard
 
 ![Quick Steps](img/geosight-quick-start-main-steps.png)
 
@@ -26,29 +26,34 @@ context_id: nDU6LLGiXPTLADXY
 5. Create a new Project ➡️ Add Indicators ➡️ Create Indicator Layers ➡️ Add Context Layers ➡️ Define Filters ➡️ Define Widgets ➡️ Share your Project
 
 ## How to prepare data for GeoSight?
+
 In GeoSight users can import data from multiple sources:
+
 - APIs (JSON)
 - Excel files
 - SharePoint Excel
 - SDMX Data Warehouse (coming soon)
 
-The easiest way is to import data using standalone Excel file.Excel import supports two formats: 
-- LONG and 
+The easiest way is to import data using standalone Excel file.Excel import supports two formats:
+
+- LONG and
 - WIDE
 
   ![Excel Long and Wide formats](img/geosight-excel-long-and-wide-formats.png)
 
 ### Excel LONG format
+
 - Can be used to import multiple indicators, geographies (e.g. districts) and dates in one go
 - Required columns:
-    - GeographyCode – contains unique code for identifying a geographic entity (e.g. district). NOTE: currently geographic entities must be from a single admin level
-    - IndicatorCode – should match the Indicator’s shortcode as defined in GeoSight
-    - DateTime – valid date, e.g. 01-01-2022
-    - Value – observation value
+  - GeographyCode – contains unique code for identifying a geographic entity (e.g. district). NOTE: currently geographic entities must be from a single admin level
+  - IndicatorCode – should match the Indicator’s shortcode as defined in GeoSight
+  - DateTime – valid date, e.g. 01-01-2022
+  - Value – observation value
 
 ### Excel WIDE format
+
 - Can be used to import multiple indicators, geographies (e.g. districts) for a single date only
 - Required columns:
-    - GeographyCode – Contains unique code for identifying a geographic entity (e.g. district). NOTE: currently geographic entities must be from a single admin level
-    - Indicator columns – name of each column should match the Indicator’s shortcode as defined in GeoSight
-    - Value – observation value
+  - GeographyCode – Contains unique code for identifying a geographic entity (e.g. district). NOTE: currently geographic entities must be from a single admin level
+  - Indicator columns – name of each column should match the Indicator’s shortcode as defined in GeoSight
+  - Value – observation value

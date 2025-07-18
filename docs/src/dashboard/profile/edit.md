@@ -77,29 +77,29 @@ context_id: nDU6LLGiXPTLADXY
 
   [![Form](./img/edit-img-11.png)](./img/edit-img-11.png)
 
-  * **Company Name:** Enter the name of the company in this field.
+* **Company Name:** Enter the name of the company in this field.
 
-  * **Billing Name:** Enter the billing name of the company in this field.
+* **Billing Name:** Enter the billing name of the company in this field.
 
-  * **Billing Address:** Enter the billing address of the company in this field.
+* **Billing Address:** Enter the billing address of the company in this field.
 
-  * **Postal Code:** Enter the postal code of the location in this field.
+* **Postal Code:** Enter the postal code of the location in this field.
 
-  * **Country:** Select the country of the company from the dropdown list.
+* **Country:** Select the country of the company from the dropdown list.
 
-  * **City:** Enter the city of the company in this field.
+* **City:** Enter the city of the company in this field.
 
-  * **Region:** Enter the region of the company in this field.
+* **Region:** Enter the region of the company in this field.
 
-  * **VAT/Tax number:** Enter the VAT/Tax number of the company in this field.
+* **VAT/Tax number:** Enter the VAT/Tax number of the company in this field.
 
-  * **Create:** After filling in all the details click on this button to submit the request.
+* **Create:** After filling in all the details click on this button to submit the request.
 
-    * **Error:** Users will receive this error they submit the request without filling in the form.
-    
+  * **Error:** Users will receive this error they submit the request without filling in the form.
+
       ![Error](./img/edit-img-12.png)
-    
-    * **Success:** Users will receive this notification if their company is created successfully.
+
+  * **Success:** Users will receive this notification if their company is created successfully.
 
       ![Success](./img/edit-img-13.png)
 

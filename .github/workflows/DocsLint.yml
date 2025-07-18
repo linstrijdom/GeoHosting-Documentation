@@ -1,0 +1,38 @@
+# .github/workflows/docs-lint.yml
+name: Docs Lint & Build Check
+
+on:
+  pull_request:
+    paths:
+      - 'docs/src/**'
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/src/**'
+
+jobs:
+  lint-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli@0.45.0
+
+      - name: Run MarkdownLint (check only)
+        run: |
+          npx markdownlint-cli \
+            "docs/src/**/*.md" \
+            --ignore "docs/src/developer/manual/**"
+
+      - name: Verify Markdown links
+        uses: tcort/github-action-markdown-link-check@v1
+        with:
+          folder-path: docs/src
+          use-quiet-mode: yes
+          config-file: .mlc_config.json

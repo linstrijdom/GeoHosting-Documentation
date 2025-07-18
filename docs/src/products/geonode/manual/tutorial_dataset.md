@@ -35,8 +35,7 @@ You can upload datasets in two ways:
      <br>
 
 > **Note:** The default maximum upload size in GeoNode is 100 MB. Administrators can increase this limit in the admin panel.
-
-> **Note:** The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
+The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
 
 ---
 
@@ -68,9 +67,9 @@ Follow these steps to upload your dataset to GeoNode:
       </div>
      </div>
 
-     <br>     
+     <br>
 
-3. From the **Upload a Dataset** page, click **Select files...** to choose spatial data files from your computer. 
+3. From the **Upload a Dataset** page, click **Select files...** to choose spatial data files from your computer.
 
      <br>
 
@@ -81,7 +80,7 @@ Follow these steps to upload your dataset to GeoNode:
       </div>
      </div>
 
-     <br>  
+     <br>
 
 4. From your file explorer, select the file: `Tutorial_Berlin-shp.zip`
 
@@ -94,7 +93,7 @@ Follow these steps to upload your dataset to GeoNode:
       </div>
      </div>
 
-     <br> 
+     <br>
 
 5. Click **Upload** to begin the dataset upload process.
 
@@ -116,7 +115,6 @@ A progress bar will display the upload status and notify you when the upload is 
 > **Note:** For more details, refer to the [Managing Datasets](https://docs.geonode.org/en/master/usage/managing_datasets/index.html#managing-datasets) section of the official GeoNode documentation.
 
 ---
-
 
 # Need More Help?
 

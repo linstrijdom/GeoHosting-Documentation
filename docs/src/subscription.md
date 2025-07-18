@@ -35,7 +35,7 @@ After reaching the subscription page, users will see the following options:
 
 This is the entry level package of the platform. It includes the base monthly price of the package in our case which is `US$60/month`, which provides 50GB of storage, 2 cpus and 4gb of ram.
 
-### Advanced 
+### Advanced
 
 ![Advanced Package](./img/subscription-img-4.png)
 
@@ -63,7 +63,9 @@ This is the standard package of the platform. It includes the base monthly price
 
 4. **Purchase application for:** Users can select a company for purchase. They can also click on the `Create Company` button to add a new company or check the ✅ `Purchase in personal capacity` option. If this option is enabled, users will not be able to select a company.
 
-  * Click [here](./dashboard/profile/edit.md#create-company) to see how to create company.
+<!-- markdownlint-disable MD059 -->
+* Click [here](./dashboard/profile/edit.md#create-company) to see how to create company.
+<!-- markdownlint-enable MD059 -->
 
 5. **Next:** After confirming the configurations , users can click on the `Next` button to proceed to the next page.
 
@@ -81,7 +83,7 @@ This is the agreement of the platform which users have to agree to before procee
 
 [![Acceptance](./img/subscription-img-10.png)](./img/subscription-img-10.png)
 
-1. **Hosting Provider:** In our case there are 2 service providers. Users can select one of them by checking the corresponding `checkbox`. 
+1. **Hosting Provider:** In our case there are 2 service providers. Users can select one of them by checking the corresponding `checkbox`.
 
 2. **Signature:** To sign the agreement, users must double-click on the signature box and draw their signature.
 
@@ -124,7 +126,7 @@ This is the agreement of the platform which users have to agree to before procee
       ![Notification](./img/subscription-img-25.png)
 
 * Users can view all the relevant information about the platform by scrolling down the page.
-<!-- 
+<!--
 ## What G3W Can Do?
 
 ### QGIS on the Web
@@ -179,16 +181,16 @@ G3W Suite is open source (MPL2) and has an open platform approach. -->
 5. **Add Attachment:** Users can add attachments to their issue by clicking on the `Add attachment` button.
 ![File Explorer](./img/subscription-img-18.png)
 
-      - **1 Cancel:** Users can click on this button to cancel the attachment selection.
-      - **2 Select:** After selecting the desired file users are required to click on this button to upload the attachment.'
+      * **1 Cancel:** Users can click on this button to cancel the attachment selection.
+      * **2 Select:** After selecting the desired file users are required to click on this button to upload the attachment.'
 
 6. **Submit:** After filling in all the required fields, users can submit their issue by clicking on this button.
-      - **Error:** If users forget to fill in any `*` required field and click the submit button, they will receive the error message `This field may not be blank` below the input field, and a notification toast will appear with the message `Failed to create a ticket`.
-      
+      * **Error:** If users forget to fill in any `*` required field and click the submit button, they will receive the error message `This field may not be blank` below the input field, and a notification toast will appear with the message `Failed to create a ticket`.
+
       [![Error](./img/subscription-img-19.png)](./img/subscription-img-19.png)
 
-      - **Success:** Users will be notified by a notification toast after the successful submission of the form.
-      
+      * **Success:** Users will be notified by a notification toast after the successful submission of the form.
+
       ![Success](./img/subscription-img-20.png)
 
 7. **Cancel:** Users can click on this button to cancel the issue creation process.
