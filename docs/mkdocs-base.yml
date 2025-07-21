@@ -72,12 +72,11 @@ nav:
             - Integrating With Other Tools: products/geonode/guide/other_tools.md
             - Glossary of Terms: products/geonode/guide/glossary.md
           - Manual:
-            - Tutorial Setup: products/geonode/manual/tutorial_setup.md
-            - Datasets: products/geonode/manual/tutorial_dataset.md
-            - Documents: products/geonode/manual/tutorial_document.md
-            - Maps: products/geonode/manual/tutorial_map.md
-            - Share: products/geonode/manual/tutorial_share.md
-            - Search: products/geonode/manual/tutorial_search.md
+            - Data & Preparation: products/geonode/manual/setup.md
+            - Datasets: products/geonode/manual/dataset.md
+            - Styling: products/geonode/manual/style.md
+            - Documents: products/geonode/manual/document.md
+            - Maps: products/geonode/manual/map.md
             - Other Tools: products/geonode/manual/other_tools.md
           - Help: products/geonode/help.md
       - G3W:
