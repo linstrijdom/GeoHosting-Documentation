@@ -14,114 +14,71 @@ context_id: nDU6LLGiXPTLADXY
 
 # Uploading Datasets
 
-## Overview
-
-In GeoNode, **datasets** are the core published resources that represent either **raster** or **vector** spatial data sources. Each dataset can also include metadata, user ratings, and comments. This makes them collaborative and easy to manage within the GeoNode environment.
+In GeoNode, **datasets** are core resources that represent either **vector** or **raster** spatial data. Each dataset includes metadata and supports user collaboration through comments and ratings. Uploading datasets is a key part of sharing spatial content on your GeoNode instance.
 
 <br>
 
-You can upload datasets in two ways:
+You can start the upload process in two places:
 
-1. **From the All Resources Page:**
-
-     Click **Add Resource** and select **Upload dataset** from the list.
-
-     <br>
-
-2. **From the Datasets Page:**
-
-     Click **New** and select **Upload dataset** from the dropdown.
-
-     <br>
-
-> **Note:** The default maximum upload size in GeoNode is 100 MB. Administrators can increase this limit in the admin panel.
-The maximum number of parallel uploads is 5. This setting can also be adjusted by an administrator.
-
----
-
-## Exercise
-
-Follow these steps to upload your dataset to GeoNode:
-
-1. On the GeoNode **Homepage**, click the **Datasets** tab.
-
-     <br>
-
-     <div style="text-align: center;">
-      <img src="../../img/geonode-img-12.png" alt="Datasets Tab" width=auto>
-      <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-      Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-      </div>
-     </div>
-
-     <br>
-
-2. Click **New** and select **Upload dataset** from the dropdown.
-
-     <br>
-
-     <div style="text-align: center;">
-      <img src="../../img/geonode-img-13.png" alt="Upload Dataset Dropdon" width=auto>
-      <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-      Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-      </div>
-     </div>
-
-     <br>
-
-3. From the **Upload a Dataset** page, click **Select files...** to choose spatial data files from your computer.
-
-     <br>
-
-     <div style="text-align: center;">
-      <img src="../../img/geonode-img-14.png" alt="Select Files" width=auto>
-      <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-      Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-      </div>
-     </div>
-
-     <br>
-
-4. From your file explorer, select the file: `Tutorial_Berlin-shp.zip`
-
-     <br>
-
-     <div style="text-align: center;">
-      <img src="../../img/geonode-img-15.png" alt="Selected Files" width=auto>
-      <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-      Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-      </div>
-     </div>
-
-     <br>
-
-5. Click **Upload** to begin the dataset upload process.
-
-     <br>
-
-A progress bar will display the upload status and notify you when the upload is complete. When the upload finishes, click the **View** button to open your dataset.
+- From the **All Resources** page via **Add Resource → Upload dataset**
+- From the **Datasets** page via **New → Upload dataset**
 
 <br>
 
-<div style="text-align: center;">
- <img src="../../img/geonode-img-16.png" alt="View Uploaded Datasets" width=auto>
- <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
- Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
- </div>
+## Step 1: Access the Dataset Page
+
+From the GeoNode **Homepage**, click the **Datasets** tab. Then, click the **New button** and select **Upload dataset** from the dropdown.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-13.png" alt="Datasets Tab">
+  <div class="caption">
+    Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
+  </div>
 </div>
 
 <br>
 
-> **Note:** For more details, refer to the [Managing Datasets](https://docs.geonode.org/en/master/usage/managing_datasets/index.html#managing-datasets) section of the official GeoNode documentation.
+## Step 2: Select and Upload Files
+
+On the **Upload a Dataset** page, click **Select files...** and choose the 5 componenets of the `landuse` shapefile in the `Data` folder. Once selected, click **Upload**.
+
+GeoNode will show a progress bar as the files are uploaded and unpacked.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-14.png" alt="Upload Datasets">
+  <div class="caption">
+    Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
+  </div>
+</div>
+
+<br>
+
+## Step 3: View Your Dataset
+
+Once the upload is complete, click **View** to open your newly published dataset. This opens the **Dataset Detail Page**, where you can:
+
+- Browse the data on a map
+- See and edit metadata
+- Download the original files
+- Comment or rate the dataset
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-15.png" alt="View Datasets">
+  <div class="caption">
+    Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
+  </div>
+</div>
+
+<br>
 
 ---
 
-# Need More Help?
+**Next up:** Learn how to upload a document to GeoNode so you can include reports, notes, or supporting files alongside your datasets.
 
-Visit the official GeoNode documentation:
-
-- **[https://docs.geonode.org/en/master/](https://docs.geonode.org/en/master/)**
-
----
-
-© 2024 Kartoza. Licensed under the GNU AGPL v3.
+<br>
