@@ -59,7 +59,7 @@ Each resource can be assigned one of the following permission levels:
 
 ## Opening the Share Panel
 
-To manage who can access your resource, start by clicking **View** on the resource tile. Then, from the top navigation bar within the viewer, select **Resource → Share** to access the sharing options. 
+To manage who can access your resource, start by clicking **View** on the resource tile. Then, from the top navigation bar within the viewer, select **Resource → Share** to access the sharing options.
 
 <br>
 

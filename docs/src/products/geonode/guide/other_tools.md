@@ -97,7 +97,7 @@ In your **`<body>`**, create a container for the map:
 ### Step 3: Initialise the Map and Add the WMS Layer
 
 Still within the **`<body>`**, insert a script that sets up your map and loads the GeoNode WMS layer:
- 
+
 ```html
 <script>
 const map = L.map('map').setView([52.51, 13.40], 12); // Berlin centre
@@ -160,7 +160,7 @@ You can paste this URL into:
 
 **Example with `curl`:**
 
-```
+```bash
 curl "http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=tutorial:buildings&outputFormat=application/json"
 ```
 

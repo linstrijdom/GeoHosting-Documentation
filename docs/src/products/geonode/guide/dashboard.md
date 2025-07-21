@@ -124,7 +124,7 @@ Type any keyword or phrase into the top navigation **Search Box** and press **En
 Once on the **Search page**, you can refine your results by clicking the **Filter** and selecting from the following options:
 
 - Resource Types
-- Categories, Keywords, Regions, Owners, or Groups 
+- Categories, Keywords, Regions, Owners, or Groups
 - Date range
 - Spatial Extent
 

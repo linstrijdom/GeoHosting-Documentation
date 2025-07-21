@@ -62,7 +62,7 @@ To log in to your new GeoNode instance:
 
 <br>
 
-### Viewing Your Hosted Service Information 
+### Viewing Your Hosted Service Information
 
 To view details about your hosted service:
 
