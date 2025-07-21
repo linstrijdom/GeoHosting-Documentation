@@ -17,9 +17,7 @@ hide:
 
 ## Overview
 
-**GeoSpatialHosting** is a specialized platform offering high-performance hosting solutions tailored for geospatial data and applications. We provide secure, scalable, and reliable infrastructure to support the storage, management, and analysis of geographic information.
-
-Our services are designed to meet the specific needs of professionals in fields such as mapping, surveying, urban planning, and environmental science. Powered by cutting-edge technology and backed by exceptional customer support, GeoSpatialHosting ensures your geospatial data remains accessible, protected, and ready for real-time analysis—anytime, anywhere.
+**GeoSpatialHosting**  is a secure, scalable, and high-performance platform for deploying and managing open-source geospatial tools like [GeoNode](https://geonode.org), [G3W-Suite](https://g3w-suite.readthedocs.io/), and [GeoServer](https://geoserver.org). Whether you’re a spatial analyst, developer, NGO, or municipality — GSH lets you focus on your project, not your infrastructure.
 
 <br>
 
@@ -30,71 +28,121 @@ Our services are designed to meet the specific needs of professionals in fields 
   </div>
 </div>
 
+## Why Choose GSH?
+
+Deploying spatial platforms can be time-consuming and technically challenging. GSH solves this by offering:
+
+- **Pre-configured GIS environments** ready for production
+- **One-click deployments** for GeoNode, GeoServer, G3W‑Suite
+- **Fully managed infrastructure** maintained by FOSS GIS experts
+
+<br>
+
+## What Makes GSH Different?
+
+GSH is purpose-built for the geospatial community. We combine deep FOSS experience with infrastructure excellence to offer a seamless hosting experience.
+
+<br>
+
+**Key Advantages:**
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Advantage</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Geospatial-First Infrastructure</td>
+      <td>Built from the ground up for spatial workloads — optimized to host maps, data layers, and GIS services that perform out of the box.</td>
+    </tr>
+    <tr>
+      <td>Fully Managed Deployments</td>
+      <td>We handle server setup, updates, monitoring, backups, and maintenance — so you can focus entirely on your geospatial work.</td>
+    </tr>
+    <tr>
+      <td>Rapid Setup</td>
+      <td>Spin up production-ready GIS stacks in minutes with zero DevOps — no scripts, no command lines, no headaches.</td>
+    </tr>
+    <tr>
+      <td>Enterprise-Grade Security</td>
+      <td>All deployments include HTTPS, access controls, encrypted storage, and a <strong>99.9% uptime guarantee</strong> — for peace of mind.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
 ## Key Concepts
 
-1. **Geospatial Data Hosting**
-    
-    GeoSpatialHosting offers dedicated hosting solutions for geospatial datasets, delivering fast and secure access to large files such as maps, satellite imagery, and GIS layers.
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Concept</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Geospatial Data Hosting</td>
+      <td>Fast, secure access to large spatial datasets like GIS layers, satellite imagery, and vector maps.</td>
+    </tr>
+    <tr>
+      <td>Scalable Infrastructure</td>
+      <td>Flexible architecture that grows with your needs — from small-scale apps to enterprise deployments.</td>
+    </tr>
+    <tr>
+      <td>High-Performance Data Processing</td>
+      <td>Optimized for speed — enabling real-time rendering, querying, and spatial analysis without delays.</td>
+    </tr>
+    <tr>
+      <td>Security & Data Integrity</td>
+      <td>End-to-end encryption, strict access control, and regular backups to ensure your data remains safe and consistent.</td>
+    </tr>
+    <tr>
+      <td>Seamless Integration</td>
+      <td>Works with your existing tools — including desktop GIS, web mapping libraries, and open APIs.</td>
+    </tr>
+    <tr>
+      <td>Collaboration & Sharing</td>
+      <td>Securely share data and collaborate in real-time across teams, departments, or organizations.</td>
+    </tr>
+  </tbody>
+</table>
 
-    <br>
-
-2. **Scalable Infrastructure**
-    
-    Our platform provides cloud infrastructure that adapts to your needs. Whether you're handling small datasets or running enterprise-level geospatial projects, our system scales effortlessly to meet your performance requirements.
-
-    <br>
-
-3. **High-Performance Data Processing**
-
-    Optimized for speed, GeoSpatialHosting enables rapid processing of geospatial data—supporting real-time rendering, analysis, and visualization. This is essential for applications that depend on timely insights from complex spatial datasets.
-
-    <br>
-
-4. **Security & Data Integrity**
-
-    Security is foundational to our platform. We use industry-standard encryption, maintain regular backups, and implement strict access controls to ensure your data remains safe, consistent, and confidential.
-
-    <br>
-
-5. **Seamless Integration**
-
-    Our services integrate smoothly with the tools and workflows you already use. Whether you're working with desktop GIS, web maps, or custom applications, GeoSpatialHosting supports common standards and APIs for easy connectivity.
-
-    <br>
-
-6. **Collaboration and Sharing**
-
-    The platform makes it easy to collaborate across teams and organizations. Share access to datasets and work together on mapping projects in real-time, improving efficiency and coordination.
+<br>
 
 <div class="image-with-caption">
   <img src="./img/home-img-2.png" alt="Key Concepts" style="width: 80%;">
 </div>
 
-## Products
+## Products & Services
 
-GeoSpatialHosting delivers a suite of geospatial-ready hosting and support solutions designed to be ready-to-use or fully customizable:
+GSH offers ready-to-use and customizable hosting options for your spatial applications:
 
-- **Open‑Source Core Services**
+- **Open-Source Core Services**
 
-    Choose from well-known, community-trusted geospatial platforms like G#W-SUITE, GeoServer and GeoNode. Deploy private instances of your chosen service in minutes, with automated provisioning and seamless scalability.
+    Instantly launch trusted tools like GeoNode, G3W‑Suite, and GeoServer.
 
     <br>
 
 - **Managed Hosting Plans**
 
-    Flexible hosting options on cloud servers, ranging from 1 vCPU/2 GB RAM packages up to 8 vCPU/32 GB RAM setups. Each plan includes hosting, proactive system maintenance, backups, and monitoring — all managed by experienced Linux and FOSS GIS professionals.
+    From lightweight packages to large RAM setups — fully managed with backups and monitoring.
 
     <br>
 
 - **Custom Deployments**
 
-    Need more control? We can deploy and maintain your services on your infrastructure — whether on-premise, in cloud environments, or across hybrid setups — using our Linux‑Rancher‑Docker stack.
+    On your cloud, on-premise, or hybrid — powered by our Docker–Linux–Rancher stack.
 
     <br>
 
 - **Support & Maintenance Packages**
 
-    Receive ongoing updates, backup configurations, performance tuning, and rapid response to system alerts or outages — tailored to your setup and SLAs.
+    System tuning, upgrades, SLA-based response, and issue resolution by our expert team.
 
 <div class="image-with-caption">
   <img src="./img/home-img-3.png" alt="Products">
@@ -102,16 +150,80 @@ GeoSpatialHosting delivers a suite of geospatial-ready hosting and support solut
 
 ## Deployment Workflow
 
-Getting started with GeoSpatialHosting is simple. Choose your preferred platform—GeoNode, GeoServer, or G3W‑SUITE—along with a hosting plan that matches your data and performance needs. Our team takes care of the full deployment process, including provisioning, configuration, security, and backups.
+Getting started is simple:
 
-Once set up, you’ll receive admin access and can immediately begin publishing maps, serving data, or collaborating with your team. Optional add-ons like domain setup, QGIS styling support (for G3W‑SUITE), and dedicated support plans are available. We handle ongoing updates and monitoring, so your platform stays reliable and secure.
+1. **Pick your stack** – GeoNode, GeoServer, or G3W‑Suite
+2. **Choose a plan** – from personal to enterprise-scale
+3. **Let us deploy** – we handle provisioning, config, security, and backups
+4. **Start working** – get admin access and publish maps, serve data, or collaborate
+
+<br>
+
+Optional add-ons include domain setup, QGIS styling integration, and dedicated support tiers.
 
 <div class="image-with-caption">
   <img src="./img/home-img-4.png" alt="Workflow">
 </div>
 
+## Pricing Plans
+
+Choose a hosting tier that matches your project:
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Plan</th>
+      <th>Basic</th>
+      <th>Advanced</th>
+      <th>Gold</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Best for</td>
+      <td>Personal use, learning, or small PoC projects</td>
+      <td>NGOs, academic research, and small teams</td>
+      <td>Enterprise, government, and high-availability use</td>
+    </tr>
+    <tr>
+      <td>Deployment</td>
+      <td>Single-instance</td>
+      <td>Multi-instance</td>
+      <td>Full-stack deployments with SLAs</td>
+    </tr>
+    <tr>
+      <td>Support</td>
+      <td>Community-level</td>
+      <td>Enhanced monitoring & backups</td>
+      <td>Dedicated team & expert onboarding</td>
+    </tr>
+    <tr>
+      <td>Resources</td>
+      <td>Shared infrastructure</td>
+      <td>Balanced resources</td>
+      <td>Dedicated, high-performance setup</td>
+    </tr>
+    <tr>
+      <td>Pricing</td>
+      <td>Affordable monthly rate</td>
+      <td>Optimized for value</td>
+      <td>Premium pricing with white-glove service</td>
+    </tr>
+  </tbody>
+</table>
+
+👉 [View full pricing & features](https://geospatialhosting.com/)
+
+<br>
+
+## Need a Custom Setup?
+
+No problem. [Contact our team](https://kartoza.com/contact-us/new) — we’ll help design and deploy the right GSH solution for your needs.
+
+<br>
+
 ## Dedicated Customer Support
 
-Our expert support team is here to help with any technical challenges, ensuring your geospatial applications and services run smoothly. Whether you need help getting started, configuring tools, or solving performance issues, we’re ready to assist.
+Our support team is available for any technical challenges — from setup to optimization. With a decade of experience in FOSS GIS, we’re here to help your stack run smoothly.
 
 <br>
