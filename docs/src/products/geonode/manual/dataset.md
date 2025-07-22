@@ -14,20 +14,15 @@ context_id: nDU6LLGiXPTLADXY
 
 # Uploading Datasets
 
-In GeoNode, **datasets** are core resources that represent either **vector** or **raster** spatial data. Each dataset includes metadata and supports user collaboration through comments and ratings. Uploading datasets is a key part of sharing spatial content on your GeoNode instance.
+In GeoNode, **datasets** represent either **vector** or **raster** spatial data and form the foundation of your spatial content. Each dataset includes rich metadata and supports collaboration through comments and ratings. Uploading datasets is essential for sharing and managing spatial information on your GeoNode instance.
 
 <br>
 
-You can start the upload process in two places:
+## Step 1: Access the Upload Page
 
-- From the **All Resources** page via **Add Resource → Upload dataset**
-- From the **Datasets** page via **New → Upload dataset**
+1. From the GeoNode <span class="ui-page-label">Homepage</span>, click the <span class="ui-generic-label">Dataset</span> tab.
 
-<br>
-
-## Step 1: Access the Dataset Page
-
-From the GeoNode **Homepage**, click the **Datasets** tab. Then, click the **New button** and select **Upload dataset** from the dropdown.
+2. Then, select the <span class="ui-generic-label">New</span> button and choose <span class="ui-generic-label">Upload dataset</span> from the dropdown.
 
 <br>
 
@@ -40,11 +35,26 @@ From the GeoNode **Homepage**, click the **Datasets** tab. Then, click the **New
 
 <br>
 
+<div class="alert alert-hint">
+  <div class="alert-icon">💡</div>
+  <div class="alert-text">
+    You can also start the upload process from the <strong>All Resources</strong> page via <strong>Add Resource → Upload dataset</strong>.
+  </div>
+</div>
+
+<br>
+
 ## Step 2: Select and Upload Files
 
-On the **Upload a Dataset** page, click **Select files...** and choose the 5 componenets of the `landuse` shapefile in the `Data` folder. Once selected, click **Upload**.
+1. On the <span class="ui-page-label">Upload a Dataset</span> page, click <span class="ui-generic-label">Select files...</span>.
 
-GeoNode will show a progress bar as the files are uploaded and unpacked.
+2. Navigate to the <span class="ui-filename">Data</span> folder and select all 5 components of the <span class="ui-filename">landuse</span> shapefile.
+
+3. Once selected, click <span class="ui-generic-label">Upload</span>.
+
+<br>
+
+GeoNode will display a progress bar while it uploads and unpacks the shapefile.
 
 <br>
 
@@ -59,12 +69,16 @@ GeoNode will show a progress bar as the files are uploaded and unpacked.
 
 ## Step 3: View Your Dataset
 
-Once the upload is complete, click **View** to open your newly published dataset. This opens the **Dataset Detail Page**, where you can:
+Once the upload is complete, click <span class="ui-generic-label">View</span> to open your new dataset. 
 
-- Browse the data on a map
-- See and edit metadata
+<br>
+
+This takes you to the <span class="ui-page-label">Dataset Detail</span> page, where you can:
+
+- Interact with the dataset on a map viewer
+- Edit metadata such as title, tags, and abstract
 - Download the original files
-- Comment or rate the dataset
+- Leave comments or rate the dataset
 
 <br>
 
@@ -79,6 +93,6 @@ Once the upload is complete, click **View** to open your newly published dataset
 
 ---
 
-**Next up:** Learn how to upload a document to GeoNode so you can include reports, notes, or supporting files alongside your datasets.
+**Next up:** We’ll show you how to style your uploaded dataset for better visual presentation.
 
 <br>
