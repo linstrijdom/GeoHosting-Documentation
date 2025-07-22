@@ -20,7 +20,7 @@ Maps help you understand data better by visualizing it in different ways. In **G
 
 ## Step 1: Open the Styles Panel
 
-1. On the <span class="ui-page-label">Datasets</span> page, click <span class="ui-generic-label">View</span> to open your dataset. 
+1. On the <span class="ui-page-label">Datasets</span> page, click <span class="ui-generic-label">View</span> to open your dataset.
 
 2. In the top navigation bar, click <span class="ui-generic-label">Edit → Edit Style</span>.
 

@@ -94,7 +94,7 @@ After unzipping, you’ll find the following folders:
 <div class="alert alert-hint">
   <div class="alert-icon">💡</div>
   <div class="alert-text">
-    Want to use your own area? Head to the <a href="https://extract.bbbike.org/" target="_blank">BBBike Extract Service</a> to generate a custom dataset. 
+    Want to use your own area? Head to the <a href="https://extract.bbbike.org/" target="_blank">BBBike Extract Service</a> to generate a custom dataset.
   </div>
 </div>
 

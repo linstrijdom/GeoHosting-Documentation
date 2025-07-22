@@ -77,4 +77,3 @@ GeoNode offers two powerful tools to help you communicate your data more effecti
 </div>
 
 <br>
-

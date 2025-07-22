@@ -69,7 +69,7 @@ GeoNode will display a progress bar while it uploads and unpacks the shapefile.
 
 ## Step 3: View Your Dataset
 
-Once the upload is complete, click <span class="ui-generic-label">View</span> to open your new dataset. 
+Once the upload is complete, click <span class="ui-generic-label">View</span> to open your new dataset.
 
 <br>
 
