@@ -82,6 +82,6 @@ In GeoNode, **maps** are interactive views made by combining multiple datasets (
 
 ---
 
-**Next up:** Learn how to publish a map by combining layers, styles, and basemaps into a shareable interactive view.
+**Next up:** Explore GeoNode’s other powerful tools — GeoStories and Dashboards — to bring your data to life.
 
 <br>
