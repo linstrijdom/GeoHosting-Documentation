@@ -79,14 +79,14 @@ GeoNode also offers a built-in **style editor** to adjust layer appearance direc
 
 This manual uses a prepackaged dataset of central Berlin, extracted from the **BBBike OSM Extract Service**. You can download the ready-to-use package here:
 
-- [`Manual_Data_GeoNode.zip`](https://github.com/kartoza/GeoHosting-Documentation/docs/src/products/manual_data/Manual_Data_GeoNode.zip)
+- [<span class="ui-filename">Manual_Data_GeoNode.zip</span>](https://github.com/kartoza/GeoHosting-Documentation/docs/src/products/manual_data/Manual_Data_GeoNode.zip)
 
 <br>
 
 After unzipping, you’ll find the following folders:
 
 - 📁 **Data** – Shapefiles of Berlin’s city center, extracted from BBBike OSM.
-- 📁 **Style** – Predefined `.sld` files for symbolizing each layer.
+- 📁 **Style** – Predefined <span class="ui-filename">.sld</span> files for symbolizing each layer.
 - 📁 **Doc** – Includes a README with information on the dataset and extract process.
 
 <br>
