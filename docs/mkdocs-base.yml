@@ -72,7 +72,7 @@ nav:
             - Integrating With Other Tools: products/geonode/guide/other_tools.md
             - Glossary of Terms: products/geonode/guide/glossary.md
           - Manual:
-            - Data & Preparation: products/geonode/manual/setup.md
+            - Data & Preparation: products/geonode/manual/data.md
             - Datasets: products/geonode/manual/dataset.md
             - Styling: products/geonode/manual/style.md
             - Documents: products/geonode/manual/document.md

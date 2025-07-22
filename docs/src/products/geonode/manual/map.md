@@ -14,134 +14,74 @@ context_id: nDU6LLGiXPTLADXY
 
 # Creating a Map
 
-## Overview
-
-Maps are **collections of datasets** displayed together on an **interactive web map**. These maps can be composed using the map composer and saved as GeoNode resources. Additionally, maps can be enriched with metadata, ratings, and user comments.
+In GeoNode, **maps** are interactive views made by combining multiple datasets (layers). You can use the built-in Map Composer to create, style, and save these maps as GeoNode resources. Once published, maps can be enriched with metadata, ratings, and user comments.
 
 <br>
 
-You can create map in three ways:
+## Step 1: Create a New Map
 
-1. **From the All Resources Page:**
+1. On the <span class="ui-page-label">Homepage</span>, go to the <span class="ui-generic-label">Maps</span> tab.
 
-     Click **Add Resource** and select **Create map** from the list.
-
-     <br>
-
-2. **From the Maps Page:**
-
-     Click **New**.
-
-     <br>
-
-3. **From the Datasets Page:**
-
-     Click **View** and select **Create map**.
-
-     <br>
-
-When you create a new map, it will automatically open in the **Map Viewer**. In the upper left corner, you’ll find the **TOC (Table of Contents)** button. This opens the TOC panel, where you can manage all the datasets associated with the map.
+2. Click the <span class="ui-generic-label">New</span> button to open the map composer.
 
 <br>
 
----
-
-## Exercise
-
-Follow these steps to create a map in GeoNode:
-
-1. On the GeoNode **Homepage**, click the **Maps** tab.
-
-     <br>
-
-     <div style="text-align: center;">
-      <img src="../../img/geonode-img-22.png" alt="Maps Tab" width=auto>
-      <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-      Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-      </div>
-     </div>
-
-     <br>
-
-2. Click the **New** button.
-
-     <br>
-
-     <div style="text-align: center;">
-      <img src="../../img/geonode-img-23.png" alt="New Map Button" width=auto>
-      <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-      Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-      </div>
-     </div>
-
-     <br>
-
-3. In the **Map Viewer**, click **Add Dataset** from the top-navigation bar.
-
-     <br>
-
-     <div style="text-align: center;">
-      <img src="../../img/geonode-img-24.png" alt="Add Dataset Button" width=auto>
-      <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-      Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-      </div>
-     </div>
-
-     <br>
-
-4. In the **Datasets Catalog** pane, select your previously uploaded `buildings` layer.
-
-     <br>
-
-     <div style="text-align: center;">
-      <img src="../../img/geonode-img-25.png" alt="Add Dataset" width=auto>
-      <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-      Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-      </div>
-     </div>
-
-     <br>
-
-5. Under the **Resources** link in the top-navigation toolbar, select **Save As**.
-
-     <br>
-
-     <div style="text-align: center;">
-      <img src="../../img/geonode-img-26.png" alt="Save As" width=auto>
-      <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-      Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-      </div>
-     </div>
-
-     <br>
-
-6. In the **Save** pop-up, give your map a **Title** and **Description**
-
-     <br>
-
-You should now see your map listed on the **All Resources** page.
-
-<br>
-
-<div style="text-align: center;">
- <img src="../../img/geonode-img-27.png" alt="New Map" width=auto>
- <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
- Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
- </div>
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-23.png" alt="New Map Button">
+  <div class="caption">
+    Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
+  </div>
 </div>
 
 <br>
 
-> **Note:** For more details, refer to the [Managing Maps](https://docs.geonode.org/en/master/usage/managing_maps/index.html#managing-maps) section of the official GeoNode documentation.
+<div class="alert alert-hint">
+  <div class="alert-icon">💡</div>
+  <div class="alert-text">
+    You can also create maps from the <strong>All Resources</strong> page via <strong>Add Resource → Create map</strong>.
+  </div>
+</div>
+
+<br>
+
+## Step 2: Add a Dataset
+
+1. In the <span class="ui-page-label">Map Viewer</span>, click <span class="ui-generic-label">Add Dataset</span> from the top navigation bar.
+
+2. In the <span class="ui-page-label">Dataset Catalog</span>, select the <span class="ui-filename">landuse</span> layer you uploaded earlier.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-24.png" alt="Add Dataset">
+  <div class="caption">
+    Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
+  </div>
+</div>
+
+<br>
+
+## Step 3: Save Your Map
+
+1. Click the <span class="ui-generic-label">Resources</span> menu in the top toolbar and choose <span class="ui-generic-label">Save As</span>.
+
+2. In the popup, enter a **Title** and **Description** for your new map.
+
+3. Click <span class="ui-generic-label">Save</span>.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-25.png" alt="Save Map">
+  <div class="caption">
+    Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
+  </div>
+</div>
+
+<br>
 
 ---
 
-# Need More Help?
+**Next up:** Learn how to publish a map by combining layers, styles, and basemaps into a shareable interactive view.
 
-Visit the official GeoNode documentation:
-
-- **[https://docs.geonode.org/en/master/](https://docs.geonode.org/en/master/)**
-
----
-
-© 2024 Kartoza. Licensed under the GNU AGPL v3.
+<br>
