@@ -52,7 +52,7 @@ Click <span class="ui-generic-label">OK</span>, then <span class="ui-generic-lab
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-12.png" alt="Connect WMS">
+  <img src="../../img/geonode-img-23.png" alt="Connect WMS">
   <div class="caption">
     Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
@@ -119,7 +119,7 @@ Save the file and open it in your browser. The GeoNode layer will be displayed i
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-13.png" alt="Connect WMS">
+  <img src="../../img/geonode-img-24.png" alt="Connect WMS">
   <div class="caption">
     Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>

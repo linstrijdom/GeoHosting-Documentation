@@ -29,7 +29,7 @@ After checkout, your service will begin deploying automatically. You’ll receiv
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-2-2.png" alt="Launch Instance">
+  <img src="../../img/geonode-img-5.png" alt="Launch Instance">
 </div>
 
 <br>
@@ -41,7 +41,7 @@ Once your service has been successfully deployed, you'll be redirected to the <s
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-3.png" alt="Dashboard">
+  <img src="../../img/geonode-img-6.png" alt="Dashboard">
 </div>
 
 <br>
@@ -57,7 +57,7 @@ To log in to your new GeoNode hosted service:
 3. Click the <span class="ui-generic-label">Service Name</span> to launch your new GeoNode.
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-4.png" alt="Hosted Service">
+  <img src="../../img/geonode-img-7.png" alt="Hosted Service">
 </div>
 
 <br>
@@ -78,7 +78,7 @@ To view details about your hosted service:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-4-1.png" alt="Instance Page">
+  <img src="../../img/geonode-img-8.png" alt="Instance Page">
 </div>
 
 <br>

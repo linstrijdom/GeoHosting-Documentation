@@ -64,7 +64,7 @@ To manage who can access your resource, start by clicking <span class="ui-generi
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-9.png" alt="Share Panel">
+  <img src="../../img/geonode-img-20.png" alt="Share Panel">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -125,7 +125,7 @@ To assign roles to specific individuals or groups, click the <span class="ui-gen
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-10.png" alt="Share Permissions">
+  <img src="../../img/geonode-img-21.png" alt="Share Permissions">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -138,7 +138,7 @@ Once you've set the appropriate permissions, click <span class="ui-generic-label
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-11.png" alt="Save Changes">
+  <img src="../../img/geonode-img-22.png" alt="Save Changes">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>

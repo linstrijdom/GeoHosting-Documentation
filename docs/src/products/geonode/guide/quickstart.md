@@ -36,7 +36,7 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11.png" alt="Add Resource">
+  <img src="../../img/geonode-img-12.png" alt="Add Resource">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -57,7 +57,7 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-1.png" alt="Upload Dataset">
+  <img src="../../img/geonode-img-13.png" alt="Upload Dataset">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -83,7 +83,7 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-3.png" alt="Save Map">
+  <img src="../../img/geonode-img-14.png" alt="Save Map">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -98,7 +98,7 @@ Your saved map will now appear under both the <span class="ui-page-label">All Re
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-4.png" alt="New Map">
+  <img src="../../img/geonode-img-15.png" alt="New Map">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>

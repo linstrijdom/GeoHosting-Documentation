@@ -44,7 +44,7 @@ After logging in, GeoNode opens to the <span class="ui-page-label">Homepage</spa
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-5.png" alt="Homepage Layout">
+  <img src="../../img/geonode-img-16.png" alt="Homepage Layout">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -110,7 +110,7 @@ Type any keyword or phrase into the top navigation <span class="ui-page-label">S
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-6.png" alt="Quick Search">
+  <img src="../../img/geonode-img-17.png" alt="Quick Search">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -157,7 +157,7 @@ You can also sort the results by clicking the <span class="ui-generic-label">Ord
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-7.png" alt="Search Filter">
+  <img src="../../img/geonode-img-18.png" alt="Search Filter">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -212,7 +212,7 @@ Each resource tile includes:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-11-8.png" alt="Resource Page">
+  <img src="../../img/geonode-img-19.png" alt="Resource Page">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>

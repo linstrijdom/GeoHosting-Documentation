@@ -23,7 +23,7 @@ Alternatively, you can access your instance directly using its URL, which is ava
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-5.png" alt="Homepage">
+  <img src="../../img/geonode-img-9.png" alt="Homepage">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -40,7 +40,7 @@ You’ll then be redirected to the GeoNode <span class="ui-page-label">Homepage<
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-7.png" alt="Homepage" style="width: 50%;">
+  <img src="../../img/geonode-img-10.png" alt="Homepage" style="width: 50%;">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -66,7 +66,7 @@ Once you're done, click <span class="ui-generic-label">Update Profile</span> at 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-10.png" alt="Edit profile">
+  <img src="../../img/geonode-img-11.png" alt="Edit profile">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
