@@ -16,7 +16,7 @@ context_id: nDU6LLGiXPTLADXY
 
 ## Home Page Layout
 
-After logging in, GeoNode opens to the **Home Page**. The layout includes the following key features:
+After logging in, GeoNode opens to the <span class="ui-page-label">Homepage</span>. The layout includes the following key features:
 
 <table class="my-table-style">
   <thead>
@@ -40,7 +40,6 @@ After logging in, GeoNode opens to the **Home Page**. The layout includes the fo
     </tr>
   </tbody>
 </table>
->>>>>>> c0b6e91 (Update: GeoNode Guide 2)
 
 <br>
 
@@ -55,7 +54,7 @@ After logging in, GeoNode opens to the **Home Page**. The layout includes the fo
 
 ## Top Navigation Bar
 
-The top navigation bar provides quick access to the main features and resource types within GeoNode.
+The <span class="ui-page-label">Top Navigation Bar</span> provides quick access to the main features and resource types within GeoNode.
 
 <br>
 
@@ -106,7 +105,7 @@ The top navigation bar provides quick access to the main features and resource t
 
 ## Quick Search
 
-Type any keyword or phrase into the top navigation **Search Box** and press **Enter** to view results across all available resource types.
+Type any keyword or phrase into the top navigation <span class="ui-page-label">Search Box</span> and press <span class="ui-generic-label">Enter</span> to view results across all available resource types.
 
 <br>
 
@@ -121,7 +120,7 @@ Type any keyword or phrase into the top navigation **Search Box** and press **En
 
 ### Search Page Filters
 
-Once on the **Search page**, you can refine your results by clicking the **Filter** and selecting from the following options:
+Once on the <span class="ui-page-label">Search</span> page, you can refine your results by clicking the <span class="ui-generic-label">Filter</span> and selecting from the following options:
 
 - Resource Types
 - Categories, Keywords, Regions, Owners, or Groups
@@ -130,7 +129,7 @@ Once on the **Search page**, you can refine your results by clicking the **Filte
 
 <br>
 
-You can also sort the results by clicking the **Order by** dropdown and choosing from:
+You can also sort the results by clicking the <span class="ui-generic-label">Order by</span> dropdown and choosing from:
 
 <table class="my-table-style">
   <thead>
@@ -170,10 +169,10 @@ You can also sort the results by clicking the **Order by** dropdown and choosing
 
 Clicking on any of the following tabs will take you to its dedicated page and display all available items of that type:
 
-- All Resources
-- Datasets
-- Maps
-- Documents
+- <span class="ui-page-label">All Resources</span>
+- <span class="ui-page-label">Datasets</span>
+- <span class="ui-page-label">Maps</span>
+- <span class="ui-page-label">Documents</span>
 
 <br>
 

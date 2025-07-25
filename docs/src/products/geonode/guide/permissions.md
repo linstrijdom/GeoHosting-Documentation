@@ -59,7 +59,7 @@ Each resource can be assigned one of the following permission levels:
 
 ## Opening the Share Panel
 
-To manage who can access your resource, start by clicking **View** on the resource tile. Then, from the top navigation bar within the viewer, select **Resource → Share** to access the sharing options.
+To manage who can access your resource, start by clicking <span class="ui-generic-label">View</span> on the resource tile. Then, from the top navigation bar within the viewer, select <span class="ui-generic-label">Resource → Share</span> to access the sharing options.
 
 <br>
 
@@ -74,14 +74,14 @@ To manage who can access your resource, start by clicking **View** on the resour
 
 ## Setting Permissions
 
-Within the **Share with people and groups** panel, you can define access levels for:
+Within the <span class="ui-page-label">Share with people and groups</span> panel, you can define access levels for:
 
 - Anyone (public access)
 - Registered members (all logged-in users)
 
 <br>
 
-To assign roles to specific individuals or groups, click the **Add Users / Groups** button and choose the appropriate permission level.
+To assign roles to specific individuals or groups, click the <span class="ui-generic-label">Add Users / Groups</span> button and choose the appropriate permission level.
 
 <br>
 
@@ -133,7 +133,7 @@ To assign roles to specific individuals or groups, click the **Add Users / Group
 
 ## Saving Changes
 
-Once you've set the appropriate permissions, click **Resources → Save** to apply and confirm your updates.
+Once you've set the appropriate permissions, click <span class="ui-generic-label">Resources → Save</span> to apply and confirm your updates.
 
 <br>
 

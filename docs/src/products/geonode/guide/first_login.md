@@ -16,9 +16,9 @@ context_id: nDU6LLGiXPTLADXY
 
 ## Accessing the Homepage
 
-When you're ready to explore your new GeoNode instance, go to the **Hosted Services** section of the GSH Dashboard and click the application name you chose during setup.
+When you're ready to explore your new GeoNode instance, go to the <span class="ui-page-label">Hosted Services</span> section of the GSH Dashboard and click the <span class="ui-generic-label">Service Name</span> you chose during setup.
 
-Alternatively, you can access your instance directly using its URL, which is available under Hosted Service Information.
+Alternatively, you can access your instance directly using its URL, which is available under the <span class="ui-page-label">Service Details</span> page.
 
 <br>
 
@@ -33,10 +33,9 @@ Alternatively, you can access your instance directly using its URL, which is ava
 
 ## Creating an Account
 
-To set up your GeoNode account, click the **Register** button in the top-right corner of the homepage.
-On the **Sign Up** form, enter a username, email address, and password. Once complete, click Sign Up to create your account.
+To set up your GeoNode account, click the <span class="ui-generic-label">Register</span> button in the top-right corner of the homepage. Enter a username, email address, and password. Once complete, click <span class="ui-generic-label">Sign Up</span> to create your account.
 
-You’ll then be redirected to the GeoNode homepage, ready to start exploring and using your new account.
+You’ll then be redirected to the GeoNode <span class="ui-page-label">Homepage</span>, ready to start exploring and using your new account.
 
 <br>
 
@@ -51,7 +50,7 @@ You’ll then be redirected to the GeoNode homepage, ready to start exploring an
 
 ## Setting Up Your Profile
 
-To edit your profile details, click the **avatar icon** in the top navigation bar and select **Profile** from the dropdown menu. On your profile page, click the **Edit Profile** button to update your information. You can modify details such as:
+To edit your profile details, click the <span class="ui-generic-label">Avatar Icon</span> in the top navigation bar and select <span class="ui-generic-label">Profile</span> from the dropdown menu. On your profile page, click the <span class="ui-generic-label">Edit Profile</span> button to update your information. You can modify details such as:
 
 - First and last name
 - Email address
@@ -62,7 +61,7 @@ To edit your profile details, click the **avatar icon** in the top navigation ba
 
 <br>
 
-Once you're done, click **Update Profile** at the bottom of the page to save your changes.
+Once you're done, click <span class="ui-generic-label">Update Profile</span> at the bottom of the page to save your changes.
 
 <br>
 

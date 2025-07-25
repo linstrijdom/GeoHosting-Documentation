@@ -20,11 +20,11 @@ GeoNode makes it easy to work across platforms by exposing all datasets through 
 
 ## Connecting GeoNode to QGIS via WMS
 
-You can easily load GeoNode layers into QGIS using the **WMS (Web Map Service)** protocol. This allows you to view and interact with published map layers directly from your GeoNode instance. To get started, open QGIS and navigate to: **Layer → Add Layer → Add WMS/WMTS Layer…**
+You can easily load GeoNode layers into QGIS using the **WMS (Web Map Service)** protocol. This allows you to view and interact with published map layers directly from your GeoNode instance. To get started, open QGIS and navigate to: <span class="ui-generic-label">Layer → Add Layer → Add WMS/WMTS Layer…</span>
 
 <br>
 
-Click **New** and enter the connection details below:
+Click <span class="ui-generic-label">New</span> and enter the connection details below:
 
 <table class="my-table-style">
 <thead>
@@ -47,7 +47,7 @@ Click **New** and enter the connection details below:
 
 <br>
 
-Click **OK**, then **Connect** to fetch the list of available layers. Select the layer you want to view (e.g., `geonode:landuse`), then click **Add**. The layer will load into your QGIS map canvas and be ready for styling, analysis, or overlaying with other datasets.
+Click <span class="ui-generic-label">OK</span>, then <span class="ui-generic-label">Connect</span> to fetch the list of available layers. Select the layer you want to view (e.g., <span class="ui-filename">geonode:landuse</span>), then click <span class="ui-generic-label">Add</span>. The layer will load into your QGIS map canvas and be ready for styling, analysis, or overlaying with other datasets.
 
 <br>
 
@@ -69,7 +69,7 @@ Click **OK**, then **Connect** to fetch the list of available layers. Select the
 
 ## Embedding a GeoNode Layer in Leaflet
 
-You can display GeoNode layers on a custom web map using **Leaflet** and WMS. Follow these steps to embed a published layer in your HTML page:
+You can display GeoNode layers on a custom web map using **Leaflet** and **WMS**. Follow these steps to embed a published layer in your HTML page:
 
 <br>
 
@@ -158,7 +158,7 @@ You can paste this URL into:
 
 <br>
 
-**Example with `curl`:**
+**Example with <span class="ui-filename">curl</span>:**
 
 ```bash
 curl "http://<geonode_application_name>.sta.do.kartoza.com/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=tutorial:buildings&outputFormat=application/json"
