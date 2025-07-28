@@ -56,7 +56,7 @@ This tutorial is based on a modified dataset and QGIS 3.34.x LTR project from th
 
 <br>
 
-### Overview
+### Data Preperation Overview
 
 The `Tutorial_Data_G3WSUITE` folder contains images and the following **three subdirectories**:
 
@@ -141,7 +141,7 @@ The QGIS project (based on QGIS 3.34.x LTR) is pre-configured with the following
 
 ---
 
-### Exercise
+### Data Preperation Exercise
 
 Before you can publish your QGIS project to the WebGIS platform, there are **two essential steps** you **MUST** complete:
 
@@ -316,7 +316,7 @@ Once you have updated the project title (to define a unique WebGIS service ID), 
 
 ---
 
-### Overview
+### Publishing a QGIS Project Overview
 
 Publishing a QGIS project is done through the **Dashboard**, which provides access to:
 
@@ -375,7 +375,7 @@ Now that you're familiar with the workflow and the publishing interface key comp
 
 ---
 
-### Exercise
+### Publishing a QGIS Project Exercise
 
 **Creating a Macro Group**
 
@@ -649,7 +649,7 @@ You can update both the **graphic** and **functional elements** of an existing W
 
 ---
 
-### Overview
+### Updating the Published WebGIS Service Overview
 
 To update a published WebGIS service:
 
@@ -672,7 +672,7 @@ From the WebGIS services list, you can manage a wide range of functionalities us
 
 ---
 
-### Excercise
+### Updating the Published WebGIS Service Exercise
 
 **Setting Up an Overview Map**
 
@@ -729,7 +729,7 @@ Once your project has been published, you can enhance your WebGIS service by ena
 
 ---
 
-### Overview
+### Activating Additional Functions Overview
 
 By clicking the **Layers** icon you can access the list of **geographic layers** that make up the project. From this interface, you can configure various **functional options** that will be enabled in the cartographic client.
 
@@ -796,7 +796,7 @@ The **Visibility Capabilities** column allows you to configure general visibilit
 
 ---
 
-### Exercise
+### Activating Additional Functions Exercise
 
 **Creating a Search Widget**
 
@@ -1003,7 +1003,7 @@ Forms and editing widgets have already been configured in the tutorial project f
 
 ---
 
-### Overview
+### Editing Online Overview
 
 Editing settings are defined partly in the **QGIS project** (e.g. form layout), and partly through the G3W-SUITE **Administration panel** (e.g. user permissions). The editing module supports direct edits on both geometric and attribute-only layers, as well as layers in 1:N or N:M (limited) relationships.
 
@@ -1023,7 +1023,7 @@ When a user activates editing in the WebGIS interface, all features visible in t
 
 ---
 
-### Exercise
+### Editing Online Exercise
 
 **Activating Editing on a WebGIS Layer**
 

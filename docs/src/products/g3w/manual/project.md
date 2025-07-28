@@ -175,7 +175,7 @@ You can update both the **graphic** and **functional elements** of an existing W
 
 ---
 
-### Overview
+### Updating the Published WebGIS Service Overview
 
 To update a published WebGIS service:
 
@@ -198,7 +198,7 @@ From the WebGIS services list, you can manage a wide range of functionalities us
 
 ---
 
-### Excercise
+### Updating the Published WebGIS Service Excercise
 
 **Setting Up an Overview Map**
 

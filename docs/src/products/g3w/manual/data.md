@@ -56,7 +56,7 @@ This tutorial is based on a modified dataset and QGIS 3.34.x LTR project from th
 
 <br>
 
-### Overview
+### Data Preperation Overview
 
 The `Tutorial_Data_G3WSUITE` folder contains images and the following **three subdirectories**:
 
@@ -141,7 +141,7 @@ The QGIS project (based on QGIS 3.34.x LTR) is pre-configured with the following
 
 ---
 
-### Exercise
+### Data Preperation Exercise
 
 Before you can publish your QGIS project to the WebGIS platform, there are **two essential steps** you **MUST** complete:
 
