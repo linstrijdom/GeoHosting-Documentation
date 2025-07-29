@@ -11,4 +11,6 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# G3W Manual
+# Managing Users & Permissions
+
+To be added...
