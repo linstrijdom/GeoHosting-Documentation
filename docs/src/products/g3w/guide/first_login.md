@@ -13,7 +13,7 @@ context_id: nDU6LLGiXPTLADXY
 
 # First Log In & Setting Your Password
 
-## Accessing the Portal
+## Accessing the Homepage
 
 To begin exploring your new G3W-SUITE product, navigate to the <span class="ui-page-label">Hosted Products</span> section of the GSH Dashboard and click the <span class="ui-generic-label">Product Name</span> you selected during setup.
 
@@ -22,7 +22,7 @@ Alternatively, you can access your product directly using its URL, which is avai
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-1.png" alt="G3W Portal">
+  <img src="../../img/g3w-img-5-1.png" alt="G3W Homepage">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -32,9 +32,9 @@ Alternatively, you can access your product directly using its URL, which is avai
 
 ## Logging In
 
-To access the Administration Panel, you'll first need to log in using the credentials generated on the GSH Dashboard. From the G3W Portal, click <span class="ui-page-label">Login</span> in the side panel. Enter your **Username** (<span class="ui-filename">admin</span>) and the **Password** copied from the dashboard. Click <span class="ui-generic-label">Login</span> to proceed.
+To access the Administration Panel, you'll first need to log in using the credentials generated on the GSH Dashboard. From the G3W Homepage, click <span class="ui-page-label">Login</span> in the side panel. Enter your **Username** (<span class="ui-filename">admin</span>) and the **Password** copied from the dashboard. Click <span class="ui-generic-label">Login</span> to proceed.
 
-After logging in, you'll be redirected back to the <span class="ui-page-label">Portal</span>, but you’ll now see <span class="ui-page-label">Admin</span> in the side panel instead of the Login option.
+After logging in, you'll be redirected back to the <span class="ui-page-label">Homepage</span>, but you’ll now see <span class="ui-page-label">Admin</span> in the side panel instead of the Login option.
 
 <br>
 
