@@ -13,24 +13,26 @@ context_id: nDU6LLGiXPTLADXY
 
 # Quickstart: 5-Minute Tutorial
 
-Follow these steps to upload your QGIS project to G3W-SUITE. 
+Ready to publish your first QGIS project with G3W‑SUITE? This short tutorial will guide you through the essential steps to get your WebGIS service online in minutes.
+
+<br>
 
 ## Step 1: Update Project Title
 
-This title will be used as the WebGIS service ID. If not updated, your service may be misidentified or conflict with existing services.
+This title becomes the WebGIS service ID. Without updating it, your service may be misidentified or conflict with others.
 
-1. In QGIS, go to the <span class="ui-page-label">Project Properties</span>.
+1. In QGIS, open <span class="ui-page-label">Project Properties</span>.
 
-2. Under the <span class="ui-page-label">General</span> tab, in the <span class="ui-filename">Project Title</span> field, enter a unique and descriptive title for your project.
+2. Under the <span class="ui-page-label">General</span> tab, enter a clear, unique name in the <span class="ui-filename">Project Title</span> field.
 
-3. Click <span class="ui-generic-label">OK</span> to apply the changes.
+3. Click <span class="ui-generic-label">OK</span> to save.
 
 <br>
 
 <div class="alert alert-warning">
   <div class="alert-icon">⚠️</div>
   <div class="alert-text">
-    Make sure the title does not contain special characters or excessive spacing.
+     Avoid using special characters or unnecessary spaces in the title.
   </div>
 </div>
 
@@ -45,26 +47,26 @@ This title will be used as the WebGIS service ID. If not updated, your service m
 
 <br>
 
-## Step 2: Upload Database to the File Manager
+## Step 2: Upload Database
 
-This ensures that G3W-SUITE can access the data sources used in your QGIS project. Without it, layers may not display correctly.
+G3W‑SUITE needs access to your data sources — uploading your project database ensures layers display correctly.
 
-1. From the Administration Panel, in the top navigation bar, click the <span class="ui-generic-label">Gear</span> icon.
+1. In the top bar of the Administration Panel, click the <span class="ui-generic-label">Gear</span> icon.
 
 2. Click <span class="ui-generic-label">Files</span> to open the <span class="ui-page-label">File Manager</span>.
 
-3. From the left-hand panel, navigate to the <span class="ui-filename">project_data</span>.
+3. From the left-hand panel, navigate to the <span class="ui-filename">project_data</span> folder.
 
-4. In the top navigation bar, click the <span class="ui-generic-label">New Folder</span> button and create a new folder called <span class="ui-generic-label">spatialite</span>. 
+4. Click <span class="ui-generic-label">New Folder</span> and name it <span class="ui-generic-label">spatialite</span>.
 
-5. Inside your new folder, click <span class="ui-generic-label">Upload</span> and select your <span class="ui-filename">project database</span>.
+5. Open the new folder, click <span class="ui-generic-label">Upload</span>, and select your <span class="ui-filename">project database</span>.
 
 <br>
 
 <div class="alert alert-note">
   <div class="alert-icon">📝</div>
   <div class="alert-text">
-    Make sure the file path matches the one specified in your QGIS project.
+    Ensure the file path in your QGIS project matches the uploaded location.
   </div>
 </div>
 
@@ -79,25 +81,53 @@ This ensures that G3W-SUITE can access the data sources used in your QGIS projec
 
 <br>
 
-## Step 3: Create Macro Group
+## Step 3: Create Group
 
-1. From the Administration Panel, in the left side navigation menu, under <span class="ui-page-label">Cartographic Groups</span>, click <span class="ui-generic-label">Add Group</span>.
+Groups act as containers for your published QGIS services. You’ll need to create one before uploading your project.
 
-2. On the <span class="ui-page-label">Group Creation</span> page, fill in the following fields:
+1. From the Administration Panel, under <span class="ui-page-label">Cartographic Groups</span>, click <span class="ui-generic-label">Add Group</span>.
 
-      - **Name**
-      - **Title**
-      - **Srid** (coordinate reference system)
-      - **Baselayer**
+2. On the <span class="ui-page-label">Group Creation</span> page, complete the following fields:
 
-3. Once all details are complete, click the <span class="ui-generic-label">Save</span> button to finalize your group setup.
+    <br>
+
+    <table class="my-table-style">
+      <thead>
+        <tr>
+          <th>Field</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>Internal identifier for the group. Must be unique.</td>
+        </tr>
+        <tr>
+          <td>Title</td>
+          <td>Display name shown in the WebGIS interface.</td>
+        </tr>
+        <tr>
+          <td>Srid</td>
+          <td>Spatial reference system of your project (e.g. EPSG:4326).</td>
+        </tr>
+        <tr>
+          <td>Baselayer</td>
+          <td>The background map layer to use as a base (e.g. OpenStreetMap).</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+
+3. Once all details are complete, click <span class="ui-generic-label">Save</span> to create the group.
 
 <br>
 
 <div class="alert alert-hint">
   <div class="alert-icon">💡</div>
   <div class="alert-text">
-    Not sure about your project's CRS? In QGIS, go to Project → Properties → General to confirm the EPSG code.
+    Not sure which CRS to use? In QGIS, go to Project → Properties → General to find the EPSG code.
   </div>
 </div>
 
@@ -114,11 +144,13 @@ This ensures that G3W-SUITE can access the data sources used in your QGIS projec
 
 ## Step 4: Add QGIS Project
 
-1. On the <span class="ui-page-label">Cartographic Groups</span> page, click <span class="ui-generic-label">Add New Project</span>.
+Once your group is ready, you can upload your QGIS project file to publish it as a new service within that group.
+
+1. From the <span class="ui-page-label">Cartographic Groups</span> page, click <span class="ui-generic-label">Add New Project</span>.
 
 2. On the <span class="ui-page-label">New QGIS Project</span> page, click <span class="ui-generic-label">Choose File</span> and upload your <span class="ui-filename">.qgz</span> or <span class="ui-filename">.qgs</span> file.
 
-3. Fill in the <span class="ui-filename">Public Title</span> fields.
+3. Fill in the <span class="ui-filename">Public Title</span> field.
 
 4. Click the <span class="ui-generic-label">Save</span> button.
 
@@ -135,6 +167,8 @@ This ensures that G3W-SUITE can access the data sources used in your QGIS projec
 
 ## Step 5: View Map
 
+With your project published, you can now open and interact with your live WebGIS map directly from the interface.
+
 From the <span class="ui-page-label">Projects List</span> page, click the <span class="ui-generic-label">Show Map</span> button under the **Actions** column to launch and explore your live WebGIS.
 
 <br>
@@ -150,6 +184,6 @@ From the <span class="ui-page-label">Projects List</span> page, click the <span 
 
 ---
 
-**Next up:** Learn how to navigate and interact with the G3W Dashboard for a seamless user experience.
+**Next up:** Discover how to navigate and use the G3W Dashboard to enhance your user experience effortlessly.
 
 <br>
