@@ -13,52 +13,46 @@ context_id: nDU6LLGiXPTLADXY
 
 # Integrating With Other Tools
 
-Once your project is published, click the **Layers** icon to configure functional widgets for each layer:
+You can configure functional widgets on published projects from the 
+
+## Search Widget
+
+To add a Search Widget to your project, navigate to the Layers List of your project. Click the Widgets List icon next to the layer you want to add it to, and then Add New Widget. In the pop-up, select Search from the Type dropdown. Fill in the following fields:
+
+- Name
+- Search Title (Client search title identification)
+- Search Field Settings
+
+Click Ok when you are done.
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/g3w-img-42.png" alt="Functional Options" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-8-1.png" alt="Search Widget">
+  <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
 </div>
 
 <br>
 
-## Search Widget
-
-1. From **QGIS Project Layers**, click the **Widgets List** icon next to the `buildings` layer.
-
-2. Click **Add New Widget**.
-
-3. In the **Widget Creation Form**, set:
-
-   - **Type:** `Search`
-   - **Name:** `Search Widget`
-   - **Search Title:** `Tutorial Search Widget`
-
-4. Under **Search Field Settings**, click **Add** and configure:
-
-   - **Field:** `type`
-   - **Widget:** `SelectBox`
-   - **Alias:** `Building Type`
-   - **Operator:** `=`
-
-5. Click **OK**.
-
-<br>
-
 ## Plots Widget
 
-1. From **QGIS Project Layers**, click the **Qplotly Widgets** icon next to the `buildings` layer.
-
-2. Click **New Qplotly Widget**.
-
-3. In the pop-up, upload the plot definition (`.xml`) from your `plots/` folder: `Tutorial_Data_G3WSUITE/plots/qplotly_type-distribution.xml`.
-
-4. Click **OK**.
+To add a Plots Widget to your project, navigate to the Layers List of your project. Click the Qplotly Widgets icon next to the layer you want to add it to, and then New Qplotly Widget. Upload the DataPlotly configuration .xml file for your plot and click Ok. 
 
 <br>
 
-> **Note:** Search and plot widgets update dynamically based on map extent and feature selection.
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-8-2.png" alt="Plots Widget">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+---
+
+**Next up:** A quick glossary of key terms used in this guide.
+
+<br>
