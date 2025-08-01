@@ -19,7 +19,7 @@ G3W-SUITE supports a range of widgets and external tools that can enhance your p
 
 ## Search Widget
 
-To add a Search Widget to your project, go to the <span class="ui-page-label">Layers List</span>. Click the <span class="ui-generic-label">Widgets List</span> icon next to the desired layer, then select <span class="ui-generic-label">Add New Widget</span>. In the configuration window, choose <span class="ui-generic-label">Search</span> from the <span class="ui-filename">Type</span> dropdown. 
+To add a Search Widget to your project, go to the <span class="ui-page-label">Layers List</span>. Click the <span class="ui-generic-label">Widgets List</span> icon next to the desired layer, then select <span class="ui-generic-label">Add New Widget</span>. In the configuration window, choose <span class="ui-generic-label">Search</span> from the <span class="ui-filename">Type</span> dropdown.
 
 <br>
 
