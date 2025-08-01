@@ -13,17 +13,44 @@ context_id: nDU6LLGiXPTLADXY
 
 # Integrating With Other Tools
 
-You can configure functional widgets on published projects from the 
+G3W-SUITE supports a range of widgets and external tools that can enhance your published QGIS projects. These integrations allow you to provide a more dynamic and interactive experience for users, from advanced search functionality to powerful data visualizations.
+
+<br>
 
 ## Search Widget
 
-To add a Search Widget to your project, navigate to the Layers List of your project. Click the Widgets List icon next to the layer you want to add it to, and then Add New Widget. In the pop-up, select Search from the Type dropdown. Fill in the following fields:
+To add a Search Widget to your project, go to the <span class="ui-page-label">Layers List</span>. Click the <span class="ui-generic-label">Widgets List</span> icon next to the desired layer, then select <span class="ui-generic-label">Add New Widget</span>. In the configuration window, choose <span class="ui-generic-label">Search</span> from the <span class="ui-filename">Type</span> dropdown. 
 
-- Name
-- Search Title (Client search title identification)
-- Search Field Settings
+<br>
 
-Click Ok when you are done.
+You'll then need to fill out the following fields:
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>Label that appears to end users</td>
+    </tr>
+    <tr>
+      <td>Search Title</td>
+      <td>Internal name of the widget</td>
+    </tr>
+    <tr>
+      <td>Search Field Settings</td>
+      <td>Field or expression to search against</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+Click <span class="ui-generic-label">Ok</span> to apply the widget to your layer.
 
 <br>
 
@@ -38,7 +65,7 @@ Click Ok when you are done.
 
 ## Plots Widget
 
-To add a Plots Widget to your project, navigate to the Layers List of your project. Click the Qplotly Widgets icon next to the layer you want to add it to, and then New Qplotly Widget. Upload the DataPlotly configuration .xml file for your plot and click Ok. 
+To integrate a Plots Widget, return to the <span class="ui-page-label">Layers List</span> and click the <span class="ui-generic-label">Qplotly Widgets</span> icon next to the relevant layer. Then click <span class="ui-generic-label">New Qplotly Widget</span>. Upload a preconfigured DataPlotly <span class="ui-filename">.xml</span> file for your desired chart or graph, and confirm with <span class="ui-generic-label">Ok</span>.
 
 <br>
 
@@ -53,6 +80,6 @@ To add a Plots Widget to your project, navigate to the Layers List of your proje
 
 ---
 
-**Next up:** A quick glossary of key terms used in this guide.
+**Next up:** Explore a quick-reference glossary of essential terms used throughout this guide to help you navigate the platform more confidently.
 
 <br>
