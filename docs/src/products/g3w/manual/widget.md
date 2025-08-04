@@ -17,6 +17,19 @@ Once your project has been published, you can enhance your WebGIS service by ena
 
 <br>
 
+From the WebGIS services list, you can manage a wide range of functionalities using **tools** associated with each project. This allows you to view, modify, and control individual project behavior. Below is a guide to the available **tools and their functionality**:
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../img/g3w-img-38.png" alt="Functional Tools" width=auto>
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+  Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
 By clicking the **Layers** icon you can access the list of **geographic layers** that make up the project. From this interface, you can configure various **functional options** that will be enabled in the cartographic client.
 
 <br>
