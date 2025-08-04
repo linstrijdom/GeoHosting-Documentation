@@ -13,198 +13,101 @@ context_id: nDU6LLGiXPTLADXY
 
 # Editing Online
 
-Forms and editing widgets have already been configured in the tutorial project for both the `buildings` geometric layer and the related `interventions_maintenance` attribute table.
+G3W-SUITE allows for multi-user editing through a feature-locking system that prevents conflicts during simultaneous edits. When a user activates editing within the WebGIS interface, all features visible in their current map view are locked for that session. These features remain unavailable for editing by other users until the original editor exits edit mode.
 
 <br>
 
-Editing settings are defined partly in the **QGIS project** (e.g. form layout), and partly through the G3W-SUITE **Administration panel** (e.g. user permissions). The editing module supports direct edits on both geometric and attribute-only layers, as well as layers in 1:N or N:M (limited) relationships.
+## Step 1: Enable Editing
+
+1. Go to the <span class="ui-page-label">Project Layers List</span>.
+
+2. In the row for the <span class="ui-filename">buildings</span> layer, click the <span class="ui-generic-label">Editing Layer</span> icon.
+
+3. In the pop-up dialog, tick the checkbox next to <span class="ui-filename">Active</span>.
+
+4. Complete the following fields:
+
+      <br>
+
+      <table class="my-table-style">
+      <thead>
+      <tr>
+            <th>Field</th>
+            <th>Field Input</th>
+            <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+            <td>Scale</td>
+            <td>2500</td>
+            <td>The map scale used to define the initial zoom level.</td>
+      </tr>
+      <tr>
+            <td>User Viewer Groups</td>
+            <td>Viewer Group</td>
+            <td>The group assigned viewer-level access to the project.</td>
+      </tr>
+      </tbody>
+      </table>
+
+      <br>
+
+5. Click <span class="ui-generic-label">OK</span> to apply the changes.
 
 <br>
 
-> **Hint:** In QGIS, the form layout and widgets for each layer’s attributes are configured under: `Layer Properties` → `Attributes Form`.
-
-<br>
-
-G3W-SUITE supports **multi-user editing** through a **feature locking** system.
-
-When a user activates editing in the WebGIS interface, all features visible in the current map view become **locked** to that user. Other users will be restricted from editing these features until the original user exits editing mode.
-
-<br>
-
-> **Note:** Multi-user editing should **only** be enabled on layers stored in a **GeoDatabase** — not on file-based layers (e.g. shapefiles).
-
----
-
-## Exercise
-
-**Activating Editing on a WebGIS Layer**
-
-1. In the **QGIS Project Layers** list, locate the `buildings` layer and click the **Editing Layer** icon.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-53.png" alt="QGIS Project Layers List" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-2. In the **Activation layer_editing** dialog, you can:
-
-      - Enable or disable editing capabilities
-      - Set the minimum scale for editing
-      - Define which user groups are permitted to edit this layer
-
-      <br>
-
-3. Under **Check on uncheck to active/deactive editing layer capabilities**, check the corresponding checkbox.
-
-      <br>
-
-4. Fill in the following fields:
-
-      - **Scale:** `2500`
-      - **User Groups Editing Data Field:** `user`
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-54.png" alt="Activation layer_editing" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-5. Click **OK**
-
-      <br>
-
-Once editing is enabled, a new **Editing Layers** menu becomes available in the WebGIS side panel.
-
-<br>
-
-<div style="text-align: center;">
-  <img src="../img/g3w-img-55.png" alt="Editing Layers Menu" width=auto>
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-  Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-  </div>
-</div>
-
----
-
-**Editing a WebGIS**
-
-Once activated, editing allows modifications to both geometry and attributes of the buildings layer and its related interventions.
-
-<br>
-
-1. In the **QGIS Project Layers** list, click **Show Map**.
-
-      <br>
-
-2. In the left-hand panel, click **Editing Layers**
-
-      <br>
-
-3. Click the **Edit Layer** icon next to the `Buildings` layer.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-56.png" alt="Edit Layer Icon" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-4. Zoom into an open area where no buildings exist.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-57.png" alt="Open Area" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-5. In the left-hand panel, click the **Add Feature** button.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-58.png" alt="Add Feature Button" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-6. Draw a continuous shape on the basemap. Once finished, the **Editing Attributes** panel will opens.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-59.png" alt="Editing Attributes Panel" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-7. Under the **General Info** tab, fill in:
-
-      - `Name`
-      - `Type`
-
-      <br>
-
-8. Under the **Technical Data** tab, fill in:
-
-      - `Year of Construction`
-      - `High`
-
-      <br>
-
-9. At the bottom of the form, click **Insert/Edit**
-
-      <br>
-
-10. In the left-hand panel, click the **Save** or **Checkmark** icon.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-60.png" alt="Save Icon" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-Your new `Buildings` feature is now saved to the WebGIS.
-
-<br>
-
-<div style="text-align: center;">
-  <img src="../img/g3w-img-61.png" alt="New Feature" width=auto>
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-  Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-16-1.png" alt="Enable Editing">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
 </div>
 
 <br>
 
-> **Note:** For more details, refer to the [Editing on line](https://g3w-suite.readthedocs.io/en/latest/g3wsuite_editing.html#editing-on-line) section of the official G3W documentation.
+## Step 2: Edit WebGIS
+
+1. On the <span class="ui-page-label">Project Layers List</span> page, click <span class="ui-generic-label">Show Map</span>.
+
+2. In the left-hand panel, expand <span class="ui-generic-label">Editing Layers</span>.
+
+3. Click the <span class="ui-generic-label">Edit Layer</span> icon next to the <span class="ui-filename">buildings</span> layer.
+
+4. Zoom in to an open area on the map where no buildings currently exist.
+
+5. In the left-hand panel, click <span class="ui-generic-label">Add Feature</span> and draw a new shape directly on the basemap.
+
+6. In the <span class="ui-page-label">Editing Attributes</span> panel, fill in the relevant attribute fields.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-16-2.png" alt="Edit WebGIS">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+## Step 3: Save Edits
+
+1. At the bottom of the attribute form, click <span class="ui-generic-label">Insert/Edit</span> to commit your input.
+
+2. In the left-hand panel, click the <span class="ui-generic-label">Save</span> or <span class="ui-generic-label">Checkmark</span> icon to finalize your changes.
+
+<br>
+
+Your new <span class="ui-filename">buildings</span> feature is now saved and visible in the WebGIS environment.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-16-3.png" alt="Save Edits">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
