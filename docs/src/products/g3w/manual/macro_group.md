@@ -25,9 +25,9 @@ The next step is to create a **Cartographic Macro Groups** that act as top-level
 
 2. In the left-hand menu, click <span class="ui-generic-label">Macro Cartographic Groups</span>.
 
-2. From the dropdown, select <span class="ui-generic-label">Add MACRO Group</span>.
+3. From the dropdown, select <span class="ui-generic-label">Add MACRO Group</span>.
 
-3. The <span class="ui-page-label">MACRO Group Creation</span> page will open.
+4. The <span class="ui-page-label">MACRO Group Creation</span> page will open.
 
 <br>
 

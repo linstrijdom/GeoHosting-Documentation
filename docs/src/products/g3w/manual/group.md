@@ -11,88 +11,134 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# Group
+# Creating Groups
 
-## Creating a Group
+To further organize your project's individual map layers within a Cartographic Macro Group, you’ll use **Cartographic Groups**. These are subcategories inside a Macro Group that hold individual WebGIS services (i.e., your published QGIS projects). This is the final setup step before publishing your project live on the WebGIS platform.
+<br>
 
-Follow the steps below to create a Cartographic Group within G3W-SUITE:
+## Step 1: Access Creation Page
+
+1. Navigate to the <span class="ui-page-label">Administration Panel</span> left-hand menu.
+
+2. Click <span class="ui-generic-label">Cartographic Groups</span>.
+
+3. Select <span class="ui-generic-label">Add Group</span> from the dropdown.
+
+4. The <span class="ui-page-label">Group Creation</span> page will open. 
 
 <br>
 
-1. In the left-side navigation bar, under **Cartographic Groups**, click on **Add Group**
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-8.png" alt="Add Group">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+## Step 2: Create Group
+
+1. On the <span class="ui-page-label">Group Creation</span> page, enter the following:
 
       <br>
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-27.png" alt="Cartographic Macro Groups" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+      <table class="my-table-style">
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th>Input</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Name</td>
+            <td>Berlin City Center</td>
+            <td>Internal identifier used by administrators</td>
+          </tr>
+          <tr>
+            <td>Title</td>
+            <td>Berlin City Center</td>
+            <td>Display name shown to WebGIS users</td>
+          </tr>
+          <tr>
+            <td>Macro Groups</td>
+            <td>G3W Tutorial</td>
+            <td>Select the relevant Macro Group container</td>
+          </tr>
+          <tr>
+            <td>GEO Data</td>
+            <td>EPSG:4326</td>
+            <td>Coordinate Reference System (CRS) of the project</td>
+          </tr>
+          <tr>
+            <td>Baselayers</td>
+            <td>OSM (OpenStreetMap)</td>
+            <td>Default background map for the WebGIS interface</td>
+          </tr>
+        </tbody>
+      </table>
 
       <br>
 
-2. On the Group Creation page, under the **General Data** section, fill out the following fields:
+2. Click the <span class="ui-generic-label">+</span> icon in the ACL Users section to configure permissions.
 
-      - **Name:** `G3W Tutorial Group`
-      - **Title:** `G3W Tutorial Group`
+3. Assign **Editor**, **Viewer**, and **Group** roles as needed.
 
-      <br>
+4. Under **Logo Image**, click <span class="ui-generic-label">Choose File</span>.
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-28.png" alt="Group Form 1" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+5. Upload the <span class="ui-filename">image_group.png</span> file from the <span class="ui-filename">Tutorial_Data_G3WSUITE</span> folder.
 
-      <br>
+6. Click <span class="ui-generic-label">Save</span> to create the group.
 
-3. In the **MACRO Groups** section, select the previously created group: `G3W Tutorial Macro Group`
+<br>
 
-      <br>
+<div class="alert alert-hint">
+  <div class="alert-icon">💡</div>
+  <div class="alert-text">
+    Need to check your project's CRS? In QGIS, go to <strong>Project → Properties → General</strong> and confirm the EPSG code.
+  </div>
+</div>
 
-4. Under **GEO Data**, set the Coordinate Reference System (CRS) to `EPSG 3857`.
+<br>
 
-      <br>
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-9.png" alt="Create Group">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
-      > **Hint:** Not sure about your project's CRS? In QGIS, go to **Project → Properties → General** to confirm the EPSG code.
+<br>
 
-      <br>
+## Step 3: View Groups List
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-29.png" alt="Group Form 2" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+1. In the left-hand menu, click <span class="ui-generic-label">Cartographic Groups</span>.
 
-      <br>
+2. Select <span class="ui-generic-label">Groups List</span>.
 
-5. In the **Base Layers and Map default features** section, select **OSM (OpenStreetMap)** as your baselayer.
+3. From the <span class="ui-page-label">Cartographic Groups List</span>, you can:
 
-      <br>
+      - Add projects to the group
+      - View existing projects
+      - Display group information
+      - Edit group settings
+      - Delete the group
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-30.png" alt="Group Form 3" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+<br>
 
-      <br>
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-10.png" alt="View Group">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
-6. In the **Logo/Picture** section, upload the `image_group` PNG located in the `Tutorial_Data_G3WSUITE` folder.
+<br>
 
-      <br>
+---
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-31.png" alt="Group Form 4" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+**Next up:** Discover how to publish your customized QGIS project as a live WebGIS service.
 
-      <br>
-
-7. Once all details are complete, click the **Save** button to finalize your group setup.
+<br>
