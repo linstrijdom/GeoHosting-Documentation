@@ -13,281 +13,139 @@ context_id: nDU6LLGiXPTLADXY
 
 # Widgets & Additional Functions
 
-Once your project has been published, you can enhance your WebGIS service by enabling a variety of widgets and additional functions.
+Once your project is published, you can further enrich your WebGIS service by enabling a variety of widgets and additional interactive features.
 
 <br>
 
-From the WebGIS services list, you can manage a wide range of functionalities using **tools** associated with each project. This allows you to view, modify, and control individual project behavior. Below is a guide to the available **tools and their functionality**:
+From the <span class="ui-page-label">Project List</span> page, each project includes a set of **Tools** that let you manage and configure advanced functionalities:
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/g3w-img-38.png" alt="Functional Tools" width=auto>
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-  Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-15-5.png" alt="Tools">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
 </div>
 
 <br>
 
-By clicking the **Layers** icon you can access the list of **geographic layers** that make up the project. From this interface, you can configure various **functional options** that will be enabled in the cartographic client.
+Click the <span class="ui-generic-label">Layers</span> icon to access the <span class="ui-page-label">QGIS Project Layers</span> page. Here, the **Actions** column allows you to set up a range of layer-specific functions:
 
 <br>
 
-The **Data** tab contains several columns, including:
-
-| Field            | Description                                                   |
-|------------------|---------------------------------------------------------------|
-| **Label**        | Alias set in the QGIS project                                 |
-| **ID**           | Unique identifier (eye icon) used for parameterized URLs      |
-| **Name**         | Layer name (file or DB table)                                 |
-| **Type**         | Data source type (WMS, PostGIS, GDAL, etc.)                   |
-| **WMS External** | Option to handle GetFeatureInfo responses outside QGIS Server |
-| **WFS**          | Indicates if the layer is available as WFS                    |
-
-<br>
-
-> **Note:** WMS layers are handled directly by Django to speed up loading, bypassing QGIS Server.
-
-<br>
-
-Under the **Actions** column next to each layer, you’ll find a series of **icons** that allow you to manage its behavior and visibility:
-
-<br>
-
-<div style="text-align: center;">
-  <img src="../img/g3w-img-42.png" alt="Functional Options" width=auto>
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-  Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-15-6.png" alt="Functional Options" style="width: 80%;">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
 </div>
 
 <br>
 
-> **Hint:** Each action icon displays a number indicating how many related objects are configured.
+## Step 1: Create a Search Widget
+
+Search widgets allow users to filter data based on attribute fields from vector layers. Each widget is saved using the layer’s internal identifiers.
+
+1. From the <span class="ui-page-label">Project List</span> page, click the <span class="ui-generic-label">Layers</span> icon.
+
+2. In the row for the <span class="ui-filename">landuse</span> layer, click the <span class="ui-generic-label">Widgets List</span> icon. 
+
+3. Click <span class="ui-generic-label">Add New Widget</span> to create a new one.
+
+4. In the <span class="ui-page-label">Widget Creation Form</span>, fill out the fields:
+
+      <br>
+
+      <table class="my-table-style">
+      <thead>
+      <tr>
+            <th>Field</th>
+            <th>Field Input</th>
+            <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+            <td>Type</td>
+            <td>Search</td>
+            <td>Widget type</td>
+      </tr>
+      <tr>
+            <td>Name</td>
+            <td>Land Use Search</td>
+            <td>Label that appears to end users</td>
+      </tr>
+      <tr>
+            <td>Search Title</td>
+            <td>Land Use Search</td>
+            <td>Internal name of the widget</td>
+      </tr>
+      <tr>
+            <td>Field</td>
+            <td>type</td>
+            <td>Field used for querying</td>
+      </tr>
+      <tr>
+            <td>Widget</td>
+            <td>SelectBox</td>
+            <td>UI element used for the search input</td>
+      </tr>
+      <tr>
+            <td>Alias</td>
+            <td>Land Use Type</td>
+            <td>Display name shown in the interface</td>
+      </tr>
+      <tr>
+            <td>Operator</td>
+            <td>= (equal)</td>
+            <td>Query operator applied to the field</td>
+      </tr>
+      </tbody>
+      </table>
+
+      <br>
+
+5. Click <span class="ui-generic-label">OK</span> to save.
 
 <br>
 
-The **Download Capabilities** column allows for the download of vector and raster data in the following formats:
-
-| Format      | Available For                  |
-|-------------|--------------------------------|
-| SHP/GeoTIFF | Vector and raster layers       |
-| GPKG        | All layers                     |
-| XLS         | All layers                     |
-| CSV         | All layers                     |
-| GPX         | Geographic layers              |
-| PDF         | Attribute-level export for all |
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-15-7.png" alt="Search Widget">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
 <br>
 
-The **Visibility Capabilities** column allows you to configure general visibility options (applies to all users):
+## Step 2: Create a Plots Widget
 
-| Option                    | Effect                   |
-|---------------------------|--------------------------|
-| **Hide Attributes Table** | Disables attribute table |
-| **Hide Legend**           | Disables legend display  |
-| **Hide Layer TOC**        | Removes layer from TOC   |
+The QPlotly widget lets users view interactive charts created in QGIS using the DataPlotly plugin. These plots are saved as <span class="ui-filename">.xml</span> files and integrated into your WebGIS project.
+
+1. From the <span class="ui-page-label">Project List</span> page, click the <span class="ui-generic-label">Layers</span> icon.
+
+2. In the row for the <span class="ui-filename">natural</span> layer, click the <span class="ui-generic-label">QPlotly Widget</span> icon.
+
+3. Click <span class="ui-generic-label">New QPlotly Widget</span> to upload a new chart.
+
+4. Upload the file: <span class="ui-filename">qplotly_natural-type-distribution.xml</span>.
+
+5. Click <span class="ui-generic-label">OK</span> to save.
 
 <br>
 
-> **Hint:** Try enabling these features and test them directly in your WebGIS interface.
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-15-8.png" alt="Plots Widget">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
 
 ---
 
-## Creating a Search Widget
-
-By default, search widgets can be configured on individual vector layers using the fields from the associated attribute table. Each search widget is saved by referencing the layer’s unique identifiers.
-
-This design enables reusability: once a search widget is created for a specific layer, it becomes available in any other project where that same layer is used.
+**Next up:** We’ll walk you through enabling editing tools so users can update data directly within your WebGIS service.
 
 <br>
-
-1. From the Project List page, click the **Layers** icon next to the `Tutorial_G3WSUITE` project.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-43.png" alt="Layers List" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-2. The **QGIS Project Layers** section will open displaying **all layers** included in the published QGIS project.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-44.png" alt="Layers List" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-3. Next to the `buildings` layer, click the **Widgets List** icon.
-
-      <br>
-
-4. To create a new widget, click the **Add New Widget** button.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-45.png" alt="Add New Widget" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-5. In the **Widget Creation Form**, configure the following:
-
-      - **Type:** `Search`
-      - **Name:** `Search Widget`
-      - **Search Title:** `Tutorial Search Widget`
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-46.png" alt="Widget Creation Form" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-6. In the **Search Field Settings** section, set the following:
-
-      - **Field:** `type`
-      - **Widget:** `SelectBox`
-      - **Alias:** `Building Type`
-      - **Operator:** `= (equal)`
-
-      <br>
-
-      > **Hint:** Use the **Add** button to define multiple search conditions.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-47.png" alt="Search Field Settings" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-7. Once finished, click **OK** to save.
-
-      <br>
-
-The new search widget will now appear in the layer's widget list and will be automatically available in the WebGIS interface.
-
-<br>
-
-<div style="text-align: center;">
-  <img src="../img/g3w-img-48.png" alt="New Search Widget" width=auto>
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-  Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-  </div>
-</div>
-
----
-
-## Creating a Plots Widget
-
-The **QPlotly** widget enables users to view interactive plots, created using the **DataPlotly** QGIS plugin (developed by Matteo Ghetta), directly within the WebGIS cartographic client.
-
-This module uses the **Plotly** library and supports plots saved as `.xml` files. Because each plot is linked to a specific layer in the QGIS project, it allows consistent reuse of the same plots across different WebGIS services, as long as the related layer is present.
-
-> **Note:** The plot title, defined in the DataPlotly plugin, acts as the unique identifier.
-
-<br>
-
-Plots can be **filtered** by:
-
-1. **Map Extent:** Based on visible features
-
-2. **Feature Selection:** Based on selected features
-
-<br>
-
-These filters also apply to **related plots** based on **1:N relationships**. As users pan or zoom on the map, all related plots automatically update to reflect the visible extent.
-
-If **selection-based filtering** is enabled, it is automatically applied to all linked plots associated with the same layer. Users will see clear messages on each chart indicating which filters are currently active.
-
-<br>
-
-When a layer has **1:N relationships** with other tables that contain active plots, users can access those plots by querying the parent layer and clicking the **Show Relation Charts** icon. This feature enhances data exploration by allowing users to interact with and analyze related datasets directly within the WebGIS client.
-
-<br>
-
-1. From the **QGIS Project Layers** list, next to the `buildings` layer, click the **Qplotly Widgets** icon.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-49.png" alt="QGIS Project Layers List" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-2. To create a new widget, click the **New Qplotly Widget** button.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-50.png" alt="New Qplotly Widget" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-3. In the **New Qplotly Widget** pop-up, click inside the upload box to open your file explorer.
-
-      <br>
-
-4. Navigate to `Tutorial_Data_G3WSUITE -> plots` and select: `qplotly_type-distribution`.
-
-      <br>
-
-5. Click **Ok**.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-51.png" alt="New Qplotly Widget 2" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-The new chart widget will now appear in the layer's **Qplotly Widget List** and will be automatically available in the WebGIS interface.
-
-<br>
-
-<div style="text-align: center;">
-  <img src="../img/g3w-img-52.png" alt="New Search Widget 3" width=auto>
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-  Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-  </div>
-</div>
-
-<br>
-
-> **Note:** For more details, refer to the [Widgets management](https://g3w-suite.readthedocs.io/en/latest/g3wsuite_administration.html#widgets-management) section of the official G3W documentation.
