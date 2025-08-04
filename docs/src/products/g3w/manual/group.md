@@ -24,7 +24,7 @@ To further organize your project's individual map layers within a Cartographic M
 
 3. Select <span class="ui-generic-label">Add Group</span> from the dropdown.
 
-4. The <span class="ui-page-label">Group Creation</span> page will open. 
+4. The <span class="ui-page-label">Group Creation</span> page will open.
 
 <br>
 

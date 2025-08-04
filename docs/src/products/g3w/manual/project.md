@@ -170,7 +170,7 @@ As part of the publishing process, you can configure several important settings 
 <br>
 
 ## Step 4: Enable the Overview Map
- 
+
 1. On the <span class="ui-page-label">Project List</span> page, find the <span class="ui-filename">Berlin - BBBike Service</span> entry.
 
 2. Check the box under the **Panoramic** column.

@@ -49,7 +49,7 @@ Search widgets allow users to filter data based on attribute fields from vector 
 
 1. From the <span class="ui-page-label">Project List</span> page, click the <span class="ui-generic-label">Layers</span> icon.
 
-2. In the row for the <span class="ui-filename">landuse</span> layer, click the <span class="ui-generic-label">Widgets List</span> icon. 
+2. In the row for the <span class="ui-filename">landuse</span> layer, click the <span class="ui-generic-label">Widgets List</span> icon.
 
 3. Click <span class="ui-generic-label">Add New Widget</span> to create a new one.
 

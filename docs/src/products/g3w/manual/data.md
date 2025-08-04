@@ -72,9 +72,9 @@ Before publishing a project to G3W-SUITE, these two steps need to be completed:
 
 To update your QGIS project title:
 
-1. Navigate to the <span class="ui-page-label">Project Properties</span> of your QGIS project. 
+1. Navigate to the <span class="ui-page-label">Project Properties</span> of your QGIS project.
 
-2. Under the <span class="ui-page-label">General</span> tab, and find the <span class="ui-filename">Project Title</span> field. 
+2. Under the <span class="ui-page-label">General</span> tab, and find the <span class="ui-filename">Project Title</span> field.
 
 3. Enter a unique and descriptive title for your project.
 
