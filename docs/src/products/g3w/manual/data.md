@@ -13,183 +13,94 @@ context_id: nDU6LLGiXPTLADXY
 
 # Data & Preparation
 
-## Overview
-
-This tutorial is centered around a QGIS project designed to manage a layer representing a collection of buildings within a specific geographic area.
-
-Beyond **spatial data**, the project also handles a wide range of **attribute information**, including maintenance records, using a 1:n relational structure to allow each building to be associated with multiple maintenance entries.
+Before you start working with G3W-SUITE, it’s important to prepare both your QGIS project and its underlying data. This section walks you through the setup process — customizing the project, exploring the dataset, and getting everything ready for a smooth WebGIS deployment.
 
 <br>
 
-Throughout the tutorial, you will gain **practical skills** in:
+By the end of this tutorial, you will have practical experience in:
 
-1. **Customizing** the graphic and functional elements of the base QGIS project.
-2. **Publishing** the project as a WebGIS service using G3W-SUITE.
-3. **Creating** custom search tools for efficient data exploration.
-4. **Integrating** interactive charts using the DataPlotly plugin.
-5. **Enabling** online editing, including:
-
-      - Custom form layouts
-      - Specialized widgets for improved user interaction
-
-     <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-14.png" alt="Gained Practical Skills" width="175">
-      </div>
+1. **Customizing** the visual and functional components of a QGIS project
+2. **Publishing** the project as a WebGIS service using G3W-SUITE
+3. **Creating** custom search tools for fast, focused data queries
+4. **Integrating** interactive charts with the DataPlotly plugin
+5. **Enabling** online editing capabilities
 
 <br>
 
-> **Note:** This tutorial aims to demonstrate how a real-world GIS project can be fully managed through G3W-SUITE and QGIS.
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14.png" alt="Practical Experience" style="width: 30%;">
+</div>
 
----
+## Data
+
+We’ll be working with a modified dataset of central Berlin, extracted via the BBBike OSM Extract Service. The pre-configured QGIS project and database are bundled for convenience:
+
+- [<span class="ui-filename">Tutorial_Data_G3WSUITE.zip</span>](https://github.com/kartoza/GeoHosting-Documentation/docs/src/products/manual_data/Tutorial_Data_G3WSUITE.zip)
+
+<br>
+
+Once extracted, the folder contains 3 images and the following structure:
+
+- 📁 **plots** – Chart configurations for the DataPlotly plugin in <span class="ui-filename">.xml</span> format
+- 📁 **project_data** – Includes the SpatiaLite database: <span class="ui-filename">g3w_tutorial.sqlite</span>
+- 📁 **projects** – The QGIS project file: <span class="ui-filename">g3w_tutorial.qgs</span>
+
+<br>
+
+Before publishing a project to G3W-SUITE, these two steps need to be completed:
+
+1. **Update the QGIS Project Title**
+
+    This will be used as the WebGIS service ID. Leaving it unchanged may cause confusion or service conflicts.
+
+2. **Upload the SpatiaLite Database to the File Manager**
+
+    G3W-SUITE needs access to your actual data source. If the database isn't uploaded, your layers may not load correctly.
+
+<br>
+
+<div class="alert alert-hint">
+  <div class="alert-icon">💡</div>
+  <div class="alert-text">
+    Want to use your own data? Use the <a href="https://extract.bbbike.org/" target="_blank">BBBike Extract Service</a> to download a custom dataset for your area.
+  </div>
+</div>
+
+<br>
 
 ## Data Preperation
 
-This tutorial is based on a modified dataset and QGIS 3.34.x LTR project from the official [G3W-SUITE](https://g3w-suite.readthedocs.io/en/latest/index.html) documentation website. Download the **Tutorial Data** using the link below:
+To update your QGIS project title:
 
-- [`Tutorial_Data_G3WSUITE.zip` Download](https://github.com/kartoza/GeoHosting/tree/main/docs/src/products/tutorial_data/Tutorial_Data_G3WSUITE.zip)
+1. Navigate to the <span class="ui-page-label">Project Properties</span> of your QGIS project.
 
-<br>
+2. Under the <span class="ui-page-label">General</span> tab, and find the <span class="ui-filename">Project Title</span> field.
 
-> **Note:** You can download the original data from the [Download Demo Data](https://g3w-suite.readthedocs.io/en/latest/demo.html#download-demo-data) section of the G3W-SUITE Documentation
+3. Enter a unique and descriptive title for your project.
 
-<br>
-
-### Data Preperation Overview
-
-The `Tutorial_Data_G3WSUITE` folder contains images and the following **three subdirectories**:
+4. Click <span class="ui-generic-label">OK</span> to apply the changes.
 
 <br>
 
-📁 **`projects/`**
+Make sure your title:
 
-- Contains the QGIS project file: `g3w_tutorial.qgs`
-- The project is fully optimized for this tutorial.
-
- <br>
-
-📁 **`plots/`**
-
-- Contains plot definitions created using the DataPlotly plugin, saved in `.xml` format.
-
- <br>
-
-📁 **`project_data/spatialite/`**
-
-- Contains the SpatiaLite database: `g3w_tutorial.sqlite`
-- This database stores the core data used in the project.
-
- <br>
-
-Inside the **`g3w_tutorial.sqlite`** file, you’ll find the following layers:
-
- <br>
-
- | Layer Name          | Type    | Description                                                      |
- | ------------------- | ------- | ---------------------------------------------------------------- |
- | `buildings`         | Polygon | Main reference layer for editing building features               |
- | `maintenance_works` | Table   | Records of maintenance activities linked to individual buildings |
- | `buildings_rating`  | Table   | Annual ratings or assessments of buildings                       |
- | `roads`             | Line    | Road network used to assign addresses to buildings               |
- | `work_areas`        | Polygon | Work zone boundaries used to define geo-constraints              |
- | `type_subtype`      | Table   | Lookup table for building type and subtype values                |
-
- <br>
-
-The QGIS project (based on QGIS 3.34.x LTR) is pre-configured with the following **features**:
-
-1. **Categorized symbology** for the:
-
-       - `buildings` layer based on the `type` field.
-
-       <br>
-
-2. **1:n relationships defined between:**
-
-       - `buildings` ↔ `maintenance_works`
-       - `buildings` ↔ `buildings_rating`
-
-       <br>
-
-3. **Pre-built query forms for:**
-
-       - `buildings` layer
-       - `maintenance_works` table
-
-       <br>
-
-4. **Predefined editing widgets for:**
-
-     - `buildings`, `maintenance_works`, and `buildings_rating` attributes
-
-     <br>
-
-5. **Four print layouts:**
-
-     - Two standard layout templates
-     - Two atlas layout templates using features from the buildings layer
+- Clearly describes the content or purpose of the project
+- Avoids special characters or long whitespace
+- Is short, but specific enough to identify in G3W
 
 <br>
 
-<div style="text-align: center;">
-  <img src="../img/g3w-img-15.png" alt="Tutorial QGIS Project" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-    Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
-  </div>
-</div>
-
----
-
-### Data Preperation Exercise
-
-Before you can publish your QGIS project to the WebGIS platform, there are **two essential steps** you **MUST** complete:
-
-1. **Update the Project Title**
-
-       This title will be used as the WebGIS service ID. If not updated, your service may be misidentified or conflict with existing services.
-
-       <br>
-
-2. **Upload the SpatiaLite database to the File Manager**
-
-       This ensures that G3W-SUITE can access the data sources used in your QGIS project. Without it, layers may not display correctly.
-
-       <br>
-
----
-
-**Steps to update the project title:**
-
-1. Open your QGIS project.
-
-2. Go to the **Project** menu.
-
-3. Select **Properties...**
-
-4. Under the **General tab**, locate the **Project Title** field.
-
-5. Enter a unique and descriptive title for your project.
-
-6. Click **OK** to apply the changes.
-
-      <br>
-
-      **Make sure the title:**
-
-      - Reflects the content or purpose of your project.
-      - Does not contain special characters or excessive spacing.
-      - Is short but specific enough to identify the service in the WebGIS environment.
-
-<br>
-
-<div style="text-align: center;">
-  <img src="../img/g3w-img-16.png" alt="Updating Project Title" width="auto">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-1.png" alt="Project Title">
+  <div class="caption">
     Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>
 </div>
 
 <br>
 
-> **Note:** For more details, refer to the [QGIS: project settings](https://g3w-suite.readthedocs.io/en/latest/projectsettings.html#qgis-project-settings) section of the official G3W documentation.
+---
+
+**Next up:** Now that your project title is updated, we'll walk you through how to upload your SpatiaLite database to G3W-SUITE so your project layers display correctly.
+
+<br>

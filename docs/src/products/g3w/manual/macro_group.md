@@ -11,108 +11,103 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# Macro Group
+# Creating Macro Groups
 
-## Overview
+Once you’ve updated the project title (to generate a unique WebGIS service ID) and uploaded your SpatiaLite database to the correct folder in the File Manager, you're almost ready to publish your QGIS project as a WebGIS service using G3W-SUITE.
 
-Once you have updated the project title (to define a unique WebGIS service ID), and uploaded your SpatiaLite database to the correct folder in the File Manager, you’re ready to publish your QGIS project as a WebGIS service in G3W-SUITE.
-
-<br>
-
-Publishing a QGIS project is done through the **Dashboard**, which provides access to:
-
-- Your assigned **Cartographic-** and **Macro Cartographic Groups**
-- **Additional module menus** for managing services and settings
+The next step is to create a **Cartographic Macro Groups** that act as top-level thematic container and helps you organize related WebGIS services under a common category.
 
 <br>
 
-**To publish a project, you’ll need to:**
+## Step 1: Access Creation Page
 
-1. Create a **Cartographic Macro Group**
+1. Navigate to the G3W-SUITE <span class="ui-page-label">Administration Panel</span>.
 
-2. Create a **Cartographic Group**
+2. In the left-hand menu, click <span class="ui-generic-label">Macro Cartographic Groups</span>.
 
-3. Complete a series of **project form fields**
+3. From the dropdown, select <span class="ui-generic-label">Add MACRO Group</span>.
 
-<br>
-
-## Creating a Macro Group
-
-Follow the steps below to create a Macro Cartographic Group in G3W-SUITE:
+4. The <span class="ui-page-label">MACRO Group Creation</span> page will open.
 
 <br>
 
-1. From the Administration Panel, in the left-side navigation menu, click **Dashboard**.
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-5.png" alt="Add MACRO Group">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
-       <br>
+<br>
 
-       <div style="text-align: center;">
-       <img src="../img/g3w-img-22.png" alt="Dashboard" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-       </div>
+## Step 2: Create Macro Group
 
-       <br>
-
-2. Within the Dashboard, locate the light blue **Groups** box.
+1. On the <span class="ui-page-label">MACRO Group Creation</span> page, complete the following fields:
 
       <br>
 
-3. Click **Show** to display the list of existing **Cartographic Groups**.
+      <table class="my-table-style">
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th>Input</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Identification name</td>
+            <td>G3W Tutorial</td>
+            <td>Used internally to uniquely identify the Macro Group</td>
+          </tr>
+          <tr>
+            <td>Title</td>
+            <td>G3W Tutorial</td>
+            <td>Displayed to users in the WebGIS interface</td>
+          </tr>
+        </tbody>
+      </table>
 
       <br>
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-23.png" alt="Groups Box" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+2. Under **Logo Image**, click <span class="ui-generic-label">Choose File</span>.
 
-      <br>
+3. Upload the <span class="ui-filename">image_macro_group.png</span> file from the <span class="ui-filename">Tutorial_Data_G3WSUITE</span> folder.
 
-4. In the left navigation bar under **Macro Cartographic Groups**, click **Add MACRO Group**
+4. Click <span class="ui-generic-label">Save</span> to create the Macro Group.
 
-      <br>
+<br>
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-24.png" alt="Cartographic Groups" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-6.png" alt="Create MACRO Group">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
-      <br>
+<br>
 
-5. On the Macro Group creation page, under the **General Data** section, complete the following fields:
+## Step 3: View Macro Groups
 
-      - **Identification name:** `G3W Tutorial Macro Group`
-      - **Title:** `G3W Tutorial Macro Group`
+1. From the <span class="ui-page-label">Administration Panel</span>, click <span class="ui-generic-label">Macro Cartographic Groups</span> again.
 
-      <br>
+2. Select <span class="ui-generic-label">MACRO Groups List</span> from the dropdown.
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-25.png" alt="Macro Group Form" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+3. You can **View**, **Edit**, or **Delete** existing Macro Groups using the available <span class="ui-generic-label">Action</span> icons.
 
-      <br>
+<br>
 
-6. In the **Logo Image** section, upload the `image_macro_group` PNG located in the `Tutorial_Data_G3WSUITE` folder.
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-7.png" alt="View MACRO Group">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
-      <br>
+<br>
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-26.png" alt="Logo Image Section" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       , <a href="https://www.vecteezy.com/free-photo/cartography" target="_blank">Vecteezy</a>
-       </div>
-      </div>
+---
 
-      <br>
+**Next up:** Learn how to create Cartographic Groups to better organize and manage your project’s individual map layers.
 
-7. Once all fields are complete, click **Save** to finalize the creation of your Macro Group.
+<br>

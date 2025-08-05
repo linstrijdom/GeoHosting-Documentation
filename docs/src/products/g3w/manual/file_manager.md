@@ -11,116 +11,84 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# File Manager
+# Uploading to the File Manager
 
-## Uploading the SpatiaLite database to the File Manager
+To ensure your project layers display correctly in G3W-SUITE, you need to upload your database. G3W-SUITE must have access to the actual data source used in your QGIS project — otherwise, your layers may fail to load.
 
-1. Open a web browser and navigate to:
+<br>
 
-      ```bash
-      http://<application_name>.sta.do.kartoza.com/g3w
-      ```
+## Step 1: Access the File Manager
 
-      <br>
+1. Go to the G3W-SUITE <span class="ui-page-label">Administration Panel</span>.
 
-2. Log in to G3W-SUITE using your **administrator credentials**.
+2. Click the <span class="ui-generic-label">Gear</span> icon in the top navigation bar.
 
-      - **Username:** `admin`
-      - **Password:** `*generate from dashboard*`
+3. Under **File Manager**, select <span class="ui-generic-label">Files</span>.
 
-      <br>
+<br>
 
-      > **Hint:** Need help finding your credentials? See the section: [Using the Kartoza GeoSpatialHosting Dashboard](https://kartoza.github.io/GeoHosting/products/g3w/guide/#using-the-kartoza-geospatialhosting-dashboard)
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-2.png" alt="File Manager">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
-      <br>
+<br>
 
-3. Once authenticated, navigate to the **Administration Panel**
+## Step 2: Create a Spatialite Folder
 
-      <br>
+1. In the left-hand menu of the <span class="ui-page-label">File Manager</span>, navigate to the <span class="ui-filename">project_data</span> folder.
 
-      > **Hint:** Need help navigating to the Administration Panel? Refer to the [Administration Panel](https://kartoza.github.io/GeoHosting/products/g3w/guide/#administration-panel) section.
+2. Click <span class="ui-generic-label">New Folder</span> in the top navigation bar.
 
-      <br>
+3. Name the folder <span class="ui-filename">spatialite</span> and click <span class="ui-generic-label">Create Folder</span>.
 
-4. In the top-bar, click the **Gear** icon.
+<br>
 
-      <br>
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Ensure the file path exactly matches what is defined in your QGIS project.
+  </div>
+</div>
 
-5. Under **File Manager**, select **Files**.
+<br>
 
-      <br>
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-3.png" alt="Create Folder">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-17.png" alt="Gear Icon" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+<br>
 
-      <br>
+## Step 3: Upload the Database
 
-6. From the **Home** folder (or the left-hand panel), navigate to the `project_data` folder.
+1. Open the newly created <span class="ui-filename">spatialite</span> folder.
 
-      <br>
+2. Click <span class="ui-generic-label">Upload</span> in the top navigation bar.
 
-7. In the top navigation bar, click the **New Folder** button.
+3. Select and upload the file named <span class="ui-filename">g3w_tutorial.sqlite</span>.
 
-      <br>
+<br>
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-18.png" alt="New Folder button" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+Once uploaded, your SpatiaLite database is ready to support your WebGIS services within G3W-SUITE.
 
-      <br>
+<br>
 
-8. Name your new folder `spatialite` and click **Create Folder**.
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-14-4.png" alt="Upload Database">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
-      <br>
+<br>
 
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-19.png" alt="Create New Folder" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
+---
 
-      <br>
+**Next up:** Learn how to group and structure your map layers using Cartographic Macro Groups for a clearer WebGIS experience.
 
-      > **Note:** Make sure the file path matches the one specified in your QGIS project.
-
-      <br>
-
-9. Open your newly created folder, then in the top bar, click **Upload**.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-20.png" alt="Upload Button" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-10. Click inside the file drop area to open your system file explorer.
-
-      <br>
-
-11. Select the `g3w_tutorial.sqlite` file from the `project_data -> spatialite` folder and click **Upload**.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../img/g3w-img-21.png" alt="Upload File" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-       </div>
-      </div>
-
-      <br>
-
-You’ve successfully uploaded your SpatiaLite database to the File Manager and can now proceed with publishing your QGIS project.
+<br>
