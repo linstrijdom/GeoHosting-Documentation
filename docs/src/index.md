@@ -17,7 +17,7 @@ hide:
 
 ## Overview
 
-**GeoSpatialHosting**  is a secure, scalable, and high-performance platform for deploying and managing open-source geospatial tools like [GeoNode](https://geonode.org), [G3W-Suite](https://g3w-suite.readthedocs.io/), and [GeoServer](https://geoserver.org). Whether you’re a spatial analyst, developer, NGO, or municipality — GSH lets you focus on your project, not your infrastructure.
+**GeoSpatialHosting (GHS)** is a secure, scalable, and high-performance platform for deploying and managing open-source geospatial tools like [GeoNode](https://geonode.org), [G3W-Suite](https://g3w-suite.readthedocs.io/), and [GeoServer](https://geoserver.org). Whether you’re a spatial analyst, developer, NGO, or municipality — GSH lets you focus on your project, not your infrastructure.
 
 <br>
 
@@ -68,7 +68,7 @@ GSH is purpose-built for the geospatial community. We combine deep FOSS experien
     </tr>
     <tr>
       <td>Enterprise-Grade Security</td>
-      <td>All deployments include HTTPS, access controls, encrypted storage, and a <strong>99.9% uptime guarantee</strong> — for peace of mind.</td>
+      <td>All deployments include HTTPS, access controls, and encrypted storage — for peace of mind.</td>
     </tr>
   </tbody>
 </table>
