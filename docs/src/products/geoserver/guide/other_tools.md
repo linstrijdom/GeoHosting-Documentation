@@ -16,7 +16,7 @@ context_id: nDU6LLGiXPTLADXY
 
 GeoServer’s OGC services (WMS, WFS, WCS) can be consumed by desktop GIS clients, web mapping libraries, and other applications. Below are two common examples.
 
-### Consuming GeoServer WMS in QGIS
+## Consuming GeoServer WMS in QGIS
 
 1. **Open QGIS** and go to **Layer → Add Layer → Add WMS/WMTS Layer…**
 2. Click **New**, then enter:
@@ -33,7 +33,7 @@ GeoServer’s OGC services (WMS, WFS, WCS) can be consumed by desktop GIS client
 
 [Add Image]
 
-### Embedding GeoServer WMS in a Leaflet Map
+## Embedding GeoServer WMS in a Leaflet Map
 
 1. Include Leaflet’s CSS and JS in your HTML `<head>`:
 
