@@ -83,7 +83,7 @@ As part of the publishing process, you can configure several important settings 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-15-1.png" alt="New Project">
+  <img src="../../img/g3w-img-39.png" alt="New Project">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -140,7 +140,7 @@ As part of the publishing process, you can configure several important settings 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-15-2.png" alt="New Project Page">
+  <img src="../../img/g3w-img-40.png" alt="New Project Page">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -161,7 +161,7 @@ As part of the publishing process, you can configure several important settings 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-15-3.png" alt="View Map">
+  <img src="../../img/g3w-img-41.png" alt="View Map">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -180,7 +180,7 @@ As part of the publishing process, you can configure several important settings 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-15-4.png" alt="Overview Map">
+  <img src="../../img/g3w-img-42.png" alt="Overview Map">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

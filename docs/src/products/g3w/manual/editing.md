@@ -58,7 +58,7 @@ G3W-SUITE allows for multi-user editing through a feature-locking system that pr
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-16-1.png" alt="Enable Editing">
+  <img src="../../img/g3w-img-47.png" alt="Enable Editing">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -83,7 +83,7 @@ G3W-SUITE allows for multi-user editing through a feature-locking system that pr
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-16-2.png" alt="Edit WebGIS">
+  <img src="../../img/g3w-img-48.png" alt="Edit WebGIS">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -104,7 +104,7 @@ Your new <span class="ui-filename">buildings</span> feature is now saved and vis
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-16-3.png" alt="Save Edits">
+  <img src="../../img/g3w-img-49.png" alt="Save Edits">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

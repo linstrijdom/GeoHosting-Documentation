@@ -143,7 +143,7 @@ Once all required fields are filled in, click <span class="ui-generic-label">Sav
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-7-1.png" alt="Add User">
+  <img src="../../img/g3w-img-23.png" alt="Add User">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -169,7 +169,7 @@ You can edit or delete users using the <span class="ui-generic-label">Action Ico
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-7-2.png" alt="View User">
+  <img src="../../img/g3w-img-24.png" alt="View User">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -197,7 +197,7 @@ To create a group, click the <span class="ui-generic-label">Add group users</spa
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-7-3.png" alt="User Groups">
+  <img src="../../img/g3w-img-25.png" alt="User Groups">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

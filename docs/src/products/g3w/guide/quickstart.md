@@ -39,7 +39,7 @@ This title becomes the WebGIS service ID. Without updating it, your service may 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-5.png" alt="Change Title">
+  <img src="../../img/g3w-img-13.png" alt="Change Title">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -73,7 +73,7 @@ G3W‑SUITE needs access to your data sources — uploading your project databas
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-6.png" alt="File Manager">
+  <img src="../../img/g3w-img-14.png" alt="File Manager">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -134,7 +134,7 @@ Groups act as containers for your published QGIS services. You’ll need to crea
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-7.png" alt="Macro Group">
+  <img src="../../img/g3w-img-15.png" alt="Macro Group">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -157,7 +157,7 @@ Once your group is ready, you can upload your QGIS project file to publish it as
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-8.png" alt="New Project">
+  <img src="../../img/g3w-img-16.png" alt="New Project">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -174,7 +174,7 @@ From the <span class="ui-page-label">Projects List</span> page, click the <span 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-9.png" alt="View Map">
+  <img src="../../img/g3w-img-17.png" alt="View Map">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

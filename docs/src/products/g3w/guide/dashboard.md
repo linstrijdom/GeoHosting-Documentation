@@ -47,7 +47,7 @@ It contains quick-access links to:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-6-1.png" alt="Homepage">
+  <img src="../../img/g3w-img-18.png" alt="Homepage">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -62,7 +62,7 @@ This section offers a brief overview of your organization or project. It may inc
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-6-2.png" alt="About It">
+  <img src="../../img/g3w-img-19.png" alt="About It">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -98,7 +98,7 @@ This section provides access to available WebGIS services, structured in a clear
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-6-3.png" alt="Maps">
+  <img src="../../img/g3w-img-20.png" alt="Maps">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -113,7 +113,7 @@ This section lets you securely log in to the platform. Logging in is required to
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-6-4.png" alt="Login">
+  <img src="../../img/g3w-img-21.png" alt="Login">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -128,7 +128,7 @@ The <span class="ui-page-label">Administration Panel</span> is your central hub 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-6-5.png" alt="Administration Panel">
+  <img src="../../img/g3w-img-22.png" alt="Administration Panel">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

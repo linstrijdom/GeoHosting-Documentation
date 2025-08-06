@@ -55,7 +55,7 @@ Click <span class="ui-generic-label">Ok</span> to apply the widget to your layer
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-8-1.png" alt="Search Widget">
+  <img src="../../img/g3w-img-26.png" alt="Search Widget">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -70,7 +70,7 @@ To integrate a Plots Widget, return to the <span class="ui-page-label">Layers Li
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-8-2.png" alt="Plots Widget">
+  <img src="../../img/g3w-img-27.png" alt="Plots Widget">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

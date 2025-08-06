@@ -32,7 +32,7 @@ The next step is to create a **Cartographic Macro Groups** that act as top-level
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-5.png" alt="Add MACRO Group">
+  <img src="../../img/g3w-img-33.png" alt="Add MACRO Group">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -79,7 +79,7 @@ The next step is to create a **Cartographic Macro Groups** that act as top-level
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-6.png" alt="Create MACRO Group">
+  <img src="../../img/g3w-img-34.png" alt="Create MACRO Group">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -98,7 +98,7 @@ The next step is to create a **Cartographic Macro Groups** that act as top-level
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-7.png" alt="View MACRO Group">
+  <img src="../../img/g3w-img-35.png" alt="View MACRO Group">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

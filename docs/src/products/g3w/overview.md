@@ -40,7 +40,7 @@ G3W-SUITE is an advanced WebGIS management system that brings the full capabilit
     Empower users to edit spatial features directly within the browser, configure various search modes tailored to your datasets, and expand capabilities by activating additional functional modules as needed.
 
 <div class="image-with-caption">
-  <img src="../img/g3w-img-3-1.png" alt="Why" style="width: 55%;">
+  <img src="../img/g3w-img-4.png" alt="Why" style="width: 55%;">
 </div>
 
 ## What Size Should I Buy?
