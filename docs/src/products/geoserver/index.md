@@ -15,66 +15,163 @@ context_id: nDU6LLGiXPTLADXY
 
 ## What is GeoServer?
 
-GeoServer is a Java-based server that enables users to view, edit, and share geospatial data. Built on open standards defined by the [Open Geospatial Consortium (OGC)](http://www.opengeospatial.org/), it offers powerful flexibility for map creation and data interoperability.
+**GeoServer** is a powerful, Java-based server application that enables users to publish, edit, and share geospatial data. Built on open standards set by the [Open Geospatial Consortium (OGC)](http://www.opengeospatial.org/), it promotes interoperability and flexibility in map creation and spatial data management.
 
-<div style="text-align: center;">
-  <img src="./img/geoserver-img-1.png" alt="GeoServer Logo" width="300">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+<br>
+
+<div class="image-with-caption">
+  <img src="./img/geoserver-img-1.png" alt="GeoServer Logo" style="width: 50%;">
+  <div class="caption">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
 </div>
 
----
+<br>
 
-## Open and Share Your Spatial Data
+## Publish and Share Spatial Data
 
-GeoServer allows you to share your spatial data with the world by implementing the [Web Map Service (WMS)](http://www.opengeospatial.org/standards/wms) standard. It can generate maps in various output formats, and integrates with [OpenLayers](http://openlayers.org/), a free mapping library, making map creation fast and straightforward. GeoServer itself is built on [GeoTools](http://geotools.org), an open-source Java GIS toolkit.
-
-GeoServer also supports the [Web Feature Service (WFS)](http://www.opengeospatial.org/standards/wfs) and [Web Coverage Service (WCS)](http://www.opengeospatial.org/standards/wcs) standards, enabling data sharing and editing. Additionally, it uses the [Web Map Tile Service (WMTS)](http://www.opengeospatial.org/standards/wmts) standard to serve map tiles optimized for web and mobile apps.
-
-The platform is modular, with extra capabilities available through extensions. For example, the [Web Processing Service (WPS)](http://www.opengeospatial.org/standards/wps) extension unlocks powerful geospatial processing features—and you can even create your own custom extensions!
-
-By using GeoServer, you empower others to embed your data in their websites and applications, promoting open access and greater transparency.
-
----
-
-## Use Free and Open Source Software
-
-GeoServer is [free software](/license), which significantly reduces the financial barrier to entry compared to proprietary GIS solutions. Being open-source, GeoServer allows the community to transparently and efficiently contribute bug fixes and feature enhancements. This openness helps prevent vendor lock-in, ultimately saving costs on long-term support and licensing contracts.
+GeoServer enables you to publish spatial data on the web using open standards like the **Web Map Service (WMS)**. It can generate maps in a variety of output formats and works seamlessly with OpenLayers, a widely-used open-source web mapping library.
 
 <br>
 
-<div style="text-align: center;">
-  <img src="./img/geoserver-img-2.png" alt="Open Source vs Proprietary GIS" width="300">
+In addition to WMS, GeoServer supports several other OGC services:
+
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Service</th>
+      <th>Abbreviation</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Web Map Service</td>
+      <td>WMS</td>
+      <td>Serves dynamic map images rendered from spatial data.</td>
+    </tr>
+    <tr>
+      <td>Web Feature Service</td>
+      <td>WFS</td>
+      <td>Provides access to and editing of vector (feature) data.</td>
+    </tr>
+    <tr>
+      <td>Web Coverage Service</td>
+      <td>WCS</td>
+      <td>Shares raster data (coverages) such as satellite imagery or elevation grids.</td>
+    </tr>
+    <tr>
+      <td>Web Map Tile Service</td>
+      <td>WMTS</td>
+      <td>Delivers pre-rendered map tiles for fast performance in web and mobile applications.</td>
+    </tr>
+    <tr>
+      <td>Web Processing Service</td>
+      <td>WPS</td>
+      <td>Enables server-side geospatial processing and analysis of data.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+GeoServer’s modular architecture allows you to expand its capabilities through extensions. The WPS extension, for example, unlocks powerful on-the-fly geoprocessing. You can also create your own custom plugins to suit specific workflows.
+
+By publishing data through GeoServer, you empower others to access and embed your spatial content in websites, applications, and platforms — promoting open access, collaboration, and transparency.
+
+<br>
+
+## Built on Free and Open Source Software
+
+GeoServer is fully open source and free to use, significantly lowering the cost of entry compared to proprietary GIS platforms. Its open development model invites contributions from the global community, ensuring ongoing improvements, quick bug fixes, and steady evolution.
+
+With no vendor lock-in and full access to the source code, GeoServer empowers users with flexibility, long-term sustainability, and independence from restrictive licensing.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="./img/geoserver-img-2.png" alt="Open Source vs Proprietary GIS" style="width: 50%;">
 </div>
 
----
+<br>
 
-## Integrate With Mapping APIs
+## Seamless Integration With Mapping APIs
 
-We recommend both [OpenLayers](https://openlayers.org) and [Leaflet](https://leafletjs.com) as excellent open-source web mapping libraries. When combined with GeoServer, they provide a powerful, fully open-source solution for web mapping.
+GeoServer works beautifully with leading open-source mapping libraries like [OpenLayers](https://openlayers.org) and [Leaflet](https://leafletjs.com), allowing you to build rich, interactive web maps using open tools.
 
-GeoServer can also serve spatial data to popular mapping platforms, including:
+<br>
+
+It can also serve spatial data to a wide range of platforms and tools, including:
 
 - [Google Maps](http://maps.google.com/)
 - [Google Earth](http://earth.google.com/)
 - [Microsoft Bing Maps](https://www.bing.com/maps)
 - [MapBox](http://mapbox.com)
+- [ESRI ArcGIS](http://mapbox.com)
 
-Additionally, GeoServer integrates smoothly with traditional GIS architectures such as [ESRI ArcGIS](http://www.esri.com/arcgis).
+<br>
 
-<div style="text-align: center;">
-  <img src="./img/geoserver-img-3.png" alt="OpenLayers & Leaflet Logo" width="450">
-  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+This makes GeoServer a highly interoperable solution for modern GIS and web mapping workflows.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="./img/geoserver-img-3.png" alt="OpenLayers & Leaflet Logo" style="width: 50%;">
+  <div class="caption">
     Image credit: <a href="https://openlayers.org//" target="_blank">OpenLayers</a>
     , <a href="https://leafletjs.com/" target="_blank">Leaflet</a>
   </div>
 </div>
 
----
+<br>
 
-## Join the Community
+## Join the Global GeoServer Community
 
-GeoServer benefits from a large and active global community of users and developers, providing support through multiple channels such as [email lists](/comm#email). It maintains a regular [release cycle](/roadmap) and a [public issue tracker](/issues), ensuring transparency and consistent updates. Additionally, commercial support is available from various providers, so with GeoServer, you are always backed by a strong and supportive community.
+GeoServer is supported by a passionate global community of developers, users, and service providers. Whether you're just getting started or you're an experienced GIS professional, there are many ways to engage, get help, and contribute:
 
----
+<br>
+
+<div class="cards-grid">
+  <div class="card">
+    <div class="card-header">
+      📬 <a href="https://discourse.osgeo.org/c/geoserver/user/51" target="_blank">GeoServer User Forum</a>
+    </div>
+    <div class="card-body">
+      Ask questions, share experiences, and learn from other GeoServer users around the world.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      🛠️ <a href="https://geoserver.org/issues/" target="_blank">Issue Tracker</a>
+    </div>
+    <div class="card-body">
+      Report bugs, suggest features, or follow progress on upcoming improvements.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      📦 <a href="https://github.com/geoserver/geoserver" target="_blank">GitHub Repository</a>
+    </div>
+    <div class="card-body">
+      Contribute to the codebase, submit pull requests, or explore the inner workings of GeoServer.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      🗓️ <a href="https://geoserver.org/roadmap/" target="_blank">Release Roadmap</a>
+    </div>
+    <div class="card-body">
+      Stay up to date with new versions, planned features, and release timelines.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      📚 <a href="https://docs.geoserver.org/" target="_blank">Official Documentation</a>
+    </div>
+    <div class="card-body">
+      Access comprehensive guides, tutorials, and reference material for installing, configuring, and using GeoServer.
+    </div>
+  </div>
+</div>
+
+<br>
