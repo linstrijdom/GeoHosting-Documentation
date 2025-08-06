@@ -14,8 +14,6 @@ context_id: nDU6LLGiXPTLADXY
 
 # Integrating With Other Tools
 
-## Integrating With Other Tools
-
 GeoServer’s OGC services (WMS, WFS, WCS) can be consumed by desktop GIS clients, web mapping libraries, and other applications. Below are two common examples.
 
 ### Consuming GeoServer WMS in QGIS

@@ -219,7 +219,6 @@ Once the workspace is set up, the next step is to add a new store. A store tells
 
 <br>
 
-
 ## Creating a Layer
 
 Now that we've connected to the store, we can proceed to publish a layer.

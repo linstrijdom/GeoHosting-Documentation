@@ -20,35 +20,35 @@ This tutorial outlines the process of publishing a World File and its accompanyi
 
 <br>
 
-### Data Preparation
+## Data Preparation
 
 Begin by gathering the data we'll publish. For this tutorial, we’ll use the [Natural Earth](https://www.naturalearthdata.com/) 1:50m Shaded Relief raster.
 
 <br>
 
 1. **Download Datasets**
-      
-      Click the link below to download the .zip archive containing the raster files:
 
-      - [Natural Earth Data - 50m Shaded Relief](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/raster/SR_50M.zip)
+Click the link below to download the .zip archive containing the raster files:
 
-      <br>
+- [Natural Earth Data - 50m Shaded Relief](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/raster/SR_50M.zip)
 
-      The download includes small-scale 1:50m raster data consisting of:
+<br>
 
-      - `SR_50M.prj`
-      - `SR_50M.README.html`
-      - `SR_50M.tfw`
-      - `SR_50M.tif`
-      - `SR_50M.VERSION.txt`
+The download includes small-scale 1:50m raster data consisting of:
 
-      <br>
+- `SR_50M.prj`
+- `SR_50M.README.html`
+- `SR_50M.tfw`
+- `SR_50M.tif`
+- `SR_50M.VERSION.txt`
 
-      > **Note:** These files together represent a world file (`.tfw`) and its associated image (`.tif`).
+<br>
 
-      <br>
+> **Note:** These files together represent a world file (`.tfw`) and its associated image (`.tif`).
 
-2. **Organize Files** 
+<br>
+
+2. **Organize Files**
 
       After downloading, unzip the file and move the extracted files into a new folder called: `NaturalEarth_Raster`
 
@@ -74,9 +74,7 @@ The next step is to create a workspace for your layers. A workspace is essential
 
 1. Open a web browser and navigate to:
 
-      ```
       http://<application_name>.sta.do.kartoza.com/geoserver
-      ```
 
       <br>
 
@@ -95,7 +93,7 @@ The next step is to create a workspace for your layers. A workspace is essential
        </div>
      </div>
 
-      <br> 
+      <br>
 
 4. Click the Add new workspace button to open the New Workspace page.
 
@@ -109,7 +107,7 @@ The next step is to create a workspace for your layers. A workspace is essential
       | Namespace URI     | `http://<application_name>.sta.do.kartoza.com/geoserver/tutorial_image` |
 
       <br>
-     
+
       > **Note:** The Namespace URI can be any URL-like string tied to your project. It typically includes a trailing identifier that reflects the workspace. This URI does not need to resolve to a real web address.
 
       <br>
@@ -163,7 +161,7 @@ Once the workspace is set up, the next step is to add a new store. A store tells
 
       <br>
 
-2. To add the image, click the **Add new Store** button. This will take you to a list of data sources supported by GeoServer. 
+2. To add the image, click the **Add new Store** button. This will take you to a list of data sources supported by GeoServer.
 
       > **Note:** Your list may vary depending on installed extensions.
 
@@ -207,9 +205,7 @@ Once the workspace is set up, the next step is to add a new store. A store tells
 
 5. Under **URL**, specify the location of your image:
 
-      ```
       file:///files/geoserver_user_data/NaturalEarth_Raster/SR_50M/SR_50M.tif
-      ```
 
       <br>
 
@@ -230,7 +226,7 @@ Once the workspace is set up, the next step is to add a new store. A store tells
 
 ---
 
-###  Creating a Layer
+### Creating a Layer
 
 With the image store created, the next step is to publish it as a layer.
 
@@ -280,17 +276,17 @@ With the image store created, the next step is to publish it as a layer.
 
 5. Verify that the Coordinate Reference System (CRS) information is accurate:
 
-      | Field            | Value             |       
-      |------------------|-------------------|
-      | Native SRS       | EPSG:4326         |
-      | Declaired SRS    | EPSG:4326         |
-      | SRS Handling     | Force declared    |
+| Field            | Value             |
+|------------------|-------------------|
+| Native SRS       | EPSG:4326         |
+| Declaired SRS    | EPSG:4326         |
+| SRS Handling     | Force declared    |
 
-      <br>
+<br>
 
-      [Add Image]
+[Add Image]
 
-      <br>
+<br>
 
 6. In the Bounding Boxes section, click **Compute from data**, then **Compute from native bounds** to auto-fill the bounding box fields.
 
@@ -298,13 +294,13 @@ With the image store created, the next step is to publish it as a layer.
 
       [Add Image]
 
-      <br> 
+      <br>
 
 7. Click Apply to save your progress without closing the page.
 
       > **Note:** This is useful to confirm that all required fields are correctly filled; GeoServer will show a warning if anything is missing.
 
-      <br> 
+      <br>
 
 8. Scroll to the top and go to the Publishing tab.
 

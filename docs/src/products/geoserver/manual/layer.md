@@ -146,7 +146,7 @@ Now that we've connected to the store, we can proceed to publish a layer.
 
 ---
 
-#### Previewing the layer
+## Previewing the layer
 
 To confirm that the `tutorial:Coastline` layer has been published successfully, we can preview it in GeoServer.
 
