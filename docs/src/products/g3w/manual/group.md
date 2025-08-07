@@ -29,7 +29,7 @@ To further organize your project's individual map layers within a Cartographic M
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-8.png" alt="Add Group">
+  <img src="../../img/g3w-img-36.png" alt="Add Group">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -104,7 +104,7 @@ To further organize your project's individual map layers within a Cartographic M
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-9.png" alt="Create Group">
+  <img src="../../img/g3w-img-37.png" alt="Create Group">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -129,7 +129,7 @@ To further organize your project's individual map layers within a Cartographic M
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-10.png" alt="View Group">
+  <img src="../../img/g3w-img-38.png" alt="View Group">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

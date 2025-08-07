@@ -28,7 +28,7 @@ By the end of this tutorial, you will have practical experience in:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14.png" alt="Practical Experience" style="width: 30%;">
+  <img src="../../img/g3w-img-28.png" alt="Practical Experience" style="width: 30%;">
 </div>
 
 ## Data
@@ -91,7 +91,7 @@ Make sure your title:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-1.png" alt="Project Title">
+  <img src="../../img/g3w-img-29.png" alt="Project Title">
   <div class="caption">
     Image credit: <a href="https://qgis.org/" target="_blank">QGIS</a>
   </div>

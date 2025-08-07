@@ -28,7 +28,7 @@ To ensure your project layers display correctly in G3W-SUITE, you need to upload
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-2.png" alt="File Manager">
+  <img src="../../img/g3w-img-30.png" alt="File Manager">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -56,7 +56,7 @@ To ensure your project layers display correctly in G3W-SUITE, you need to upload
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-3.png" alt="Create Folder">
+  <img src="../../img/g3w-img-31.png" alt="Create Folder">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -79,7 +79,7 @@ Once uploaded, your SpatiaLite database is ready to support your WebGIS services
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-14-4.png" alt="Upload Database">
+  <img src="../../img/g3w-img-32.png" alt="Upload Database">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

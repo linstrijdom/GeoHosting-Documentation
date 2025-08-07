@@ -28,7 +28,7 @@ After completing your order, the deployment will begin automatically. You’ll b
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-4-1.png" alt="Launch Product">
+  <img src="../../img/g3w-img-5.png" alt="Launch Product">
 </div>
 
 <br>
@@ -40,7 +40,7 @@ After your hosted product has been successfully deployed, you’ll be redirected
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-4-2.png" alt="Dashboard">
+  <img src="../../img/g3w-img-6.png" alt="Dashboard">
 </div>
 
 <br>
@@ -62,7 +62,7 @@ To access detailed information about your hosted service:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-4-3.png" alt="Product Page">
+  <img src="../../img/g3w-img-7.png" alt="Product Page">
 </div>
 
 <br>
@@ -90,7 +90,7 @@ To open your G3W instance, you can either:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-4-4.png" alt="Hosted Product">
+  <img src="../../img/g3w-img-8.png" alt="Hosted Product">
 </div>
 
 <br>

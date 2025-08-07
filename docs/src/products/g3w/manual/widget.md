@@ -22,7 +22,7 @@ From the <span class="ui-page-label">Project List</span> page, each project incl
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-15-5.png" alt="Tools">
+  <img src="../../img/g3w-img-43.png" alt="Tools">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -35,7 +35,7 @@ Click the <span class="ui-generic-label">Layers</span> icon to access the <span 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-15-6.png" alt="Functional Options" style="width: 80%;">
+  <img src="../../img/g3w-img-44.png" alt="Functional Options" style="width: 80%;">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -111,7 +111,7 @@ Search widgets allow users to filter data based on attribute fields from vector 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-15-7.png" alt="Search Widget">
+  <img src="../../img/g3w-img-45.png" alt="Search Widget">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -136,7 +136,7 @@ The QPlotly widget lets users view interactive charts created in QGIS using the 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-15-8.png" alt="Plots Widget">
+  <img src="../../img/g3w-img-46.png" alt="Plots Widget">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>

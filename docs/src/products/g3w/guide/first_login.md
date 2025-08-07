@@ -22,7 +22,7 @@ Alternatively, you can access your product directly using its URL, which is avai
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-1.png" alt="G3W Homepage">
+  <img src="../../img/g3w-img-9.png" alt="G3W Homepage">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -39,7 +39,7 @@ After logging in, you'll be redirected back to the <span class="ui-page-label">H
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-2.png" alt="Login">
+  <img src="../../img/g3w-img-10.png" alt="Login">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -54,7 +54,7 @@ The Administration Panel is the control center for managing user accounts, group
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-3.png" alt="Admin">
+  <img src="../../img/g3w-img-11.png" alt="Admin">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -80,7 +80,7 @@ In the administration panel, click your <span class="ui-generic-label">Username<
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-5-4.png" alt="Change Password">
+  <img src="../../img/g3w-img-12.png" alt="Change Password">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
