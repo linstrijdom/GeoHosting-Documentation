@@ -14,381 +14,156 @@ context_id: nDU6LLGiXPTLADXY
 
 # Quickstart: 5-Minute Tutorial
 
-This tutorial guides you through the steps to publish a layer using GeoServer.
+Ready to get started with GeoServer. This tutorial guides you through the steps to publish a layer using GeoServer.
 
-## Adding data to your File Browser
+<br>
+
+## Step 1: Add Data to File Browser
 
 In order for the data to be accessible in the Web Administration Interface, it first needs to be added to your File Browser.
 
-<br>
+1. From the <span class="ui-page-label">Product Details</span> page in the GHS dashboard, click the <span class="ui-filename">Filebrowser</span> link. 
 
-**To add data:**
+2. Log in using the credentails from the <span class="ui-page-label">Product Details</span> page.
 
-1. Open the file browser at:
+3. Double-click the <span class="ui-filename">geoserver_user_data</span> folder to enter it.
 
-     ```bash
-     http://<application_name>.sta.do.kartoza.com/file
-     ```
+4. Click the <span class="ui-generic-label">Upload</span> button at the top-right of the screen. When prompted, select <span class="ui-generic-label">Folder</span> and upload the folder containing your shapefile. 
 
-     <br>
-
-2. Log in using the credentials you retrieved from the GeoSpatialHosting Dashboard:
-
-     - **Username:** `admin`
-     - **Password:** `FB_Password_Unhashed`
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-12.png" alt="File Browser Login" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-      > **Hint:** Need help finding your credentials? See the section: [Using the Kartoza GeoSpatialHosting Dashboard](https://kartoza.github.io/GeoHosting/products/geoserver/guide/#using-the-kartoza-geospatialhosting-dashboard)
-
-      <br>
-
-3. Double-click the `geoserver_user_data` folder to enter it.
-
-      <br>
-
-4. Click the **Upload** button at the top-right of the screen. When prompted, select Folder.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-13.png" alt="File Browser Upload" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-5. Locate and upload the `NaturalEarth` folder you previously prepared.
-
-The data will now be accessible in the Web Administration Interface.
-
-## Creating a New Workspace
-
-The next step is to create a workspace for your layers. A workspace is essentially a container used to organize and group related layers within GeoServer.
-
-> **Note** This step is optional if you prefer to use an existing workspace. Typically, a new workspace is created for each project, allowing you to group related stores and layers together.
+5. The data will now be accessible in the Web Administration Interface.
 
 <br>
 
-1. Open a web browser and navigate to:
-
-     ```bash
-     http://<application_name>.sta.do.kartoza.com/geoserver
-     ```
-
-     <br>
-
-2. Log in to GeoServer using your credentials.
-
-      <br>
-
-3. In the left-hand menu, go to **Data → Workspaces**.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-14.png" alt="Workspace" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-4. Click the **Add new workspace** button to open the **New Workspace** page.
-
-      <br>
-
-5. Complete the form with the following details:
-
-     | Field             | Value                                                               |
-     |-------------------|---------------------------------------------------------------------|
-     | Name              | `tutorial`                                                          |
-     | Namespace URI     | `http://<application_name>.sta.do.kartoza.com/geoserver/tutorial`   |
-
-     <br>
-
-     > **Note:** The workspace name should describe your project. It must be 10 characters or fewer and cannot contain spaces.
-     The Namespace URI can be any URL-like string tied to your project. It typically includes a trailing identifier that reflects the workspace. This URI does not need to resolve to a real web address.
-
-     <br>
-
-6. Click the **Save** button.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-15.png" alt="Save" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-7. The `tutorial` workspace should now appear in the **Workspaces** list.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-16.png" alt="Update Workspace list" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-6-1.png" alt="File Browser" width="auto">
+</div>
 
 <br>
 
-## Creating a Store
+## Step 2: Create Workspace
+
+A workspace is essentially a container used to organize and group related layers within GeoServer.
+
+1. Navigate to the GeoServer <span class="ui-page-label">Homepage</span>.
+
+2. Under the **Data** section in the left-hand menu, select <span class="ui-generic-label">Workspaces</span>.
+
+3. Click the <span class="ui-generic-label">Add New workspace</span> button.
+
+4. Complete the **Name** and **Namespace URI** fields.
+
+5. Click <span class="ui-generic-label">Save</span> to finish creating your workspace.
+
+<br>
+
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    The workspace name should describe your project. It must be 10 characters or fewer and cannot contain spaces.
+  </div>
+</div>
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-6-2.png" alt="Workspace" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+## Step 3: Create Data Store
 
 Once the workspace is set up, the next step is to add a new store. A store tells GeoServer how to connect to the data.
 
-<br>
+1. Under the **Data** section in the left-hand menu, select <span class="ui-generic-label">Store</span>.
 
-1. Navigate to **Data → Stores**.
+2. Click the <span class="ui-generic-label">Add New Store</span> button.
 
-     <br>
+3. From the <span class="ui-page-label">New Data Source</span> page, select <span class="ui-generic-label">Shapefile</span>
 
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-17.png" alt="Store" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+4. Fill in the **Workspace**(<span class="ui-filename">quickstart</span>) and **Data Source Name** fields.
 
-     <br>
+5. Under **Shapefile location**, click <span class="ui-generic-label">Browse...</span>.
 
-2. To add the layer, click the **Add new Store** button. This will take you to a list of data sources supported by GeoServer.
+6. Navigate to the <span class="ui-filename">/files/geoserver_user_data</span> directory and select your <span class="ui-filename">.shp</span> file. 
 
-     > **Note:** Keep in mind that this list is extensible, so yours might look slightly different.
-
-     <br>
-
-3. From the list of **Vector Data Sources**, find and click the **Shapefile** option.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-18.png" alt="Vector Data Sources" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-4. Fill in the following fields:
-
-     | Field             | Value                                         |
-     |-------------------|-----------------------------------------------|
-     | Workspace         | `tutorial`                                    |
-     | Data Source Name  | `Natural Earth - Coastlines`                   |
-     | Description       | `Shapefile of Natural Earth Coastlines data`  |
-
-     <br>
-
-5. Under **Shapefile location**, enter the following:
-
-     ```bash
-     file:///files/geoserver_user_data/NaturalEarth/ne_110m_coastline/ne_110m_coastline.shp
-     ```
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-19.png" alt="New Vector Data Source" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-6. Press **Save**. You will be redirected to the **New Layer** page.
+7. Press <span class="ui-generic-label">Save</span>.
 
 <br>
 
-## Creating a Layer
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-6-3.png" alt="Store" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+## Step 4: Publish Layer
 
 Now that we've connected to the store, we can proceed to publish a layer.
 
-<br>
+1. From the <span class="ui-page-label">New Layer</span> page, click <span class="ui-generic-label">Publish</span> next to your layer name. 
 
-1. In the New Layer page, click Publish next to the `ne_110_coastline` layer name.
+2. Fill in the **Name** and **Title** fields.
 
-     <br>
+3. In the Bounding Boxes section, click <span class="ui-generic-label">Compute from data</span>, then <span class="ui-generic-label">Compute from native bounds</span>.
 
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-20.png" alt="New Layer Page" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+4. Click <span class="ui-generic-label">Apply</span> to save your progress without closing the page.
 
-     <br>
+5. Navigate to the <span class="ui-page-label">Publishing</span> tab.
 
-2. The Edit Layer page defines the data and publishing parameters for the layer.
+6. Under WMS Settings, set the **Default Style** to your shapefile feature type.
 
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-21.png" alt="Edit Layer Page" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-3. Three key sections on the Data tab must be completed before saving:
-
-     - **Basic Resource Info** – defines how the layer is presented
-     - **Coordinate Reference System** – determines how spatial data is interpreted
-     - **Bounding Boxes** – establishes the dataset's geographic extent
-
-     <br>
-
-4. In the Basic Resource Info section, enter the following:
-
-     | Field     | Value             |
-     |-----------|-------------------|
-     | Name      | `Coastline`       |
-     | Title     | `Coastline`       |
-
-     <br>
-
-     > **Note:** While GeoServer allows flexible naming, many external protocols require simple, standard layer names.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-22.png" alt="Basic Resource Info Section" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-5. Verify that the Coordinate Reference System (CRS) information is accurate:
-
-     | Field            | Value             |
-     |------------------|-------------------|
-     | Native SRS       | EPSG:4326         |
-     | Declaired SRS    | EPSG:4326         |
-     | SRS Handling     | Force declared    |
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-23.png" alt="Coordinate Reference System Section" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-6. In the Bounding Boxes section, click **Compute from data**, then **Compute from native bounds** to auto-fill the bounding box fields.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-24.png" alt="Bounding Boxes Section" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-7. Click Apply to save your progress without closing the page.
-
-     > **Hint:** This is useful to confirm that all required fields are correctly filled; GeoServer will show a warning if anything is missing.
-
-     <br>
-
-8. Scroll to the top and go to the Publishing tab.
-
-      <br>
-
-9. Under WMS Settings, set the Default Style to `line`.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-25.png" alt="WMS Settings" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-10. Click **Save** to finalize the layer configuration and publish the layer.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-26.png" alt="Published Layer" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+7. Click <span class="ui-generic-label">Save</span> to finalize the layer configuration and publish the layer.
 
 <br>
 
-## Previewing the layer
-
-To confirm that the `tutorial:Coastline` layer has been published successfully, we can preview it in GeoServer.
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    While GeoServer allows flexible naming, many external protocols require simple, standard layer names.
+  </div>
+</div>
 
 <br>
 
-1. Go to **Data → Layer Preview** and locate the `tutorial:Coastline` layer.
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-6-4.png" alt="Layer" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
 
-      <br>
+<br>
 
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-27.png" alt="Layer Preview" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+## Step 5: Preview Layer
 
-      <br>
+To confirm that your layer has been published successfully, we can preview it in GeoServer.
 
-      > **Note:** To filter results and make it easier to find, type `tutorial` in the search field.
+1. Under the **Data** section in the left-hand menu, select <span class="ui-generic-label">Layer Preview</span>.
 
-      <br>
+2. Click the <span class="ui-filename">OpenLayers</span> link in the Common Formats column.
 
-2. Click the **OpenLayers** link in the Common Formats column.
+3. An OpenLayers map will open in a new tab, displaying the shapefile data with the default style.
 
-      <br>
+<br>
 
-3. An OpenLayers map will open in a new tab, displaying the shapefile data with the default line style.
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-6-5.png" alt="View Layer" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
 
-      <br>
+<br>
 
-4. You can interact with the preview map by zooming, panning, and clicking on features to view their attribute data.
+---
 
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-28.png" alt="OpenLayers Map" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+**Next up:** Discover how to navigate and use the GeoServer Dashboard to enhance your user experience effortlessly.
 
 <br>

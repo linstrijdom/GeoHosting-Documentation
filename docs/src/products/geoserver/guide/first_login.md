@@ -18,7 +18,7 @@ context_id: nDU6LLGiXPTLADXY
 
 To begin using your hosted GeoServer product, go to the <span class="ui-page-label">Hosted Products</span> section of the GSH Dashboard. From there, click the <span class="ui-generic-label">Product Name</span> you selected during setup.
 
-You can also access your instance directly using its unique URL, which is listed on the <span class="ui-page-label">Product Details</span> in the dashboard.
+You can also access your instance directly using its unique URL, which is listed on the <span class="ui-page-label">Product Details</span> page in the dashboard.
 
 <br>
 
