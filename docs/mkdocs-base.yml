@@ -106,8 +106,23 @@ nav:
       - GeoServer:
           - products/geoserver/index.md
           - Overview: products/geoserver/overview.md
-          - Guide: products/geoserver/guide.md
-          - Manual: products/geoserver/manual.md
+          - Guide:
+            - Creating Your Instance: products/geoserver/guide/create_instance.md
+            - First Log In & Setting Your Password: products/geoserver/guide/first_login.md
+            - Quickstart - 5-Minute Tutorial: products/geoserver/guide/quickstart.md
+            - Navigating the Dashboard: products/geoserver/guide/dashboard.md
+            - Managing Users & Permissions: products/geoserver/guide/permissions.md
+            - Integrating With Other Tools: products/geoserver/guide/other_tools.md
+            - Glossary of Terms: products/geoserver/guide/glossary.md
+          - Manual:
+            - Data & Preparation: products/geoserver/manual/data.md
+            - File Browser: products/geoserver/manual/file_browser.md
+            - Workspaces: products/geoserver/manual/workspace.md
+            - Data Stores: products/geoserver/manual/store.md
+            - Layers: products/geoserver/manual/layer.md
+            - Images: products/geoserver/manual/image.md
+            - Layer Groups: products/geoserver/manual/layer_group.md
+            - Styling: products/geoserver/manual/style.md
           - Help: products/geoserver/help.md
       #- GeoSight:
       #    - products/geosight/index.md
