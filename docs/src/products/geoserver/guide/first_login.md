@@ -14,20 +14,35 @@ context_id: nDU6LLGiXPTLADXY
 
 # First Log In & Setting Your Password
 
+## Accessing the Homepage
+
+To begin using your hosted GeoServer product, go to the <span class="ui-page-label">Hosted Products</span> section of the GSH Dashboard. From there, click the <span class="ui-generic-label">Product Name</span> you selected during setup.
+
+You can also access your instance directly using its unique URL, which is listed on the <span class="ui-page-label">Product Details</span> in the dashboard.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geoserver-img-5-1.png" alt="GeoServer Homepage">
+  <div class="caption">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
 ## Logging In
 
-To modify server settings or configure spatial data in GeoServer, you must first log in using the administrator credentials.
+To configure data or manage server settings, you’ll need to log in to the GeoServer admin interface using the credentials generated on the GSH Dashboard. 
 
-1. Navigate to the top-right corner of the web interface.
-2. Click the **Login** button.
-3. Enter the credentials you generated earlier from the GeoSpatialHosting Dashboard:
-   - **Username:** `admin`
-   - **Password:** `GeoServer_Admin_Password`
+From the GeoServer Homepage, click <span class="ui-page-label">Login</span> in the top-right corner. Enter your **Username** (<span class="ui-filename">admin</span>) and the **Password** copied from the dashboard. Click <span class="ui-generic-label">Login</span> to continue.
+
+Once logged in, the <span class="ui-page-label">Homepage</span> will expand to display administrative options, accessible through the menu on the left side of the screen.
 
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-7.png" alt="Login" width="auto">
+  <img src="../../img/geoserver-img-5-2.png" alt="Login" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -35,18 +50,37 @@ To modify server settings or configure spatial data in GeoServer, you must first
 
 <br>
 
-> **Hint:** Need help finding your credentials? See the section: [Using the Kartoza GeoSpatialHosting Dashboard](https://kartoza.github.io/GeoHosting/products/geoserver/guide/#using-the-kartoza-geospatialhosting-dashboard)
-> **Note:** You can change login details later under the [Security](https://docs.geoserver.org/latest/en/user/security/index.html#security) section of the GeoServer documentation.
+## Changing Your Password
 
-Once logged in, the Welcome screen expands to show administrative functions — primarily accessible through the navigation menu on the left.
+After your first login, it's recommended that you change the default password to help keep your product secure. 
+
+Open the <span class="ui-generic-label">Users, Groups, Roles</span> page found under the Security section in the left-hand menu. Under the User Group Services section, select the <span class="ui-filename">default</span> group. Navigate to the <span class="ui-page-label">Users</span> tab, and select <span class="ui-filename">admin</span> from the users list. 
+
+On the <span class="ui-page-label">Edit User</span> page, enter your new password in both the password and confirmation fields, and click <span class="ui-generic-label">Save</span> to apply the change.
+
+<br>
+
+<div class="alert alert-hint">
+  <div class="alert-icon">💡</div>
+  <div class="alert-text">
+    Choose a strong, unique password and store it securely.
+  </div>
+</div>
 
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-8.png" alt="Additional options when logged in" width="auto">
+  <img src="../../img/geoserver-img-5-3.png" alt="Update Password" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
 </div>
+
+<br>
+
+---
+
+**Next up:** A quick 5-minute Getting Started guide to help you publish your first layer and view it in a web map.
+
 
 <br>
