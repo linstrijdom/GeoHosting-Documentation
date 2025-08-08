@@ -15,7 +15,7 @@ context_id: nDU6LLGiXPTLADXY
 
 ## Why Choose this Product?
 
-**GeoServer** is a powerful and widely adopted open-source server platform for sharing geospatial data. It enables you to publish vector and raster data using open standards, making it easy to integrate with existing systems and web mapping frameworks. 
+**GeoServer** is a powerful and widely adopted open-source server platform for sharing geospatial data. It enables you to publish vector and raster data using open standards, making it easy to integrate with existing systems and web mapping frameworks.
 
 Whether you're building a lightweight internal service or a robust, public-facing map platform, GeoServer gives you full control over how your spatial data is served and styled. Here’s why GeoServer stands out:
 
