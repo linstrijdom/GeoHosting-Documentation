@@ -47,92 +47,98 @@ Whether you're building a lightweight internal service or a robust, public-facin
 
     Add new capabilities via GeoServer’s plugin architecture, whether you need Web Processing Service (WPS), security extensions, or custom formats. It’s a developer-friendly platform designed for long-term adaptability.
 
+    <br>
+
 <div class="image-with-caption">
-  <img src="../img/geonode-img-3-1.png" alt="Why" style="width: 70%;">
+  <img src="../img/geoserver-img-3-1.png" alt="Why">
 </div>
+
+<br>
 
 ## What Size Should I Buy?
 
 GeoServer is designed to scale with your needs. Whether you're managing a simple departmental map service or running a national Spatial Data Infrastructure (SDI), our hosted GeoServer environments can be tailored to fit.
 
+<br>
+
 1. **Small / Basic Deployment**
 
-<table class="my-table-style">
-  <thead>
-    <tr>
-      <th>Aspect</th>
-      <th>Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Architecture</td>
-      <td>Single-host setup with GeoServer and internal PostGIS (optional). Ideal for small teams or test environments.</td>
-    </tr>
-    <tr>
-      <td>Use Cases</td>
-      <td>Prototypes, academic use, single-user map publication, or non-critical internal tools.</td>
-    </tr>
-    <tr>
-      <td>Benefits</td>
-      <td>Fast to deploy, minimal overhead, and budget-friendly.</td>
-    </tr>
-  </tbody>
-</table>
+    <table class="my-table-style">
+      <thead>
+        <tr>
+          <th>Aspect</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Architecture</td>
+          <td>Single-host setup with GeoServer and internal PostGIS (optional). Ideal for small teams or test environments.</td>
+        </tr>
+        <tr>
+          <td>Use Cases</td>
+          <td>Prototypes, academic use, single-user map publication, or non-critical internal tools.</td>
+        </tr>
+        <tr>
+          <td>Benefits</td>
+          <td>Fast to deploy, minimal overhead, and budget-friendly.</td>
+        </tr>
+      </tbody>
+    </table>
 
-<br>
+    <br>
 
 2. **Medium / Production Deployment**
 
-<table class="my-table-style">
-  <thead>
-    <tr>
-      <th>Aspect</th>
-      <th>Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Architecture</td>
-      <td>Two-tier setup with dedicated PostGIS database, separate GeoServer instance, and optional external data stores or extensions.</td>
-    </tr>
-    <tr>
-      <td>Use Cases</td>
-      <td>Government departments, NGOs, consultancies, or organizations publishing several datasets and maps publicly.</td>
-    </tr>
-    <tr>
-      <td>Benefits</td>
-      <td>Improved stability, isolated services, support for security extensions, better performance under moderate load.</td>
-    </tr>
-  </tbody>
-</table>
+    <table class="my-table-style">
+      <thead>
+        <tr>
+          <th>Aspect</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Architecture</td>
+          <td>Two-tier setup with dedicated PostGIS database, separate GeoServer instance, and optional external data stores or extensions.</td>
+        </tr>
+        <tr>
+          <td>Use Cases</td>
+          <td>Government departments, NGOs, consultancies, or organizations publishing several datasets and maps publicly.</td>
+        </tr>
+        <tr>
+          <td>Benefits</td>
+          <td>Improved stability, isolated services, support for security extensions, better performance under moderate load.</td>
+        </tr>
+      </tbody>
+    </table>
 
-<br>
+    <br>
 
 3. **Large / Enterprise Deployment**
 
-<table class="my-table-style">
-  <thead>
-    <tr>
-      <th>Aspect</th>
-      <th>Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Architecture</td>
-      <td>High-availability setup with load-balanced GeoServer instances, clustered databases, tile caching, and optional CDN and security integrations (OAuth2, LDAP, SAML).</td>
-    </tr>
-    <tr>
-      <td>Use Cases</td>
-      <td>Enterprise SDIs, national portals, and high-traffic applications that require robust performance, redundancy, and uptime guarantees.</td>
-    </tr>
-    <tr>
-      <td>Benefits</td>
-      <td>Scalability, fault tolerance, secure access control, disaster recovery support, and full integration with external systems.</td>
-    </tr>
-  </tbody>
-</table>
+    <table class="my-table-style">
+      <thead>
+        <tr>
+          <th>Aspect</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Architecture</td>
+          <td>High-availability setup with load-balanced GeoServer instances, clustered databases, tile caching, and optional CDN and security integrations (OAuth2, LDAP, SAML).</td>
+        </tr>
+        <tr>
+          <td>Use Cases</td>
+          <td>Enterprise SDIs, national portals, and high-traffic applications that require robust performance, redundancy, and uptime guarantees.</td>
+        </tr>
+        <tr>
+          <td>Benefits</td>
+          <td>Scalability, fault tolerance, secure access control, disaster recovery support, and full integration with external systems.</td>
+        </tr>
+      </tbody>
+    </table>
 
 <br>
 
