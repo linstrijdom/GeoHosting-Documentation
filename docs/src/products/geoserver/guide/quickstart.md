@@ -14,23 +14,27 @@ context_id: nDU6LLGiXPTLADXY
 
 # Quickstart: 5-Minute Tutorial
 
-Ready to get started with GeoServer. This tutorial guides you through the steps to publish a layer using GeoServer.
+Ready to start publishing data with GeoServer? This quick tutorial walks you through the entire process — from uploading your dataset to viewing it on a map.
 
 <br>
 
-## Step 1: Add Data to File Browser
+## Step 1: Upload Data
 
-In order for the data to be accessible in the Web Administration Interface, it first needs to be added to your File Browser.
+Before GeoServer can serve your data, it needs to be available in the File Browser.
 
-1. From the <span class="ui-page-label">Product Details</span> page in the GHS dashboard, click the <span class="ui-filename">Filebrowser</span> link. 
+1. In the GHS Dashboard, open your <span class="ui-page-label">Product Details</span> page and click <span class="ui-filename">Filebrowser</span>.
 
-2. Log in using the credentails from the <span class="ui-page-label">Product Details</span> page.
+2. Log in using the credentials provided on the <span class="ui-page-label">Product Details</span> page.
 
-3. Double-click the <span class="ui-filename">geoserver_user_data</span> folder to enter it.
+3. Double-click the <span class="ui-filename">geoserver_user_data</span> folder to open it.
 
-4. Click the <span class="ui-generic-label">Upload</span> button at the top-right of the screen. When prompted, select <span class="ui-generic-label">Folder</span> and upload the folder containing your shapefile. 
+4. Click <span class="ui-generic-label">Upload</span> in the top-right corner.
 
-5. The data will now be accessible in the Web Administration Interface.
+5. Choose <span class="ui-generic-label">Folder</span> and upload the folder containing your shapefile.
+
+<br>
+
+Your data will now be available in the GeoServer Web Administration Interface.
 
 <br>
 
@@ -42,24 +46,22 @@ In order for the data to be accessible in the Web Administration Interface, it f
 
 ## Step 2: Create Workspace
 
-A workspace is essentially a container used to organize and group related layers within GeoServer.
+A workspace is a container that groups related layers together — perfect for keeping projects organized.
 
-1. Navigate to the GeoServer <span class="ui-page-label">Homepage</span>.
+1. In the GeoServer Homepage, go to <span class="ui-generic-label">Data → Workspaces</span>.
 
-2. Under the **Data** section in the left-hand menu, select <span class="ui-generic-label">Workspaces</span>.
+2. Click <span class="ui-generic-label">Add New workspace</span>.
 
-3. Click the <span class="ui-generic-label">Add New workspace</span> button.
+3. Enter a **Name** and a **Namespace URI**.
 
-4. Complete the **Name** and **Namespace URI** fields.
-
-5. Click <span class="ui-generic-label">Save</span> to finish creating your workspace.
+4. Click <span class="ui-generic-label">Save</span>.
 
 <br>
 
 <div class="alert alert-note">
   <div class="alert-icon">📝</div>
   <div class="alert-text">
-    The workspace name should describe your project. It must be 10 characters or fewer and cannot contain spaces.
+    Choose a short, descriptive name — 10 characters or fewer — without spaces.
   </div>
 </div>
 
@@ -74,23 +76,23 @@ A workspace is essentially a container used to organize and group related layers
 
 <br>
 
-## Step 3: Create Data Store
+## Step 3: Add Data Store
 
-Once the workspace is set up, the next step is to add a new store. A store tells GeoServer how to connect to the data.
+A data store tells GeoServer how to connect to your dataset.
 
-1. Under the **Data** section in the left-hand menu, select <span class="ui-generic-label">Store</span>.
+1. On the GeoServer Homepage, go to <span class="ui-generic-label">Data → Stores</span>.
 
-2. Click the <span class="ui-generic-label">Add New Store</span> button.
+2. Click <span class="ui-generic-label">Add New Store</span>.
 
-3. From the <span class="ui-page-label">New Data Source</span> page, select <span class="ui-generic-label">Shapefile</span>
+3. Choose <span class="ui-generic-label">Shapefile</span> from the list of data sources.
 
-4. Fill in the **Workspace**(<span class="ui-filename">quickstart</span>) and **Data Source Name** fields.
+4. Select you **Workspace** and enter a **Data Source Name**.
 
-5. Under **Shapefile location**, click <span class="ui-generic-label">Browse...</span>.
+5. Under Shapefile location, click <span class="ui-generic-label">Browse...</span>.
 
-6. Navigate to the <span class="ui-filename">/files/geoserver_user_data</span> directory and select your <span class="ui-filename">.shp</span> file. 
+6. Navigate to <span class="ui-filename">/files/geoserver_user_data</span> and select your <span class="ui-filename">.shp</span> file.
 
-7. Press <span class="ui-generic-label">Save</span>.
+7. Click <span class="ui-generic-label">Save</span>.
 
 <br>
 
@@ -105,28 +107,28 @@ Once the workspace is set up, the next step is to add a new store. A store tells
 
 ## Step 4: Publish Layer
 
-Now that we've connected to the store, we can proceed to publish a layer.
+With the store in place, it’s time to make your data available as a layer.
 
-1. From the <span class="ui-page-label">New Layer</span> page, click <span class="ui-generic-label">Publish</span> next to your layer name. 
+1. On the <span class="ui-page-label">New Layer</span> page, click <span class="ui-generic-label">Publish</span> next to your layer name.
 
 2. Fill in the **Name** and **Title** fields.
 
-3. In the Bounding Boxes section, click <span class="ui-generic-label">Compute from data</span>, then <span class="ui-generic-label">Compute from native bounds</span>.
+3. In Bounding Boxes, click <span class="ui-generic-label">Compute from data</span> and then <span class="ui-generic-label">Compute from native bounds</span>.
 
-4. Click <span class="ui-generic-label">Apply</span> to save your progress without closing the page.
+4. Click <span class="ui-generic-label">Apply</span> to save without closing the page.
 
-5. Navigate to the <span class="ui-page-label">Publishing</span> tab.
+5. Open the <span class="ui-page-label">Publishing</span> tab.
 
-6. Under WMS Settings, set the **Default Style** to your shapefile feature type.
+6. Under WMS Settings, set the **Default Style** to your shapefile.
 
-7. Click <span class="ui-generic-label">Save</span> to finalize the layer configuration and publish the layer.
+7. Click <span class="ui-generic-label">Save</span> to publish the layer.
 
 <br>
 
 <div class="alert alert-note">
   <div class="alert-icon">📝</div>
   <div class="alert-text">
-    While GeoServer allows flexible naming, many external protocols require simple, standard layer names.
+    While GeoServer supports flexible naming, many external systems prefer short, simple layer names.
   </div>
 </div>
 
@@ -143,13 +145,13 @@ Now that we've connected to the store, we can proceed to publish a layer.
 
 ## Step 5: Preview Layer
 
-To confirm that your layer has been published successfully, we can preview it in GeoServer.
+TNow let’s confirm your layer is working.
 
-1. Under the **Data** section in the left-hand menu, select <span class="ui-generic-label">Layer Preview</span>.
+1. In <span class="ui-generic-label">Data → Layer Preview</span>, find your layer.
 
-2. Click the <span class="ui-filename">OpenLayers</span> link in the Common Formats column.
+2. In the Common Formats column, click <span class="ui-filename">OpenLayers</span>.
 
-3. An OpenLayers map will open in a new tab, displaying the shapefile data with the default style.
+3. A new tab will open, displaying your shapefile with the default style.
 
 <br>
 
@@ -164,6 +166,6 @@ To confirm that your layer has been published successfully, we can preview it in
 
 ---
 
-**Next up:** Discover how to navigate and use the GeoServer Dashboard to enhance your user experience effortlessly.
+**Next up:** Learn how to navigate and use the GeoServer Dashboard, unlocking tools and features that make managing your spatial data faster and easier.
 
 <br>
