@@ -33,7 +33,7 @@ If you’re logged in with administrative credentials, you’ll also see a confi
 
 ## Web Administration Interface
 
-The Web Administration Interface lets you configure every aspect of the platform — from uploading new datasets to customizing service behavior. 
+The Web Administration Interface lets you configure every aspect of the platform — from uploading new datasets to customizing service behavior.
 
 Once logged in as an administrator, the left-hand navigation menu expands to reveal the full range of configuration sections. Each section groups related tools and settings, making it easier to find exactly what you need.
 
@@ -309,7 +309,7 @@ Keep track of server activity and health with monitoring tools.
 
 ### Demos
 
-This section provides convenient access to sample requests for WMS, WCS, and WFS services, allowing you to explore and test GeoServer’s capabilities firsthand. It also includes a comprehensive list of all Spatial Reference Systems (SRS) recognized by GeoServer. 
+This section provides convenient access to sample requests for WMS, WCS, and WFS services, allowing you to explore and test GeoServer’s capabilities firsthand. It also includes a comprehensive list of all Spatial Reference Systems (SRS) recognized by GeoServer.
 
 Additionally, you’ll find a reprojection console to easily convert coordinates between different spatial reference systems, along with an interactive request builder designed specifically for creating and testing WCS requests.
 

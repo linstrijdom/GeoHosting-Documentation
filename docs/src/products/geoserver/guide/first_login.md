@@ -33,7 +33,7 @@ You can also access your instance directly using its unique URL, which is listed
 
 ## Logging In
 
-To configure data or manage server settings, you’ll need to log in to the GeoServer admin interface using the credentials generated on the GSH Dashboard. 
+To configure data or manage server settings, you’ll need to log in to the GeoServer admin interface using the credentials generated on the GSH Dashboard.
 
 From the GeoServer Homepage, click <span class="ui-page-label">Login</span> in the top-right corner. Enter your **Username** (<span class="ui-filename">admin</span>) and the **Password** copied from the dashboard. Click <span class="ui-generic-label">Login</span> to continue.
 
@@ -52,9 +52,9 @@ Once logged in, the <span class="ui-page-label">Homepage</span> will expand to d
 
 ## Changing Your Password
 
-After your first login, it's recommended that you change the default password to help keep your product secure. 
+After your first login, it's recommended that you change the default password to help keep your product secure.
 
-Open the <span class="ui-generic-label">Users, Groups, Roles</span> page found under the Security section in the left-hand menu. Under the User Group Services section, select the <span class="ui-filename">default</span> group. Navigate to the <span class="ui-page-label">Users</span> tab, and select <span class="ui-filename">admin</span> from the users list. 
+Open the <span class="ui-generic-label">Users, Groups, Roles</span> page found under the Security section in the left-hand menu. Under the User Group Services section, select the <span class="ui-filename">default</span> group. Navigate to the <span class="ui-page-label">Users</span> tab, and select <span class="ui-filename">admin</span> from the users list.
 
 On the <span class="ui-page-label">Edit User</span> page, enter your new password in both the password and confirmation fields, and click <span class="ui-generic-label">Save</span> to apply the change.
 
@@ -81,6 +81,5 @@ On the <span class="ui-page-label">Edit User</span> page, enter your new passwor
 ---
 
 **Next up:** A quick 5-minute Getting Started guide to help you publish your first layer and view it in a web map.
-
 
 <br>
