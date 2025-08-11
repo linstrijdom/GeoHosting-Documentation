@@ -14,35 +14,79 @@ context_id: nDU6LLGiXPTLADXY
 
 # Glossary of Terms
 
-- **Workspace**
-  A container in GeoServer used to group related stores and layers. Often named for a project.
+Unsure what a *workspace*, *store*, or *GetCapabilities* request means? This glossary explains key GeoServer concepts to help you navigate the platform confidently.
 
-- **Store**
-  Defines how GeoServer connects to your data (shapefiles, PostGIS, GeoTIFF, etc.).
+<br>
 
-- **Layer**
-  A published dataset in GeoServer, exposed via OGC services (WMS/WFS/WCS).
+<table class="my-table-style">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>📁 Workspace</td>
+      <td>A container in GeoServer used to group related stores and layers, often named for a specific project or data theme.</td>
+    </tr>
+    <tr>
+      <td>🗄️ Store</td>
+      <td>Defines how GeoServer connects to your data source (e.g., shapefiles, PostGIS, GeoTIFF). Each store belongs to a workspace.</td>
+    </tr>
+    <tr>
+      <td>🗺️ Layer</td>
+      <td>A published dataset in GeoServer, made available through OGC services like WMS, WFS, or WCS.</td>
+    </tr>
+    <tr>
+      <td>📚 Layer Group</td>
+      <td>A collection of layers combined into a single map view with a specified drawing order and shared styles.</td>
+    </tr>
+    <tr>
+      <td>🎨 Style</td>
+      <td>An SLD or CSS document that defines how data is visually rendered—colors, symbols, line thickness, and opacity.</td>
+    </tr>
+    <tr>
+      <td>🌐 SRS / CRS</td>
+      <td>Spatial Reference System (or Coordinate Reference System) that defines how coordinates map to real-world locations (e.g., EPSG:4326).</td>
+    </tr>
+    <tr>
+      <td>🖼️ Web Map Service (WMS)</td>
+      <td>An OGC service that delivers map images of spatial data on demand.</td>
+    </tr>
+    <tr>
+      <td>📂 Web Feature Service (WFS)</td>
+      <td>An OGC service that returns vector data in formats like GeoJSON, GML, or Shapefile.</td>
+    </tr>
+    <tr>
+      <td>🖨️ Web Coverage Service (WCS)</td>
+      <td>An OGC service for retrieving raster data as coverages for further analysis.</td>
+    </tr>
+    <tr>
+      <td>📝 GetCapabilities</td>
+      <td>A request returning an XML document describing a service’s available layers, operations, and parameters.</td>
+    </tr>
+    <tr>
+      <td>🗺️ GetMap</td>
+      <td>A WMS request that returns a map image based on specified layers, bounding box, style, and output format.</td>
+    </tr>
+    <tr>
+      <td>🔄 Reprojection</td>
+      <td>The process of transforming spatial data from one coordinate reference system to another.</td>
+    </tr>
+    <tr>
+      <td>⚙️ GeoWebCache</td>
+      <td>A tile caching server integrated with GeoServer that speeds up map delivery by serving pre-rendered tiles.</td>
+    </tr>
+    <tr>
+      <td>📦 Feature Type</td>
+      <td>A schema definition for vector data in GeoServer, describing geometry type and attribute structure.</td>
+    </tr>
+    <tr>
+      <td>🗜️ Coverage</td>
+      <td>A term used for raster data in GeoServer, representing continuous data such as satellite imagery or elevation models.</td>
+    </tr>
+  </tbody>
+</table>
 
-- **Layer Group**
-  A set of layers combined into a single map view, with a defined drawing order and styles.
-
-- **Style**
-  An SLD or CSS file that defines how features are rendered (colors, symbols, opacity).
-
-- **SRS / CRS**
-  Spatial Reference System (Coordinate Reference System) that defines how coordinates map to locations on Earth (e.g., EPSG:4326).
-
-- **WMS (Web Map Service)**
-  An OGC service for rendering map images from layers.
-
-- **WFS (Web Feature Service)**
-  An OGC service for retrieving vector features (e.g., GeoJSON, GML).
-
-- **WCS (Web Coverage Service)**
-  An OGC service for retrieving raster data as coverages.
-
-- **GetCapabilities**
-  A request that returns an XML document describing available services, layers, and operations.
-
-- **GetMap**
-  A WMS request that returns a map image for specified layers, bounding box, and format.
+<br>
