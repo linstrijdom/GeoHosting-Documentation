@@ -14,69 +14,100 @@ context_id: nDU6LLGiXPTLADXY
 
 # Creating a Data Store
 
-Once the workspace is set up, the next step is to add a new store. A store tells GeoServer how to connect to the data.
+Once your workspace is set up, the next step is to add a Data Store. A store acts as the bridge between GeoServer and your data — it tells GeoServer where the data is located, what format it’s in, and how to access it. Without a store, GeoServer won’t be able to publish or serve your spatial data.
 
 <br>
 
-1. Navigate to **Data → Stores**.
+## Step 1: Access Creation Page
+
+To begin creating a store, you’ll first need to navigate to the right section of the GeoServer interface:
+
+1. Go to the GeoServer <span class="ui-page-label">Web Administration Interface</span>.
+
+2. In the left-hand menu, under the **Data** section, click <span class="ui-generic-label">Stores</span>.
+
+3. Click <span class="ui-generic-label">Add New Store</span>.
+
+4. The <span class="ui-page-label">New Data Source</span> page will open.
+
+5. From the list of **Vector Data Sources**, select <span class="ui-generic-label">Shapefile</span>.
+
+<br>
+
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Keep in mind that this list is extensible, so the options you see might be slightly different depending on which data source extensions are installed.
+  </div>
+</div>
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-14-1.png" alt="Store Page" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+## Step 2: Create Store
+
+In this step, you’ll connect GeoServer to your shapefile by creating a new data store.
+
+1. On the <span class="ui-page-label">New Vector Data Source</span> page, fill in the required details:
+
+     <table class="my-table-style">
+     <thead>
+     <tr>
+          <th>Field</th>
+          <th>Value</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+          <td>Workspace</td>
+          <td>manual</td>
+     </tr>
+     <tr>
+          <td>Data Source Name</td>
+          <td>ne_coastlines</td>
+     </tr>
+     <tr>
+          <td>Description</td>
+          <td>Shapefile of Natural Earth Coastlines data</td>
+     </tr>
+     </tbody>
+     </table>
 
      <br>
 
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-17.png" alt="Store" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+2. Under **Shapefile location**, click <span class="ui-generic-label">Browse...</span>.
 
-     <br>
+3. Navigate to <span class="ui-filename">/files/geoserver_user_data/Manual_Data_GeoServer/coastline/</span>.
 
-2. To add the layer, click the **Add new Store** button. This will take you to a list of data sources supported by GeoServer.
+4. Select the <span class="ui-filename">ne_110m_coastline</span> shapefile.
 
-     > **Note:** Keep in mind that this list is extensible, so yours might look slightly different.
+5. Click <span class="ui-generic-label">Save</span> to create the data store.
 
-     <br>
+<br>
 
-3. From the list of **Vector Data Sources**, find and click the **Shapefile** option.
+You’ll be redirected to the <span class="ui-page-label">New Layer</span> page.
 
-     <br>
+<br>
 
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-18.png" alt="Vector Data Sources" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-14-2.png" alt="Create Store" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
 
-     <br>
+<br>
 
-4. Fill in the following fields:
+---
 
-     | Field             | Value                                         |
-     |-------------------|-----------------------------------------------|
-     | Workspace         | `tutorial`                                    |
-     | Data Source Name  | `Natural Earth - Coastlines`                   |
-     | Description       | `Shapefile of Natural Earth Coastlines data`  |
-
-     <br>
-
-5. Under **Shapefile location**, enter the following:
-
-     ```bash
-     file:///files/geoserver_user_data/NaturalEarth/ne_110m_coastline/ne_110m_coastline.shp
-     ```
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-19.png" alt="New Vector Data Source" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-6. Press **Save**. You will be redirected to the **New Layer** page.
+**Next up:** Discover how to publish your layer and preview it in GeoServer.
 
 <br>

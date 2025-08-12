@@ -18,7 +18,7 @@ The next step is to create a workspace for your layers. A workspace acts as a co
 
 <br>
 
-## Step 1: Access Workspace Creation Page
+## Step 1: Access Creation Page
 
 1. Log in to the GeoServer <span class="ui-page-label">Web Administration Interface</span>.
 
@@ -88,6 +88,6 @@ The new <span class="ui-filename">manual</span> workspace will now be listed on 
 
 ---
 
-**Next up:** Learn how to create a Store to enable GeoServer to connect to your data.
+**Next up:** Learn how to create a Store — a crucial step that enables GeoServer to connect to and manage your spatial data seamlessly.
 
 <br>
