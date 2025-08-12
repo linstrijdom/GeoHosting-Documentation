@@ -14,178 +14,138 @@ context_id: nDU6LLGiXPTLADXY
 
 # Publishing a Layer
 
-Now that we've connected to the store, we can proceed to publish a layer.
+Now that we've successfully connected to the store, the next step is to publish a layer so that it becomes available for use within GeoServer. Publishing a layer makes your data accessible for styling, previewing, and sharing with clients or other applications.
 
 <br>
 
-1. In the New Layer page, click Publish next to the `ne_110_coastline` layer name.
+## Step 1: Access Creation Page
 
-     <br>
+To begin publishing, we first need to open the layer creation page in GeoServer.
 
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-20.png" alt="New Layer Page" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+1. On the <span class="ui-page-label">New Layer</span> page, locate the <span class="ui-filename">ne_110m_coastline</span> layer. 
 
-     <br>
+2. Under Actions, click <span class="ui-generic-label">Publish</span>.
 
-2. The Edit Layer page defines the data and publishing parameters for the layer.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-21.png" alt="Edit Layer Page" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-3. Three key sections on the Data tab must be completed before saving:
-
-     - **Basic Resource Info** – defines how the layer is presented
-     - **Coordinate Reference System** – determines how spatial data is interpreted
-     - **Bounding Boxes** – establishes the dataset's geographic extent
-
-     <br>
-
-4. In the Basic Resource Info section, enter the following:
-
-     | Field     | Value             |
-     |-----------|-------------------|
-     | Name      | `Coastline`       |
-     | Title     | `Coastline`       |
-
-     <br>
-
-     > **Note:** While GeoServer allows flexible naming, many external protocols require simple, standard layer names.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-22.png" alt="Basic Resource Info Section" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-5. Verify that the Coordinate Reference System (CRS) information is accurate:
-
-     | Field            | Value             |
-     |------------------|-------------------|
-     | Native SRS       | EPSG:4326         |
-     | Declaired SRS    | EPSG:4326         |
-     | SRS Handling     | Force declared    |
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-23.png" alt="Coordinate Reference System Section" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-6. In the Bounding Boxes section, click **Compute from data**, then **Compute from native bounds** to auto-fill the bounding box fields.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-24.png" alt="Bounding Boxes Section" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-7. Click Apply to save your progress without closing the page.
-
-     > **Hint:** This is useful to confirm that all required fields are correctly filled; GeoServer will show a warning if anything is missing.
-
-     <br>
-
-8. Scroll to the top and go to the Publishing tab.
-
-      <br>
-
-9. Under WMS Settings, set the Default Style to `line`.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-25.png" alt="WMS Settings" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-     <br>
-
-10. Click **Save** to finalize the layer configuration and publish the layer.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-26.png" alt="Published Layer" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+3. The <span class="ui-page-label">Edit Layer</span> page will open, where you can configure the layer’s settings.
 
 <br>
 
-> **Note:** For more information, see the full [Layers](https://docs.geoserver.org/latest/en/user/data/webadmin/layers.html#data-webadmin-layers) documentation.
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    You can also access the New Layer page by navigating to Data → Layers → Add New Layer.
+  </div>
+</div>
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-15-1.png" alt="New Layer Page" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+## Step 2: Publish Layer
+
+Now it’s time to make your data available as a layer in GeoServer.
+
+1. On the <span class="ui-page-label">Edit Layer</span> page, fill in the required details:
+
+     <table class="my-table-style">
+     <thead>
+     <tr>
+          <th>Field</th>
+          <th>Value</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+          <td>Name</td>
+          <td>ne_110m_coastline</td>
+     </tr>
+     <tr>
+          <td>Title</td>
+          <td>ne_110m_coastline</td>
+     </tr>
+     </tbody>
+     </table>
+
+     <br>
+
+2. In the Bounding Boxes section, click:
+
+     - <span class="ui-generic-label">Compute from data</span>
+     - <span class="ui-generic-label">Compute from native bounds</span>
+
+     <br>
+
+3. Click <span class="ui-generic-label">Apply</span> to save your progress without closing the page.
+
+4. From the top of the page, click the <span class="ui-page-label">Publishing</span> tab.
+
+5. Under WMS Settings, set the **Default Style** to <span class="ui-filename">line</span>.
+
+6. Click <span class="ui-generic-label">Save</span> to finalize and publish your layer.
+
+<br>
+
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    While GeoServer lets you choose flexible names, many external systems prefer simple, standard layer names to avoid compatibility issues.
+  </div>
+</div>
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-15-2.png" alt="Edit Layer Page" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+## Step 3: Preview Layer
+
+Once your layer is published, you can check that everything is working correctly by previewing it in GeoServer.
+
+1. In the left-hand menu, under the **Data** section, click <span class="ui-generic-label">Layer Preview</span>.
+
+2. Find the <span class="ui-filename">ne_110m_coastline</span> layer.
+
+3. In the Common Formats column, click <span class="ui-generic-label">OpenLayers</span>.
+
+<br>
+
+An OpenLayers map will open in a new tab, showing your shapefile data with the default line style. You can zoom, pan, and click on features to view their attributes.
+
+<br>
+
+<div class="alert alert-hint">
+  <div class="alert-icon">💡</div>
+  <div class="alert-text">
+    To quickly locate the layer, type <code>manual</code> in the search field.
+  </div>
+</div>
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-15-3.png" alt="Preview Layer" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
 
 ---
 
-## Previewing the layer
-
-To confirm that the `tutorial:Coastline` layer has been published successfully, we can preview it in GeoServer.
-
-<br>
-
-1. Go to **Data → Layer Preview** and locate the `tutorial:Coastline` layer.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-27.png" alt="Layer Preview" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-      > **Note:** To filter results and make it easier to find, type `tutorial` in the search field.
-
-      <br>
-
-2. Click the **OpenLayers** link in the Common Formats column.
-
-      <br>
-
-3. An OpenLayers map will open in a new tab, displaying the shapefile data with the default line style.
-
-      <br>
-
-4. You can interact with the preview map by zooming, panning, and clicking on features to view their attribute data.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-28.png" alt="OpenLayers Map" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+**Next up:** Discover how to combine multiple layers into a single, cohesive map view using a Layer Group.
 
 <br>
