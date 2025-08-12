@@ -146,6 +146,6 @@ An OpenLayers map will open in a new tab, showing your shapefile data with the d
 
 ---
 
-**Next up:** Discover how to combine multiple layers into a single, cohesive map view using a Layer Group.
+**Next up:**  Learn how to publish and manage a raster dataset using GeoServer, unlocking powerful visualization of continuous spatial data.
 
 <br>
