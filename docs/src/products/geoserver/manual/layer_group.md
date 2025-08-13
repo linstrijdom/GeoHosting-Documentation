@@ -14,126 +14,123 @@ context_id: nDU6LLGiXPTLADXY
 
 # Publishing a Layer Group
 
-Before we can publish a layer group, we need to ensure the required data is available.
+Now that we’ve published the necessary layers (<span class="ui-filename">manual:ne_110m_coastline</span> and <span class="ui-filename">manual:SR_50M</span>), we can combine them into a Layer Group.
+
+A layer group lets you display multiple layers together in a single, unified map view, making it easier to manage and present related datasets. This is especially useful when creating composite maps that need to be styled and served as one.
 
 <br>
 
-Complete the following previous tutorials to prepare the necessary layers:
+## Step 1: Access Creation Page
 
-1. [Publishing a Layer](https://kartoza.github.io/GeoHosting/products/geoserver/guide/#publishing-a-layer) — defines the `tutorial:Coastline` layer.
+To begin creating your layer group, you’ll need to open the creation page in GeoServer.
 
-2. [Publishing an Image](https://kartoza.github.io/GeoHosting/products/geoserver/guide/#publishing-an-image) — defines the `tutorial_image:shaded` layer.
+1. In the left-hand menu, under the **Data** section, click <span class="ui-generic-label">Layer Groups</span>.
+
+2. Click <span class="ui-generic-label">Add New Layer Group</span>.
+
+3. The <span class="ui-page-label">New Layer Group</span> page will open.
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-17-1.png" alt="Layer Group Page" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+## Step 2: Publish Layer Group
+
+Layer groups let you combine multiple layers into a single visual map in GeoServer. In this step, we’ll set up a simple basemap by stacking a shaded relief layer with a coastline layer.
+
+1. On the <span class="ui-page-label">New Layer Group</span> page, enter the following details:
+
+     <table class="my-table-style">
+     <thead>
+     <tr>
+          <th>Field</th>
+          <th>Value</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+          <td>Name</td>
+          <td>basemap</td>
+     </tr>
+     <tr>
+          <td>Title</td>
+          <td>basemap</td>
+     </tr>
+     <tr>
+          <td>Workspace</td>
+          <td>manual</td>
+     </tr>
+     </tbody>
+     </table>
+
+     <br>
+
+2. Under the **Layers** section, click <span class="ui-generic-label">Add Layer...</span>.
+
+3. Select the <span class="ui-filename">SR_50M</span> layer first, then select the <span class="ui-filename">ne_110m_coastline</span> layer.
+
+4. Adding the coastline second ensures it displays on top of the shaded relief background.
+
+5. Under **Bounds**, click <span class="ui-generic-label">Generate Bounds</span>.
+
+6. With the layers added, GeoServer will automatically determine the spatial extent and reference system for the group.
+
+7. Click <span class="ui-generic-label">Save</span> to finish.
+
+<br>
+
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Layer groups can be global, allowing you to combine layers from different workspaces into a single map view.
+  </div>
+</div>
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-17-2.png" alt="Create Layer Group" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+## Step 3: Preview Image
+
+After publishing your layer group, it’s important to confirm that it renders as intended and that all included layers align correctly. This quick check ensures your map is ready for use or further styling.
+
+1. In the left-hand menu, under the **Data** section, click <span class="ui-generic-label">Layer Preview</span>.
+
+2. Locate the <span class="ui-filename">basemap</span> layer group in the list.
+
+3. Under the Common Formats column, click <span class="ui-generic-label">OpenLayers</span>.
+
+<br>
+
+A new browser tab will open, displaying your layer group on an interactive OpenLayers map where you can zoom, pan, and verify the results visually.
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-17-3.png" alt="Preview Layer Group" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
 
 ---
 
-## Creating a layer group
-
-Now that we have the necessary layers published, we can group them together into a single map view using a layer group.
-
-<br>
-
-1. Navigate to the **Data → Layer Groups** page.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-43.png" alt="Layer Groups" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-2. This page displays a list of existing layer groups along with the workspace each belongs to.
-
-      > **Note:** Layer groups can be *global*, allowing you to combine layers from multiple workspaces into one visual representation.
-
-      <br>
-
-3. At the top of the Layer Groups list, click Add new layer group to open the Layer Group editor.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-44.png" alt="Layer Group editor" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-4. The Layer Group editor includes the following sections:
-
-      - **Basic Resource Info** – defines how the layer group is presented externally
-      - **Coordinate Reference System** – determines how the data is geospatially projected
-      - **Bounding Boxes** – indicates the spatial extent of the group
-      - **Layers** – lists the individual layers included, in the order they are drawn
-
-      <br>
-
-5. In the Basic Resource Info section, enter the following:
-
-      | Field       | Value                                                          |
-      |-------------|----------------------------------------------------------------|
-      | Name        | `basemap`                                                      |
-      | Title       | `Basemap`                                                      |
-      | Abstract    | `Plain basemap suitable as a backdrop for geospatial data.`    |
-      | Workspace   | `tutorial`                                                     |
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-45.png" alt="Basic Resource Info section" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-6. Scroll down to the Layers list, which will initially be empty.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-46.png" alt="Layers list" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-7. Click Add Layer, and select the `tutorial_image:shaded` layer first. The raster should be drawn first, as other content will be shown over top of it.
-
-      <br>
-
-8. Click Add Layer again, and select the `tutorial:Coastline` layer. This polygon layer will be rendered on top of the shaded relief.
-
-      <br>
-
-9. In the layer list, find the `tutorial:Coastline` entry, and click on its *Style* field. Make sure its set to `line`. This ensures only the outlines are drawn, allowing the shaded relief underneath to remain visible.
-
-      <br>
-
-      [Add Image]
-
-      <br>
-
-10. Scroll to Coordinate Reference System, and click Generate Bounds. Now that the layers are listed, GeoServer can determine the spatial extent and reference system automatically.
-
-      <br>
-
-      [Add Image]
-
-      <br>
-
-11. Click **Save** to finish creating your layer group.
-
-      <br>
-
-      [Add Image]
+**Next up:** Discover how to create a style and link it to your layer for display.
 
 <br>

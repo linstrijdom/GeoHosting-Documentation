@@ -14,310 +14,159 @@ context_id: nDU6LLGiXPTLADXY
 
 # Publishing an Image
 
-This tutorial outlines the process of publishing a World File and its accompanying image using GeoServer.
-
-> **Note:** This tutorial assumes GeoServer is accessible at `http://<application_name>.sta.do.kartoza.com/geoserver`.
+Now that you’ve learned how to publish vector data, it’s time to explore publishing raster datasets using GeoServer. Raster data, such as satellite imagery or shaded relief maps, provide continuous spatial information and can greatly enhance your geospatial projects.
 
 <br>
 
-## Data Preparation
+## Step 1: Create Store
 
-Begin by gathering the data we'll publish. For this tutorial, we’ll use the [Natural Earth](https://www.naturalearthdata.com/) 1:50m Shaded Relief raster.
+This step involves adding a new data store to connect GeoServer with your raster dataset. Make sure your workspace (e.g., <span class="ui-filename">manual</span>) is ready before proceeding.
 
-<br>
+1. In the left-hand menu, under the **Data** section, click <span class="ui-generic-label">Stores</span>.
 
-1. **Download Datasets**
-
-Click the link below to download the .zip archive containing the raster files:
-
-- [Natural Earth Data - 50m Shaded Relief](https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/raster/SR_50M.zip)
-
-<br>
-
-The download includes small-scale 1:50m raster data consisting of:
-
-- `SR_50M.prj`
-- `SR_50M.README.html`
-- `SR_50M.tfw`
-- `SR_50M.tif`
-- `SR_50M.VERSION.txt`
-
-<br>
-
-> **Note:** These files together represent a world file (`.tfw`) and its associated image (`.tif`).
-
-<br>
-
-2. **Organize Files**
-
-      After downloading, unzip the file and move the extracted files into a new folder called: `NaturalEarth_Raster`
+2. Click <span class="ui-generic-label">Add New Store</span> and select <span class="ui-generic-label">WorldImage</span> from the list.
 
       <br>
 
-3. **Add Files to File Browser**
+3. On the <span class="ui-page-label">Add Raster Data Source</span> page, fill in the required details:
 
-      Upload the `NaturalEarth_Raster` folder into the `geoserver_user_data` folder within the File Browser.
+     <table class="my-table-style">
+     <thead>
+     <tr>
+          <th>Field</th>
+          <th>Value</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+          <td>Workspace</td>
+          <td>manual</td>
+     </tr>
+     <tr>
+          <td>Data Source Name</td>
+          <td>ne_shaded_relief</td>
+     </tr>
+     <tr>
+          <td>Description</td>
+          <td>Grayscale shaded relief of land areas</td>
+     </tr>
+     </tbody>
+     </table>
+
+     <br>
+
+4. Under **URL**, browse to <span class="ui-filename">Manual_Data_GeoServer/shaded_relief/</span>.
+
+5. Select the <span class="ui-filename">SR_50M.tif</span> file.
+
+6. Click <span class="ui-generic-label">Save</span>.
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-16-1.png" alt="Image Store" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+## Step 2: Publish Image
+
+With your image store created, the next step is to publish the raster dataset as a layer in GeoServer.
+
+1. On the <span class="ui-page-label">New Layer</span> page, locate the <span class="ui-filename">SR_50M</span> layer.
+
+2. Under Actions, click <span class="ui-generic-label">Publish</span>.
 
       <br>
 
-      > **Hint:** Not sure how to add files to your File Browser? See the section: [Adding data to your File Browser](https://kartoza.github.io/GeoHosting/products/geoserver/guide/#adding-data-to-your-file-browser)
+3. On the <span class="ui-page-label">Edit Layer</span> page, complete the required fields:
+
+     <table class="my-table-style">
+     <thead>
+     <tr>
+          <th>Field</th>
+          <th>Value</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+          <td>Name</td>
+          <td>SR_50M</td>
+     </tr>
+     <tr>
+          <td>Title</td>
+          <td>SR_50M</td>
+     </tr>
+     </tbody>
+     </table>
+
+     <br>
+
+4. In the Bounding Boxes section, click:
+
+     - <span class="ui-generic-label">Compute from data</span>
+     - <span class="ui-generic-label">Compute from native bounds</span>
+
+     <br>
+
+5. Click <span class="ui-generic-label">Apply</span> to save your changes without leaving the page.
+
+6. Navigate to the <span class="ui-page-label">Publishing</span> tab at the top of the page.
+
+7. Under WMS Settings, set the **Default Style** to <span class="ui-filename">raster</span>.
+
+8. Click <span class="ui-generic-label">Save</span> to finalize and publish your image layer.
+
+<br>
+
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Although GeoServer allows flexible naming, using simple, standard layer names helps maintain compatibility with external systems.
+  </div>
+</div>
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-16-2.png" alt="Publish Image" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+## Step 3: Preview Image
+
+Once your image layer is published, it’s important to verify that it displays correctly. GeoServer makes this easy with its built-in preview tools.
+
+1. In the left-hand menu, under the **Data** section, click <span class="ui-generic-label">Layer Preview</span>.
+
+2. Locate the <span class="ui-filename">SR_50M</span> layer in the list.
+
+3. Under the Common Formats column, click <span class="ui-generic-label">OpenLayers</span>.
+
+<br>
+
+A new browser tab will open displaying your shaded relief raster layer on an interactive OpenLayers map.
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-15-3.png" alt="Preview Image" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
 
 ---
 
-### Creating a New Workspace
-
-The next step is to create a workspace for your layers. A workspace is essentially a container used to organize and group related layers within GeoServer.
-
-> **Note:** This step is optional if you prefer to use an existing workspace. Typically, a new workspace is created for each project, allowing you to group related stores and layers together.
-
-<br>
-
-1. Open a web browser and navigate to:
-
-      http://<application_name>.sta.do.kartoza.com/geoserver
-
-      <br>
-
-2. Log in to GeoServer using your credentials.
-
-      <br>
-
-3. In the left-hand menu, go to **Data → Workspaces**.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-29.png" alt="Workspaces" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-4. Click the Add new workspace button to open the New Workspace page.
-
-      <br>
-
-5. Complete the form with the following details:
-
-      | Field             | Value                                                                   |
-      |-------------------|-------------------------------------------------------------------------|
-      | Name              | `tutorial_image`                                                        |
-      | Namespace URI     | `http://<application_name>.sta.do.kartoza.com/geoserver/tutorial_image` |
-
-      <br>
-
-      > **Note:** The Namespace URI can be any URL-like string tied to your project. It typically includes a trailing identifier that reflects the workspace. This URI does not need to resolve to a real web address.
-
-      <br>
-
-6. Click the **Save** button.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-30.png" alt="New Workspaces Page" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-7. The `tutorial_image` workspace will now appear in the Workspaces list.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-31.png" alt="New Workspaces List" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-<br>
-
-> **Note:** For more information, see the full [Workspaces](https://docs.geoserver.org/latest/en/user/data/webadmin/workspaces.html#data-webadmin-workspaces) documentation.
-
----
-
-### Creating a Store
-
-Once the workspace is set up, the next step is to add a new store. A store tells GeoServer how to connect to the data.
-
-<br>
-
-1. Go to **Data → Stores**.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-32.png" alt="Stores Page" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-2. To add the image, click the **Add new Store** button. This will take you to a list of data sources supported by GeoServer.
-
-      > **Note:** Your list may vary depending on installed extensions.
-
-      <br>
-
-3. From the **Raster Data Sources**, click the **WorldImage** option.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-33.png" alt="Raster Data Sources" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-4. Fill in the Basic Store Info section:
-
-      | Field              | Value                                      |
-      |--------------------|--------------------------------------------|
-      | Workspace          | tutorial_image                             |
-      | Data Source Name   | ShadedRelief                               |
-      | Description        | Grayscale shaded relief of land areas.     |
-
-      <br>
-
-      > **Note:** This information is used internally in GeoServer. Keep the name simple, as it will form part of folder names in the data directory and should comply with your operating system’s character restrictions.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-34.png" alt="Basic Store Info Section" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-5. Under **URL**, specify the location of your image:
-
-      file:///files/geoserver_user_data/NaturalEarth_Raster/SR_50M/SR_50M.tif
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-35.png" alt="Connection Parameters" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-6. Press **Save**. You will be redirected to the **New Layer** page to begin publishing your image as a layer.
-
-<br>
-
-> **Note:** For more information, see the full [Stores](https://docs.geoserver.org/latest/en/user/data/webadmin/stores.html#data-webadmin-stores) documentation.
-
----
-
-### Creating a Layer
-
-With the image store created, the next step is to publish it as a layer.
-
-<br>
-
-1. In the New Layer page, click Publish next to the `SR_50M` layer name.
-
-      <br>
-
-      [Add Image]
-
-      <br>
-
-2. The Edit Layer page will open, allowing you to define both data and publishing parameters.
-
-      <br>
-
-      [Add Image]
-
-      <br>
-
-3. Three key sections on the Data tab must be completed before saving:
-
-      - **Basic Resource Info** - Describes how the layer appears to users.
-      - **Coordinate Reference System (CRS)** - Defines how spatial data aligns with the Earth.
-      - **Bounding Boxes** - Determines the spatial extent of the data.
-
-      <br>
-
-4. In the Basic Resource Info section, enter the following:
-
-      | Field    | Value                                  |
-      |----------|----------------------------------------|
-      | Name     | shaded                                 |
-      | Title    | Shaded Relief                          |
-      | Abstract | Grayscale shaded relief of land areas. |
-
-      <br>
-
-      > **Note:** While GeoServer allows flexible naming, many external protocols require simple, standard layer names.
-
-      <br>
-
-      [Add Image]
-
-      <br>
-
-5. Verify that the Coordinate Reference System (CRS) information is accurate:
-
-| Field            | Value             |
-|------------------|-------------------|
-| Native SRS       | EPSG:4326         |
-| Declaired SRS    | EPSG:4326         |
-| SRS Handling     | Force declared    |
-
-<br>
-
-[Add Image]
-
-<br>
-
-6. In the Bounding Boxes section, click **Compute from data**, then **Compute from native bounds** to auto-fill the bounding box fields.
-
-      <br>
-
-      [Add Image]
-
-      <br>
-
-7. Click Apply to save your progress without closing the page.
-
-      > **Note:** This is useful to confirm that all required fields are correctly filled; GeoServer will show a warning if anything is missing.
-
-      <br>
-
-8. Scroll to the top and go to the Publishing tab.
-
-      <br>
-
-9. Under WMS Settings, set the Default Style to `raster`.
-
-      <br>
-
-      [Add Image]
-
-      <br>
-
-10. Click **Save** to finalize the layer configuration and publish the layer.
-
-      <br>
-
-      [Add Image]
+**Next up:** Discover how to combine multiple layers into a single, cohesive map view using a Layer Group.
 
 <br>

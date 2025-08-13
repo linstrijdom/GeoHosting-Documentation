@@ -14,77 +14,79 @@ context_id: nDU6LLGiXPTLADXY
 
 # Creating a Workspace
 
-The next step is to create a workspace for your layers. A workspace is essentially a container used to organize and group related layers within GeoServer.
-
-> **Note** This step is optional if you prefer to use an existing workspace. Typically, a new workspace is created for each project, allowing you to group related stores and layers together.
+The next step is to create a workspace for your layers. A workspace acts as a container that helps organize and group related layers within GeoServer. While this step is optional if you prefer to use an existing workspace, it’s common practice to create a new workspace for each project. This approach keeps your data organized by grouping related stores and layers together, making management simpler and more intuitive.
 
 <br>
 
-1. Open a web browser and navigate to:
+## Step 1: Access Creation Page
 
-     ```bash
-     http://<application_name>.sta.do.kartoza.com/geoserver
-     ```
+1. Log in to the GeoServer <span class="ui-page-label">Web Administration Interface</span>.
 
-     <br>
+2. In the left-hand menu, under the **Data** section, click <span class="ui-generic-label">Workspaces</span>.
 
-2. Log in to GeoServer using your credentials.
+3. Click <span class="ui-generic-label">Add New Workspace</span>.
 
-      <br>
+<br>
 
-3. In the left-hand menu, go to **Data → Workspaces**.
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-13-1.png" alt="Workspace Page" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
 
-     <br>
+<br>
 
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-14.png" alt="Workspace" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+## Step 2: Create Workspace
 
-     <br>
+Now it’s time to fill in the required details. The workspace name should be concise — 10 characters or fewer — and cannot contain spaces.
 
-4. Click the **Add new workspace** button to open the **New Workspace** page.
+The Namespace URI is a URL-like string connected to your project, typically ending with an identifier that reflects the workspace name. It doesn’t have to resolve to a real web address.
 
-      <br>
+<br>
 
-5. Complete the form with the following details:
+1. On the <span class="ui-page-label">New Workspace</span> page, fill in the required details as follows:
 
-     | Field             | Value                                                               |
-     |-------------------|---------------------------------------------------------------------|
-     | Name              | `tutorial`                                                          |
-     | Namespace URI     | `http://<application_name>.sta.do.kartoza.com/geoserver/tutorial`   |
-
-     <br>
-
-     > **Note:** The workspace name should describe your project. It must be 10 characters or fewer and cannot contain spaces.
-     The Namespace URI can be any URL-like string tied to your project. It typically includes a trailing identifier that reflects the workspace. This URI does not need to resolve to a real web address.
-
-     <br>
-
-6. Click the **Save** button.
-
-     <br>
-
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-15.png" alt="Save" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+     <table class="my-table-style">
+     <thead>
+     <tr>
+          <th>Field</th>
+          <th>Value</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+          <td>Name</td>
+          <td>manual</td>
+     </tr>
+     <tr>
+          <td>Namespace URI</td>
+          <td>http://&lt;application_name&gt;.sta.do.kartoza.com/geoserver/manual</td>
+     </tr>
+     </tbody>
+     </table>
 
      <br>
 
-7. The `tutorial` workspace should now appear in the **Workspaces** list.
+2. Click the <span class="ui-generic-label">Save</span> button to create the workspace.
 
-     <br>
+<br>
 
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-16.png" alt="Update Workspace list" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+The new <span class="ui-filename">manual</span> workspace will now be listed on the <span class="ui-page-label">Workspaces</span> page.
+
+<br>
+
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-13-2.png" alt="Create Workspace" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+---
+
+**Next up:** Learn how to create a Store — a crucial step that enables GeoServer to connect to and manage your spatial data seamlessly.
 
 <br>

@@ -14,57 +14,62 @@ context_id: nDU6LLGiXPTLADXY
 
 # Uploading to the File Browser
 
-In order for the data to be accessible in the Web Administration Interface, it first needs to be added to your File Browser.
+Before your data can be used within the GeoServer Web Administration Interface, it must first be uploaded to the File Browser. The File Browser acts as your primary file management tool within the GeoServer Hosted environment, enabling you to organize and manage datasets that GeoServer will access and serve.
 
 <br>
 
-**To add data:**
+## Step 1: Access File Browser
 
-1. Open the file browser at:
+To begin uploading your data, you first need to log in to the File Browser using your credentials provided in the GSH Dashboard.
 
-     ```bash
-     http://<application_name>.sta.do.kartoza.com/file
-     ```
+1. From the GSH Dashboard, go to the <span class="ui-page-label">Service Details</span> page.
 
-     <br>
+2. Under Product Information, locate **Filebrowser** and click <span class="ui-generic-label">Get Password</span> to copy your login credentials to the clipboard.
 
-2. Log in using the credentials you retrieved from the GeoSpatialHosting Dashboard:
+3. Click the <span class="ui-generic-label">Filebrowser</span> link and paste the copied credentials.
 
-     - **Username:** `admin`
-     - **Password:** `FB_Password_Unhashed`
+4. Click <span class="ui-generic-label">Login</span> to access your File Browser workspace.
 
-     <br>
+<br>
 
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-12.png" alt="File Browser Login" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-12-1.png" alt="Filebrowser" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
 
-     <br>
+<br>
 
-      > **Hint:** Need help finding your credentials? See the section: [Using the Kartoza GeoSpatialHosting Dashboard](https://kartoza.github.io/GeoHosting/products/geoserver/guide/#using-the-kartoza-geospatialhosting-dashboard)
+## Step 2: Upload Data
 
-      <br>
+Now that you’re logged into the File Browser, the next step is to upload your spatial data so it can be accessed and managed by GeoServer.
 
-3. Double-click the `geoserver_user_data` folder to enter it.
+1. From the <span class="ui-page-label">Home</span> folder, double-click the <span class="ui-filename">geoserver_user_data</span> folder to open it.
 
-      <br>
+2. Click the <span class="ui-generic-label">Upload</span> button located at the top-right corner of the screen.
 
-4. Click the **Upload** button at the top-right of the screen. When prompted, select Folder.
+3. When prompted, choose <span class="ui-generic-label">Folder</span> as the upload type.
 
-     <br>
+4. Select the <span class="ui-filename">Manual_Data_GeoServer</span> folder and click <span class="ui-generic-label">Upload</span>.
 
-     <div style="text-align: center;">
-       <img src="../../img/geoserver-img-13.png" alt="File Browser Upload" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+<br>
 
-     <br>
+Once uploaded, your data will be immediately available within the GeoServer Web Administration Interface for publishing and further configuration.
 
-5. Locate and upload the `NaturalEarth` folder you previously prepared.
+<br>
 
-The data will now be accessible in the Web Administration Interface.
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-12-2.png" alt="Upload Data" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
+
+<br>
+
+---
+
+**Next up:** Learn how to create Workspaces to organize and group related layers within GeoServer.
+
+<br>
