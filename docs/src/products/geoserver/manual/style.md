@@ -14,174 +14,151 @@ context_id: nDU6LLGiXPTLADXY
 
 # Publishing a Style
 
-This tutorial walks through the steps of defining a style and associating it with a layer for use.
+In GeoServer, styles determine how your data will be visually represented on the map. By defining a style and linking it to a layer, you control the colors, line widths, fill patterns, and other visual elements that make your data both clear and visually appealing. This step is essential for presenting information in a way that’s easy to interpret and matches your project’s design requirements.
 
 <br>
 
-Before we can create a style, we need to ensure the required data is available.
+## Step 1: Access Creation Page
+
+Before you can create a style, you’ll first need to open the style creation interface in GeoServer.
+
+1. In the left-hand menu, under the **Data** section, click <span class="ui-generic-label">Styles</span>.
+
+2. Click <span class="ui-generic-label">Add New Style</span>.
+
+3. The <span class="ui-page-label">New Layer Group</span> page will open.
 
 <br>
 
-Complete the following previous section to prepare the necessary layer:
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    Styles can be global, which means they can be defined once and applied to layers across different workspaces.
+  </div>
+</div>
 
-- [Publishing a Layer: Try it Yourself](https://kartoza.github.io/GeoHosting/products/geoserver/guide/#try-it-yourself) — defines the `tutorial:Countries` layer.
+<br>
 
----
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-18-1.png" alt="Style Page" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
 
-## Creating a style
+<br>
 
-1. Navigate to **Data → Style** page.
+## Step 2: Create Style
 
-      <br>
+Now that you’ve accessed the style creation interface, it’s time to define the basic properties and generate an initial style that you can later refine.
 
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-50.png" alt="Styles" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+1. On the <span class="ui-page-label">New Style</span> page, enter the following details:
 
-      <br>
+     <table class="my-table-style">
+     <thead>
+     <tr>
+          <th>Field</th>
+          <th>Value</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+          <td>Name</td>
+          <td>background</td>
+     </tr>
+     <tr>
+          <td>Workspace</td>
+          <td>manual</td>
+     </tr>
+     <tr>
+          <td>Format</td>
+          <td>SLD</td>
+     </tr>
+     </tbody>
+     </table>
 
-2. This page lists existing styles, along with their associated workspaces.
+     <br>
 
-      > **Note:** Styles can be *global*, which means they can be defined once and applied to layers across different workspaces.
+2. Under **Generate a default style**, select <span class="ui-filename">Line</span>.
 
-      <br>
+3. Click <span class="ui-generic-label">Generate...</span>  to automatically populate the style editor with a basic line style outline.
 
-3. At the top of the Styles list, click the Add a new style link.
+4. Press <span class="ui-generic-label">Apply</span> to save the style. Once saved, additional interactive editing options will become available.
 
-      <br>
+<br>
 
-4. Under Style Data, complete the form with the following details:
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    You can also upload an already-created SLD file if you have one prepared.
+  </div>
+</div>
 
-      | Field      | Value          |
-      |------------|----------------|
-      | Name       | `background`   |
-      | Workspace  | `tutorial`     |
-      | Format     | `SLD`          |
+<br>
 
-      <br>
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-18-2.png" alt="Create Style" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
 
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-51.png" alt="Style Data" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+<br>
 
-      <br>
+## Step 3: Edit Style
 
-5. Next, locate Style Content and under Generate a default style, select `Polygon`.
+With your base style created, you can now make adjustments to refine the layer’s appearance.
 
-      <br>
+1. Go to the <span class="ui-page-label">Publishing</span> tab at the top of the page.
 
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-52.png" alt="Style Content" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+2. Enable the **Default** checkbox next to <span class="ui-filename">ne_110m_coastline</span>.
 
-      <br>
+3. Open the <span class="ui-page-label">Layer Preview</span> tab from the top of the page.
 
-6. Click the Generate link to automatically populate the style editor with a basic polygon style outline.
+4. Modify the style by changing the stroke color to blue (<span class="ui-filename">#004eff</span>) and adjusting the <span class="ui-filename">stroke-width</span>.
 
-      <br>
+    <br>
 
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-53.png" alt="Generate" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
+    ```xml
+    <?xml version="1.0" encoding="ISO-8859-1"?>
+    <StyledLayerDescriptor version="1.0.0"
+      xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+      xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+      xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-      <br>
+      <NamedLayer>
+        <Name>background</Name>
+        <UserStyle>
+          <Title>Background</Title>
+          <FeatureTypeStyle>
+            <Rule>
+              <Title>Background</Title>
+              <PolygonSymbolizer>
+                <Stroke>
+                  <CssParameter name="stroke">#004eff</CssParameter>
+                  <CssParameter name="stroke-width">0.25</CssParameter>
+                </Stroke>
+              </PolygonSymbolizer>
+            </Rule>
+          </FeatureTypeStyle>
+        </UserStyle>
+      </NamedLayer>
+    </StyledLayerDescriptor>
+    ```
 
-7. Press Apply to save and define this style. Once saved, additional interactive editing options will become available.
+    <br>
 
-      <br>
+5. Click <span class="ui-generic-label">Apply</span> to update the style and preview the changes in real time.
 
-8. Scroll to the top and go to the Publishing tab.
+6. When satisfied with the result, click <span class="ui-generic-label">Save</span> to finalize your edits.
 
-      <br>
+<br>
 
-9. Use the search field to filter by `tutorial` and locate the `tutorial:countries` layer.
+<div style="text-align: center;">
+  <img src="../../img/geoserver-img-18-3.png" alt="Edit Style" width="auto">
+  <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
+    Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
+  </div>
+</div>
 
-      <br>
-
-10. Check the **Default** checkbox next to `tutorial:countries` to set the `tutorial:background` style as the default for this layer.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-54.png" alt="Default Style" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-11. Go to the Layer Preview tab. Under Preview on layer, click the link for `tutorial:countries` to use this dataset while editing the style.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-55.png" alt="Layer Preview" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-12. Edit your style by inserting a `fill-opacity` value of `0.25` to make the fill semi-transparent.
-
-      ```xml
-      <?xml version="1.0" encoding="ISO-8859-1"?>
-      <StyledLayerDescriptor version="1.0.0"
-        xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
-        xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
-        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-        <NamedLayer>
-          <Name>background</Name>
-          <UserStyle>
-            <Title>Background</Title>
-            <FeatureTypeStyle>
-              <Rule>
-                <Title>Background</Title>
-                <PolygonSymbolizer>
-                  <Fill>
-                    <CssParameter name="fill">#444433</CssParameter>
-                    <CssParameter name="fill-opacity">0.25</CssParameter>
-                  </Fill>
-                  <Stroke>
-                    <CssParameter name="stroke">#000000</CssParameter>
-                    <CssParameter name="stroke-width">0.25</CssParameter>
-                  </Stroke>
-                </PolygonSymbolizer>
-              </Rule>
-            </FeatureTypeStyle>
-          </UserStyle>
-        </NamedLayer>
-      </StyledLayerDescriptor>
-      ```
-
-      <br>
-
-13. Press **Apply** to update the style and observe the visual change in the layer preview.
-
-      <br>
-
-      <div style="text-align: center;">
-       <img src="../../img/geoserver-img-56.png" alt="Changed Layer Preview" width=auto>
-       <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
-       Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
-       </div>
-     </div>
-
-      <br>
-
-You have now succesfully defined a style and associating it with a layer.
+<br>
