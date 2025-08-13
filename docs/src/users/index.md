@@ -2,7 +2,6 @@
 title: Documentation
 summary: GeoHosting Controller
   - Irwan Fathurrahman
-  - Ketan Bamniya
 date: 2024-06-19
 some_url: https://github.com/kartoza/GeoHosting-Controller.git
 copyright: Copyright 2024, Kartoza
@@ -11,8 +10,6 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# View Profile
+# Users
 
-On Dashboards, user can click on `Profile` to view profile information.
-
-[![Profile](./img/profile-img-1.png)](./img/profile-img-1.png)
+To be added...

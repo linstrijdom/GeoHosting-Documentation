@@ -2,7 +2,6 @@
 title: Documentation
 summary: GeoHosting Controller
   - Irwan Fathurrahman
-  - Ketan Bamniya
 date: 2024-06-19
 some_url: https://github.com/kartoza/GeoHosting-Controller.git
 copyright: Copyright 2024, Kartoza
@@ -11,9 +10,133 @@ license: This program is free software; you can redistribute it and/or modify it
 context_id: nDU6LLGiXPTLADXY
 ---
 
-# Edit Profile
+# Navigating the Dashboard
 
-## Update Avatar
+[![Home Page](./img/dashboard-img-1.png)](./img/dashboard-img-1.png)
+
+   **Dashboard:** Users can access the dashboard by clicking on this link from the top navigation bar, this will redirects the users to the dashboard page.
+
+[![Dashboard](./img/dashboard-img-2.png)](./img/dashboard-img-2.png)
+
+* **Hosted Services:** Users can use this as a walkthrough for the hosted services page.
+
+* **Agreements:** Users can use this as a walkthrough for the agreements page.
+
+* **Orders**: Users can use this as a walkthrough for the order page.
+
+* **Support:** Users can use this as a walkthrough for the support page.
+
+* **Profile:** Users can use this as a walkthrough for the profile page.
+
+* **Logout:** Users can use this to logout from the platform.
+
+<br>
+
+## Hosted Services
+
+[![Hosted Services](./img/hosted-services-img-1.png)](./img/hosted-services-img-1.png)
+
+   **Hosted Services:** Users can access this section by clicking on the `Hosted Services` tab in the left navigation bar.
+
+<br>
+
+## Agreements
+
+[![Agreements](./img/agreement-img-1.png)](./img/agreement-img-1.png)
+
+1. **Agreements:** Users can download `agreements` from `Orders` section. Click to download.
+
+<br>
+
+## Orders
+
+[![Order](./img/orders-img-1.png)](./img/orders-img-1.png)
+
+   **Orders:** Users can click on this `Orders` tab from the left navigation bar to view all their orders.
+
+<br>
+
+## Support
+
+[![Support](./img/support-img-1.png)](./img/support-img-1.png)
+
+* **List:** Users can use this as a walkthrough on how to access the support page data list.
+
+* **Create:** Users can use this as a walkthrough on how to create issue.
+
+<br>
+
+### List
+
+[![Support List](./img/support-list-img-1.png)](./img/support-list-img-1.png)
+
+After users have created support tickets, they will be listed such as 1️⃣ and 2️⃣.
+
+<br>
+
+### Create
+
+[![Create Issue](./img/create-img-1.png)](./img/create-img-1.png)
+
+   **Create Issue:** Create a new issue by clicking on the `Create issue` button. After clicking on this button a form will appear.
+
+![Create Issue Form](./img/create-img-2.png)
+
+1. **Email:** Users are required to enter their email address here, otherwise, their registered email will be used by default.
+
+2. **Subject:** Users are required to enter a subject for their issue.
+
+3. **Issue Type:** Users are required to select the type of issue they are reporting from the dropdown menu.
+![Issue Types](./img/create-img-3.png)
+
+1. **Issue Details:** Users are required to enter a detailed description of their issue.
+
+2. **Add Attachment:** Users can add attachments to their issue by clicking on the `Add attachment` button.
+![File Explorer](./img/create-img-4.png)
+
+      - **1 Cancel:** Users can click on this button to cancel the attachment selection.
+
+      - **2 Select:** After selecting the desired file users are required to click on this button to upload the attachment.'
+
+1. **Submit:** After filling in all the required fields, users can submit their issue by clicking on this button.
+
+      - **Error**
+      If users forget to fill in any `*` required field and click the submit button, they will receive the error message `This field may not be blank` below the input field, and a notification toast will appear with the message `Failed to create a ticket`.
+
+      [![Error](./img/create-img-5.png)](./img/create-img-5.png)
+
+      - **Success**
+      Users will be notified by a notification toast after the successful submission of the form.
+
+      [![Success](./img/create-img-6.png)](./img/create-img-6.png)
+
+2. **Cancel:** Users can click on this button to cancel the issue creation process.
+
+<br>
+
+## Profile
+
+[![Profile](./img/profile-img-1.png)](./img/profile-img-1.png)
+
+   **Profile:** Users can access the profile page by clicking on the `Profile` tab from the left navigation bar.
+
+* **Edit Profile:** Users can use this page as a walkthrough on how to edit their profile.
+
+* **View Profile:** Users can view their profile information.
+
+<br>
+
+## View Profile
+
+On Dashboards, user can click on `Profile` to view profile information.
+
+[![Profile](./img/profile-img-1.png)](./img/profile-img-1.png)
+
+<br>
+
+## Edit Profile
+
+### Update Avatar
 
 [![Edit Avatar](./img/edit-img-1.png)](./img/edit-img-1.png)
 
@@ -25,7 +148,9 @@ context_id: nDU6LLGiXPTLADXY
 
 2. **Select:** After selecting the image users can click on this button to upload the image.
 
-## Update Personnel Information
+<br>
+
+### Update Personnel Information
 
 [![Edit Information](./img/edit-img-3.png)](./img/edit-img-3.png)
 
@@ -35,7 +160,9 @@ context_id: nDU6LLGiXPTLADXY
 
   [![Update Profile Success](./img/edit-img-4.png)](./img/edit-img-4.png)
 
-## Update Password
+<br>
+
+### Update Password
 
 [![Update Password](./img/edit-img-5.png)](./img/edit-img-5.png)
 
@@ -69,7 +196,9 @@ context_id: nDU6LLGiXPTLADXY
 
       ![Success](./img/edit-img-9.png)
 
-## Create Company
+<br>
+
+### Create Company
 
 [![Create Company](./img/edit-img-10.png)](./img/edit-img-10.png)
 
@@ -103,7 +232,9 @@ context_id: nDU6LLGiXPTLADXY
 
       ![Success](./img/edit-img-13.png)
 
-## Edit Existing Company Details
+<br>
+
+### Edit Existing Company Details
 
 ![Edit Company](./img/edit-img-13.png)
 
@@ -112,3 +243,5 @@ context_id: nDU6LLGiXPTLADXY
 ![Form](./img/edit-img-15.png)
 
 1. **Update:** Fill the latest information in the form and click on this button to update the company details.
+
+<br>

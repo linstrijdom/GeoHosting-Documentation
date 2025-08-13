@@ -44,20 +44,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Subscription process: subscription.md
-  - Dashboard:
-      - dashboard/index.md  
-      - Hosted Services: dashboard/hosted_services.md
-      - Agreements: dashboard/agreements.md
-      - Orders: dashboard/orders.md
-      - Supports:
-          - dashboard/supports/index.md 
-          - List: dashboard/supports/list.md
-          - Create: dashboard/supports/create.md
-      - Profile:
-          - dashboard/profile/index.md  
-          - View: dashboard/profile/view.md
-          - Edit: dashboard/profile/edit.md
+  - Users:
+      - users/index.md
+      - Dashboard: users/dashboard.md
+      - Support Center: users/support_center.md
   - Products:
       - products/index.md 
       - GeoNode:
