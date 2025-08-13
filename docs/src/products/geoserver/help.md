@@ -192,4 +192,3 @@ There, you’ll find clear instructions on how to log a support ticket, includin
 By using the official support system, your request will be properly tracked and routed to the right people, helping you get a faster and more accurate response.
 
 <br>
-
