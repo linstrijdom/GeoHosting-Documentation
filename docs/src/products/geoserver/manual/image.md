@@ -76,7 +76,7 @@ This step involves adding a new data store to connect GeoServer with your raster
 
 With your image store created, the next step is to publish the raster dataset as a layer in GeoServer.
 
-1. On the <span class="ui-page-label">New Layer</span> page, locate the <span class="ui-filename">SR_50M</span> layer. 
+1. On the <span class="ui-page-label">New Layer</span> page, locate the <span class="ui-filename">SR_50M</span> layer.
 
 2. Under Actions, click <span class="ui-generic-label">Publish</span>.
 

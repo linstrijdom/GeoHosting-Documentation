@@ -22,7 +22,7 @@ Now that we've successfully connected to the store, the next step is to publish 
 
 To begin publishing, we first need to open the layer creation page in GeoServer.
 
-1. On the <span class="ui-page-label">New Layer</span> page, locate the <span class="ui-filename">ne_110m_coastline</span> layer. 
+1. On the <span class="ui-page-label">New Layer</span> page, locate the <span class="ui-filename">ne_110m_coastline</span> layer.
 
 2. Under Actions, click <span class="ui-generic-label">Publish</span>.
 

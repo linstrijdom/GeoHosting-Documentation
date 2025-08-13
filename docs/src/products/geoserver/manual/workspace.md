@@ -39,7 +39,7 @@ The next step is to create a workspace for your layers. A workspace acts as a co
 
 ## Step 2: Create Workspace
 
-Now it’s time to fill in the required details. The workspace name should be concise — 10 characters or fewer — and cannot contain spaces. 
+Now it’s time to fill in the required details. The workspace name should be concise — 10 characters or fewer — and cannot contain spaces.
 
 The Namespace URI is a URL-like string connected to your project, typically ending with an identifier that reflects the workspace name. It doesn’t have to resolve to a real web address.
 
@@ -73,7 +73,6 @@ The Namespace URI is a URL-like string connected to your project, typically endi
 <br>
 
 The new <span class="ui-filename">manual</span> workspace will now be listed on the <span class="ui-page-label">Workspaces</span> page.
-
 
 <br>
 
