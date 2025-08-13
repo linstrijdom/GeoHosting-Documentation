@@ -50,7 +50,7 @@ Whether you're building a lightweight internal service or a robust, public-facin
     <br>
 
 <div class="image-with-caption">
-  <img src="../img/geoserver-img-3-1.png" alt="Why">
+  <img src="../img/geoserver-img-4.png" alt="Why">
 </div>
 
 <br>

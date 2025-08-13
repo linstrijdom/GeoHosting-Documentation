@@ -33,7 +33,7 @@ To begin uploading your data, you first need to log in to the File Browser using
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-12-1.png" alt="Filebrowser" width="auto">
+  <img src="../../img/geoserver-img-24.png" alt="Filebrowser" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -60,7 +60,7 @@ Once uploaded, your data will be immediately available within the GeoServer Web 
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-12-2.png" alt="Upload Data" width="auto">
+  <img src="../../img/geoserver-img-25.png" alt="Upload Data" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>

@@ -33,7 +33,7 @@ To begin creating your layer group, you’ll need to open the creation page in G
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-17-1.png" alt="Layer Group Page" width="auto">
+  <img src="../../img/geoserver-img-36.png" alt="Layer Group Page" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -96,7 +96,7 @@ Layer groups let you combine multiple layers into a single visual map in GeoServ
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-17-2.png" alt="Create Layer Group" width="auto">
+  <img src="../../img/geoserver-img-37.png" alt="Create Layer Group" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -121,7 +121,7 @@ A new browser tab will open, displaying your layer group on an interactive OpenL
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-17-3.png" alt="Preview Layer Group" width="auto">
+  <img src="../../img/geoserver-img-38.png" alt="Preview Layer Group" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>

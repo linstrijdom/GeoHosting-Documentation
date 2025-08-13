@@ -54,7 +54,7 @@ Click <span class="ui-generic-label">OK</span>, then <span class="ui-generic-lab
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-9-1.png" alt="Connect WMS" width="auto">
+  <img src="../../img/geoserver-img-22.png" alt="Connect WMS" width="auto">
 </div>
 
 <br>
@@ -120,7 +120,7 @@ Save the file and open it in your browser. Your GeoServer layer will appear in t
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-9-2.png" alt="Leaflet Map" width="auto">
+  <img src="../../img/geoserver-img-23.png" alt="Leaflet Map" width="auto">
 </div>
 
 <br>

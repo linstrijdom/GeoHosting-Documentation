@@ -64,7 +64,7 @@ This step involves adding a new data store to connect GeoServer with your raster
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-16-1.png" alt="Image Store" width="auto">
+  <img src="../../img/geoserver-img-33.png" alt="Image Store" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -132,7 +132,7 @@ With your image store created, the next step is to publish the raster dataset as
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-16-2.png" alt="Publish Image" width="auto">
+  <img src="../../img/geoserver-img-34.png" alt="Publish Image" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -157,7 +157,7 @@ A new browser tab will open displaying your shaded relief raster layer on an int
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-15-3.png" alt="Preview Image" width="auto">
+  <img src="../../img/geoserver-img-35.png" alt="Preview Image" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
