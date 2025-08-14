@@ -29,7 +29,7 @@ The next step is to create a workspace for your layers. A workspace acts as a co
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-13-1.png" alt="Workspace Page" width="auto">
+  <img src="../../img/geoserver-img-26.png" alt="Workspace Page" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -77,7 +77,7 @@ The new <span class="ui-filename">manual</span> workspace will now be listed on 
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-13-2.png" alt="Create Workspace" width="auto">
+  <img src="../../img/geoserver-img-27.png" alt="Create Workspace" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>

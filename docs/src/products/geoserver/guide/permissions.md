@@ -35,7 +35,7 @@ Navigate to the <span class="ui-page-label">Data</span> page under **Security** 
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-8-1.png" alt="Role Tab" width="auto">
+  <img src="../../img/geoserver-img-19.png" alt="Role Tab" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -54,7 +54,7 @@ Your group is now ready to streamline your permission management by applying rol
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-8-2.png" alt="Groups" width="auto">
+  <img src="../../img/geoserver-img-20.png" alt="Groups" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -71,7 +71,7 @@ To update an existing account, select the user, adjust their details or access r
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-8-3.png" alt="User Tab" width="auto">
+  <img src="../../img/geoserver-img-21.png" alt="User Tab" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>

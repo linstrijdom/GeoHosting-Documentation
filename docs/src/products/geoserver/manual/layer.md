@@ -40,7 +40,7 @@ To begin publishing, we first need to open the layer creation page in GeoServer.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-15-1.png" alt="New Layer Page" width="auto">
+  <img src="../../img/geoserver-img-30.png" alt="New Layer Page" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -102,7 +102,7 @@ Now it’s time to make your data available as a layer in GeoServer.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-15-2.png" alt="Edit Layer Page" width="auto">
+  <img src="../../img/geoserver-img-31.png" alt="Edit Layer Page" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -136,7 +136,7 @@ An OpenLayers map will open in a new tab, showing your shapefile data with the d
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-15-3.png" alt="Preview Layer" width="auto">
+  <img src="../../img/geoserver-img-32.png" alt="Preview Layer" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>

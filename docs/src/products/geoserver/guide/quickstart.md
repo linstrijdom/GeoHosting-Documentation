@@ -39,7 +39,7 @@ Your data will now be available in the GeoServer Web Administration Interface.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-6-1.png" alt="File Browser" width="auto">
+  <img src="../../img/geoserver-img-12.png" alt="File Browser" width="auto">
 </div>
 
 <br>
@@ -68,7 +68,7 @@ A workspace is a container that groups related layers together — perfect for k
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-6-2.png" alt="Workspace" width="auto">
+  <img src="../../img/geoserver-img-13.png" alt="Workspace" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -97,7 +97,7 @@ A data store tells GeoServer how to connect to your dataset.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-6-3.png" alt="Store" width="auto">
+  <img src="../../img/geoserver-img-14.png" alt="Store" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -135,7 +135,7 @@ With the store in place, it’s time to make your data available as a layer.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-6-4.png" alt="Layer" width="auto">
+  <img src="../../img/geoserver-img-15.png" alt="Layer" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -156,7 +156,7 @@ TNow let’s confirm your layer is working.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-6-5.png" alt="View Layer" width="auto">
+  <img src="../../img/geoserver-img-16.png" alt="View Layer" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>

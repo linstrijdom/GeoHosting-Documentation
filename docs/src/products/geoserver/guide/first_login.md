@@ -23,7 +23,7 @@ You can also access your instance directly using its unique URL, which is listed
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geoserver-img-5-1.png" alt="GeoServer Homepage">
+  <img src="../../img/geoserver-img-9.png" alt="GeoServer Homepage">
   <div class="caption">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -42,7 +42,7 @@ Once logged in, the <span class="ui-page-label">Homepage</span> will expand to d
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-5-2.png" alt="Login" width="auto">
+  <img src="../../img/geoserver-img-10.png" alt="Login" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -70,7 +70,7 @@ On the <span class="ui-page-label">Edit User</span> page, enter your new passwor
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-5-3.png" alt="Update Password" width="auto">
+  <img src="../../img/geoserver-img-11.png" alt="Update Password" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>

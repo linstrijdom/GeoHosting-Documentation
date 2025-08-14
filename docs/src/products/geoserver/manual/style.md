@@ -40,7 +40,7 @@ Before you can create a style, you’ll first need to open the style creation in
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-18-1.png" alt="Style Page" width="auto">
+  <img src="../../img/geoserver-img-39.png" alt="Style Page" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -97,7 +97,7 @@ Now that you’ve accessed the style creation interface, it’s time to define t
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-18-2.png" alt="Create Style" width="auto">
+  <img src="../../img/geoserver-img-40.png" alt="Create Style" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -155,7 +155,7 @@ With your base style created, you can now make adjustments to refine the layer�
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-18-3.png" alt="Edit Style" width="auto">
+  <img src="../../img/geoserver-img-41.png" alt="Edit Style" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>

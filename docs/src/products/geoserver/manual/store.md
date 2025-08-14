@@ -44,7 +44,7 @@ To begin creating a store, you’ll first need to navigate to the right section 
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-14-1.png" alt="Store Page" width="auto">
+  <img src="../../img/geoserver-img-28.png" alt="Store Page" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
@@ -98,7 +98,7 @@ You’ll be redirected to the <span class="ui-page-label">New Layer</span> page.
 <br>
 
 <div style="text-align: center;">
-  <img src="../../img/geoserver-img-14-2.png" alt="Create Store" width="auto">
+  <img src="../../img/geoserver-img-29.png" alt="Create Store" width="auto">
   <div style="font-size: 0.8em; color: gray; margin-top: 4px;">
     Image credit: <a href="https://geoserver.org/" target="_blank">GeoServer</a>
   </div>
