@@ -8,8 +8,34 @@ copyright: Copyright 2024, Kartoza
 contact:
 license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 context_id: nDU6LLGiXPTLADXY
+hide:
+  footer: true
 ---
 
 # Users
 
-To be added...
+Your guide to using the Kartoza GeoSpatialHosting (GSH) platform. From learning your way around the dashboard to logging support tickets, this section walks you through the features, workflows, and resources you need to get the most out of GSH.
+
+<br>
+
+<div class="card">
+  <div class="card-header">🌐 GSH Dashboard</div>
+  <div class="card-body">
+    Learn how to navigate the GeoSpatialHosting dashboard — manage your projects, monitor activity, and access platform tools from one central location.
+  </div>
+  <div class="card-footer">
+    <a href="dashboard/">Go to Dashboard Guide →</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">🛠️ Support Center</div>
+  <div class="card-body">
+    Need help? Log a support ticket, track your requests, and browse solutions in our Support Center to get the assistance you need quickly.
+  </div>
+  <div class="card-footer">
+    <a href="support_center/">Go to Support Center Guide →</a>
+  </div>
+</div>
+
+<br>
