@@ -63,7 +63,6 @@ The GSH Dashboard is organized into multiple sections, each with specific functi
 
 ## Hosted Products
 
-
 The Hosted Products page opens by default when you access the Dashboard, giving you a central place to view and manage all your purchased products.
 
 You can access this section by clicking the <span class="ui-page-label">Hosted Products</span> tab in the left-hand navigation bar.
