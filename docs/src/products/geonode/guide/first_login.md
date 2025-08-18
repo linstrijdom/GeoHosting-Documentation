@@ -16,9 +16,9 @@ context_id: nDU6LLGiXPTLADXY
 
 ## Accessing the Homepage
 
-When you're ready to explore your new GeoNode instance, go to the <span class="ui-page-label">Hosted Services</span> section of the GSH Dashboard and click the <span class="ui-generic-label">Service Name</span> you chose during setup.
+When you're ready to explore your new GeoNode product, go to the <span class="ui-page-label">Hosted Products</span> section of the GSH Dashboard and click the <span class="ui-generic-label">Product Name</span> you chose during setup.
 
-Alternatively, you can access your instance directly using its URL, which is available under the <span class="ui-page-label">Service Details</span> page.
+Alternatively, you can access your product using its URL, which is available under the <span class="ui-page-label">Product Details</span> page.
 
 <br>
 

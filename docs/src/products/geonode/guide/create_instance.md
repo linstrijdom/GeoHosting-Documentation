@@ -16,27 +16,27 @@ context_id: nDU6LLGiXPTLADXY
 
 ## Checkout Process
 
-Once you've selected your preferred product, simply click the <span class="ui-generic-label">Order</span> button under the deployment size that best fits your needs. You’ll be redirected to the checkout page, where you’ll:
+Once you've chosen your preferred product, click the <span class="ui-generic-label">Order</span> button beneath the deployment size that best suits your requirements. You’ll be taken to the <span class="ui-page-label">Checkout</span> page, where you’ll:
 
-- Enter a name for your new service.
-- Choose whether you're purchasing as an individual or on behalf of a company.
-- Complete the secure payment process.
+1. Provide a name for your new hosted product.
+2. Specify whether you're purchasing as an individual or on behalf of a company.
+3. Complete the secure payment process.
 
 <br>
 
-After checkout, your service will begin deploying automatically. You’ll receive a notification when it's ready for use.
+After completing your order, the deployment will begin automatically. You’ll be notified as soon as your product is up and running.
 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-5.png" alt="Launch Instance">
+  <img src="../../img/geonode-img-5.png" alt="Launch Product">
 </div>
 
 <br>
 
 ## Using the GSH Dashboard
 
-Once your service has been successfully deployed, you'll be redirected to the <span class="ui-page-label">Hosted Services</span> section of the GeoSpatialHosting Dashboard. This is where you can view and manage all your purchased services.
+After your hosted product has been successfully deployed, you’ll be redirected to the <span class="ui-page-label">Hosted Products</span> section of the GeoSpatialHosting (GSH) Dashboard. Here, you can view and manage all your purchased products in one place.
 
 <br>
 
@@ -46,57 +46,72 @@ Once your service has been successfully deployed, you'll be redirected to the <s
 
 <br>
 
-### Retrieving Your Login Credentials
+### Viewing Product Information
 
-To log in to your new GeoNode hosted service:
+To access detailed information about your hosted product:
 
-1. Click the <span class="ui-generic-label">Get Password</span> button under your service.
+1. Click on the <span class="ui-generic-label">View Details</span> button under your hosted product.
 
-2. The credentials will automatically be copied to your clipboard.
+2. You’ll be taken to the <span class="ui-page-label">Product Details</span> page, where you can view:
 
-3. Click the <span class="ui-generic-label">Service Name</span> to launch your new GeoNode.
-
-<div class="image-with-caption">
-  <img src="../../img/geonode-img-7.png" alt="Hosted Service">
-</div>
-
-<br>
-
-### Viewing Your Hosted Service Information
-
-To view details about your hosted service:
-
-1. Click on the <span class="ui-generic-label">Hosted Service Tile</span>.
-
-2. The <span class="ui-page-label">Service Details</span> page will open, displaying:
-
-    - Instance Information
-    - Enabled Features
-    - Payment Details
-    - Delete Instance option
+    - Product Information
+    - Features & Specifications
+    - Payment Details & Invoices
+    - Product Agreements
+    - Delete Product option
 
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-8.png" alt="Instance Page">
+  <img src="../../img/geonode-img-7.png" alt="Product Page">
 </div>
 
 <br>
 
-### Deleting a Hosted Service
+### Retrieving Login Credentials
 
-To permanently remove a hosted instance:
+To access your newly deployed GeoNode product:
 
-1. Navigate to the <span class="ui-page-label">Service Details</span> page of the service you want to delete.
+1. Navigate to the <span class="ui-page-label">Product Details</span> page for your hosted product.
 
-2. Scroll to the Delete Instance section and click <span class="ui-generic-label">Delete this instance</span>.
+2. In the **Product Information** section, click the <span class="ui-generic-label">Get Password</span> button.
 
-3. Confirm deletion by entering the instance name, then click <span class="ui-generic-label">Delete</span>.
+3. Your login credentials will be automatically copied to your clipboard.
+
+<br>
+
+### Launching Your Product
+
+To open your GeoNode product, you can either:
+
+1. Click the <span class="ui-generic-label">Product URL</span> link on the <span class="ui-page-label">Product Details</span> page.
+
+2. Click the <span class="ui-generic-label">Product Name</span> on the <span class="ui-page-label">Hosted Products</span> page.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/geonode-img-8.png" alt="Hosted Product" style="width: 40%;">
+</div>
+
+<br>
+
+### Deleting Your Product
+
+To permanently remove a hosted product:
+
+1. Go to the <span class="ui-page-label">Product Details</span> page for the product you wish to delete.
+
+2. Scroll to the **Delete Product** section and click <span class="ui-generic-label">Delete this product</span>.
+
+3. Confirm the deletion by entering the product name, then click <span class="ui-generic-label">Delete</span>.
+
+<br>
 
 <div class="alert alert-warning">
   <div class="alert-icon">⚠️</div>
   <div class="alert-text">
-    Deleting a hosted service is permanent. All associated data will be lost and cannot be recovered.
+    Deleting a hosted product is permanent. All associated data will be lost and cannot be recovered.
   </div>
 </div>
 

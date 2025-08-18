@@ -36,7 +36,7 @@ After completing your order, the deployment will begin automatically. You’ll b
 
 ## Using the GSH Dashboard
 
-After your hosted product has been successfully deployed, you’ll be redirected to the <span class="ui-page-label">Hosted Products</span> section of the GeoSpatialHosting Dashboard. Here, you can view and manage all your purchased products in one place.
+After your hosted product has been successfully deployed, you’ll be redirected to the Hosting (GSH) Dashboard. Here, you can view and manage all your purchased products in one place.
 
 <br>
 
@@ -48,16 +48,16 @@ After your hosted product has been successfully deployed, you’ll be redirected
 
 ### Viewing Product Information
 
-To access detailed information about your hosted service:
+To access detailed information about your hosted product:
 
-1. Click on the <span class="ui-generic-label">Hosted Product Tile</span>.
+1. Click on the <span class="ui-generic-label">View Details</span> button under your hosted product.
 
 2. You’ll be taken to the <span class="ui-page-label">Product Details</span> page, where you can view:
 
     - Product Information
     - Features & Specifications
-    - Payment Details
-    - Order Details
+    - Payment Details & Invoices
+    - Product Agreements
     - Delete Product option
 
 <br>
@@ -82,7 +82,7 @@ To access your newly deployed GeoServer product:
 
 ### Launching Your Product
 
-To open your GeoServer instance, you can either:
+To open your GeoServer product, you can either:
 
 1. Click the <span class="ui-generic-label">Product URL</span> link on the <span class="ui-page-label">Product Details</span> page.
 
@@ -91,7 +91,7 @@ To open your GeoServer instance, you can either:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geoserver-img-8.png" alt="Hosted Product">
+  <img src="../../img/geoserver-img-8.png" alt="Hosted Product" style="width: 40%;">
 </div>
 
 <br>
