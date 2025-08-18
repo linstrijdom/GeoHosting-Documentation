@@ -104,7 +104,7 @@ GeoNode is built and maintained by a vibrant, growing open-source community. Whe
 
 **GeoNode Improvement Proposals (GNIPs)** represent major development efforts that introduce significant new features to the platform. These proposals are carefully discussed and shaped with community input to guide GeoNode’s evolution.
 
-Future enhancements and key initiatives are tracked through GNIPs, which are openly documented and actively discussed in the [GeoNode Wiki](https://github.com/GeoNode/geonode/wiki/GeoNode-Improvement-Proposals) and the [developer mailing list](http://lists.osgeo.org/pipermail/geonode-devel/).
+Future enhancements and key initiatives are tracked through GNIPs, which are openly documented and actively discussed in the [GeoNode Wiki](https://github.com/GeoNode/geonode/wiki/GeoNode-Improvement-Proposals) and the [GeoNode Archives](http://lists.osgeo.org/pipermail/geonode-devel/).
 
 ## Useful Links
 
