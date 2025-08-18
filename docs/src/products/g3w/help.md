@@ -181,7 +181,7 @@ context_id: nDU6LLGiXPTLADXY
 
 ## Getting Support
 
-If you run into an issue or need assistance, the best place to start is the **Support Centre** section on the  **[Users](https://kartoza.github.io/GeoHosting-Documentation/subscription/#support-center)** page.
+If you run into an issue or need assistance, the best place to start is the **[Support Center](https://kartoza.github.io/GeoHosting-Documentation/users/support_center/)** page in the **Users** section.
 
 There, you’ll find clear instructions on how to log a support ticket, including what information to provide so the team can assist you efficiently.
 
