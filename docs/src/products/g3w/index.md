@@ -141,7 +141,7 @@ G3W-SUITE is a **collaborative open-source project**, actively maintained and su
   </div>
   <div class="card">
     <div class="card-header">
-      💻 <a href="https://github.com/g3w-suite/g3w-suite" target="_blank">Source Code</a>
+      💻 <a href="https://github.com/g3w-suite" target="_blank">Source Code</a>
     </div>
     <div class="card-body">
       Explore the full codebase and contribute via GitHub.
@@ -149,7 +149,7 @@ G3W-SUITE is a **collaborative open-source project**, actively maintained and su
   </div>
   <div class="card">
     <div class="card-header">
-      📚 <a href="https://docs.g3wsuite.it/en/" target="_blank">Documentation</a>
+      📚 <a href="https://g3w-suite.readthedocs.io/en/latest/" target="_blank">Documentation</a>
     </div>
     <div class="card-body">
       Official user and developer documentation for setup, use, and extensions.
@@ -157,26 +157,10 @@ G3W-SUITE is a **collaborative open-source project**, actively maintained and su
   </div>
   <div class="card">
     <div class="card-header">
-      🐞 <a href="https://github.com/g3w-suite/g3w-suite/issues" target="_blank">Issue Tracker</a>
+      🐞 <a href="https://github.com/g3w-suite/g3w-admin/issues" target="_blank">Issue Tracker</a>
     </div>
     <div class="card-body">
       Report bugs, request features, or track development progress.
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header">
-      🔧 <a href="https://github.com/g3w-suite/g3w-suite/blob/master/CONTRIBUTING.md" target="_blank">Contribute</a>
-    </div>
-    <div class="card-body">
-      Guidelines and tips for contributing to the G3W-SUITE project.
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header">
-      📢 <a href="https://g3wsuite.it/en/contacts/" target="_blank">Contact & Support</a>
-    </div>
-    <div class="card-body">
-      Reach out for support, collaboration, or commercial services.
     </div>
   </div>
 </div>
