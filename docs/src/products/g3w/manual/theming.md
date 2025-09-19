@@ -83,22 +83,57 @@ When the page reloads, the website title displayed in the browser tab will updat
 
     <br>
 
-5. Edit <span class="ui-filename">images.json</span> to update metadata about the background image (e.g. author name, URL).
+5. Edit the <span class="ui-filename">images.json</span> to update metadata about the image (e.g. author name, URL).
 
-    <br>
+6. Name your new image <span class="ui-filename">landing.jpeg</span> and upload it.
 
-    <div class="image-with-caption">
-    <img src="../../img/g3w-img-53.png" alt="images.json">
-    <div class="caption">
-        Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
-    </div>
-    </div>
+<br>
 
-    <br>
+<div class="image-with-caption">
+<img src="../../img/g3w-img-53.png" alt="images.json">
+</div>
 
-6. Replace the existing <span class="ui-filename">landing.jpg</span> with your new background by clicking <span class="ui-generic-label">Upload</span> and selecting your image file.
+<br>
 
-7. If no <span class="ui-filename">images.json</span> file is present, G3W-SUITE will automatically use the first image in the directory as the landing-page background.
+<div class="alert alert-note">
+  <div class="alert-icon">📝</div>
+  <div class="alert-text">
+    The image name in <span class="ui-filename">images.json</span> must exactly match the name of your background image.
+  </div>
+</div>
+
+<br>
+
+If no <span class="ui-filename">images.json</span> file is present, G3W-SUITE will automatically use the first image in the directory as the landing-page background.
+
+After uploading, your new background image and author credits should appear on the landing page. If the landing page doesn’t display your updated image:
+
+1. Right-click the page and select <span class="ui-generic-label">Open DevTools</span> / <span class="ui-generic-label">Inspect Element</span>.
+
+2. In the top-bar, open the <span class="ui-generic-label">Network</span> tab.
+
+3. Check <span class="ui-generic-label">Disable cache</span> and reload the page.
+
+4. Uncheck <span class="ui-generic-label">Disable cache</span> and close DevTools.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-54.png" alt="Disable cache">
+</div>
+
+<br>
+
+Your G3W-SUITE landing page will now display your new background image, complete with author credit.
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-55.png" alt="New Landing Page">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
 
 <br>
 
@@ -153,7 +188,16 @@ When the page reloads, the website title displayed in the browser tab will updat
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-54.png" alt="custom_static folder">
+  <img src="../../img/g3w-img-56.png" alt="custom_static folder">
+  <div class="caption">
+    Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
+  </div>
+</div>
+
+<br>
+
+<div class="image-with-caption">
+  <img src="../../img/g3w-img-57.png" alt="custom_static folder">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
@@ -185,7 +229,7 @@ When the page reloads, the website title displayed in the browser tab will updat
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/g3w-img-55.png" alt="custom_static/css">
+  <img src="../../img/g3w-img-58.png" alt="custom_static/css">
   <div class="caption">
     Image credit: <a href="https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/" target="_blank">G3W-SUITE</a>
   </div>
