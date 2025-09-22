@@ -68,6 +68,7 @@ nav:
             - Documents: products/geonode/manual/document.md
             - Maps: products/geonode/manual/map.md
             - Other Tools: products/geonode/manual/other_tools.md
+            - Theming: products/geonode/manual/theming.md
           - Help: products/geonode/help.md
       - G3W:
           - products/g3w/index.md
