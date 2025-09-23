@@ -48,7 +48,7 @@ In GeoNode, **maps** are interactive views made by combining multiple datasets (
 
 1. In the <span class="ui-page-label">Map Viewer</span>, click <span class="ui-generic-label">Add Dataset</span> from the top navigation bar.
 
-2. In the <span class="ui-page-label">Dataset Catalog</span>, select the <span class="ui-filename">landuse</span> layer you uploaded earlier.
+2. In the <span class="ui-page-label">Dataset Catalog</span>, select the <span class="ui-filename">buildings</span> layer you uploaded earlier.
 
 <br>
 

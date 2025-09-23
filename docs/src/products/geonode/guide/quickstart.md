@@ -67,8 +67,12 @@ Follow these quick steps to upload your first dataset and publish a map in GeoNo
 
 ## Step 3: Create a Map
 
-1. In the top navigation bar, click <span class="ui-generic-label">Resource > Save As..</span>.
-2. Enter a name and description for your map.
+1. In the top navigation bar, click <span class="ui-generic-label">Create Map</span>.
+
+2. Navigate to <span class="ui-generic-label">Resource > Save As..</span>.
+
+2. Enter a title and description for your map.
+
 3. Click <span class="ui-generic-label">Save</span>.
 
 <br>
