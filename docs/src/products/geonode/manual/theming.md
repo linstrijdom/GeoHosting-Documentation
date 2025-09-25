@@ -43,13 +43,11 @@ GeoNode allows you to personalise its interface to match your organisation’s b
     </div>
     </div>
 
-    <br>
-
 5. Click <span class="ui-generic-label">Save</span>
 
 6. In the top-right corner, click <span class="ui-generic-label">View Site</span> to view your changes.
 
-<br>
+
 
 <div class="alert alert-note">
   <div class="alert-icon">📝</div>
@@ -165,6 +163,13 @@ GeoNode allows you to personalise its interface to match your organisation’s b
 
     <br>
 
+    <div class="image-with-caption">
+      <img src="../../img/geonode-img-43.png" alt="Update colors">
+      <div class="caption">
+        Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
+      </div>
+    </div>
+
 5. Click <span class="ui-generic-label">Save</span>.
 
 6. In the top-right corner, click <span class="ui-generic-label">View Site</span> to view your changes.
@@ -172,7 +177,7 @@ GeoNode allows you to personalise its interface to match your organisation’s b
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-43.png" alt="Updated Site colors">
+  <img src="../../img/geonode-img-44.png" alt="Updated Site colors">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
@@ -187,17 +192,6 @@ GeoNode allows you to personalise its interface to match your organisation’s b
 2. Under **GeoNode Themes Library**, click <span class="ui-generic-label">Themes</span>.
 
 3. Click <span class="ui-generic-label">Add GeoNode Theme Customization</span>.
-
-    <br>
-
-    <div class="image-with-caption">
-    <img src="../../img/geonode-img-44.png" alt="Themes">
-    <div class="caption">
-        Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
-    </div>
-    </div>
-
-    <br>
 
 4. Fill in the following fields:
 
@@ -240,6 +234,13 @@ GeoNode allows you to personalise its interface to match your organisation’s b
 
     <br>
 
+    <div class="image-with-caption">
+    <img src="../../img/geonode-img-45.png" alt="Themes">
+    <div class="caption">
+        Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
+    </div>
+    </div>
+
 5. Click <span class="ui-generic-label">Save</span>.
 
 6. In the top-right corner, click <span class="ui-generic-label">View Site</span> to view your changes.
@@ -247,7 +248,7 @@ GeoNode allows you to personalise its interface to match your organisation’s b
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geonode-img-45.png" alt="Updated Site Banner">
+  <img src="../../img/geonode-img-46.png" alt="Updated Site Banner">
   <div class="caption">
     Image credit: <a href="https://geonode.org/" target="_blank">GeoNode</a>
   </div>
