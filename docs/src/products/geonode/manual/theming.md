@@ -47,8 +47,6 @@ GeoNode allows you to personalise its interface to match your organisation’s b
 
 6. In the top-right corner, click <span class="ui-generic-label">View Site</span> to view your changes.
 
-
-
 <div class="alert alert-note">
   <div class="alert-icon">📝</div>
   <div class="alert-text">
