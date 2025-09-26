@@ -48,7 +48,7 @@ In GeoNode, **datasets** represent either **vector** or **raster** spatial data 
 
 1. On the <span class="ui-page-label">Upload a Dataset</span> page, click <span class="ui-generic-label">Select files...</span>.
 
-2. Navigate to the <span class="ui-filename">Data</span> folder and select all 5 components of the <span class="ui-filename">landuse</span> shapefile.
+2. Navigate to the <span class="ui-filename">Data</span> folder and select all 5 components of the <span class="ui-filename">buildings</span> shapefile.
 
 3. Once selected, click <span class="ui-generic-label">Upload</span>.
 
