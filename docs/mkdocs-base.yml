@@ -88,6 +88,7 @@ nav:
             - Projects: products/g3w/manual/project.md
             - Widgets: products/g3w/manual/widget.md
             - Editing: products/g3w/manual/editing.md
+            - Theming: products/g3w/manual/theming.md
           - Help: products/g3w/help.md
       #- BIMS:
       #    - products/bims/index.md
