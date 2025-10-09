@@ -77,7 +77,7 @@ All purchased products are displayed as <span class="ui-generic-label">Hosted Pr
 
 <br>
 
-Clicking a <span class="ui-generic-label">Hosted Product Tile</span> opens the <span class="ui-page-label">Product Details</span> page, where you can view:
+Clicking <span class="ui-generic-label">View details</span> opens the <span class="ui-page-label">Product Details</span> page, where you can view:
 
 - Product Information
 - Features & Specifications
