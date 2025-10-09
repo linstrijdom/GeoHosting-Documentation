@@ -192,12 +192,6 @@ Choose a hosting tier that matches your project:
       <td>Full-stack deployments with SLAs</td>
     </tr>
     <tr>
-      <td>Support</td>
-      <td>Community-level</td>
-      <td>Enhanced monitoring & backups</td>
-      <td>Dedicated team & expert onboarding</td>
-    </tr>
-    <tr>
       <td>Resources</td>
       <td>Shared infrastructure</td>
       <td>Balanced resources</td>
