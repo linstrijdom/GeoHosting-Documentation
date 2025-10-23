@@ -116,6 +116,25 @@ nav:
             - Layer Groups: products/geoserver/manual/layer_group.md
             - Styling: products/geoserver/manual/style.md
           - Help: products/geoserver/help.md
+      - PostGIS:
+          - products/postgis/index.md
+          - Overview: products/postgis/overview.md
+          - Guide:
+            - Creating Your Instance: products/postgis/guide/create_instance.md
+            - First Log In & Setting Your Password: products/postgis/guide/first_login.md
+            - Quickstart - 5-Minute Tutorial: products/postgis/guide/quickstart.md
+            - Navigating the Dashboard: products/postgis/guide/dashboard.md
+            - Managing Users & Permissions: products/postgis/guide/permissions.md
+            - Glossary of Terms: products/postgis/guide/glossary.md
+          - Manual:
+            - pgAdmin: products/postgis/manual/pgadmin.md
+            - Layers: products/postgis/manual/layer.md
+            - QGIS: products/postgis/manual/qgis.md
+            - Features: products/postgis/manual/feature.md
+            - Relationships: products/postgis/manual/relation.md
+            - Queries: products/postgis/manual/query.md
+            - Administration: products/postgis/manual/admin.md
+          - Help: products/postgis/help.md
       #- GeoSight:
       #    - products/geosight/index.md
       #    - Introduction: products/geosight/introduction.md
