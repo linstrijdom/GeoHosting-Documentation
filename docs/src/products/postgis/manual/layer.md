@@ -11,7 +11,7 @@ license: This program is free software; you can redistribute it and/or modify it
 
 # Working with Spatial Layers
 
-Once you’ve accessed your hosted database in pgAdmin, you can start creating spatial tables, often referred to as *layers*. Layers are the building blocks of geospatial analysis, allowing you to store geographic features (points, lines, or polygons) along with their attributes. 
+Once you’ve accessed your hosted database in pgAdmin, you can start creating spatial tables, often referred to as *layers*. Layers are the building blocks of geospatial analysis, allowing you to store geographic features (points, lines, or polygons) along with their attributes.
 
 These layers can then be visualized, edited, and analyzed in QGIS or other GIS tools connected to your hosted PostGIS database.
 
