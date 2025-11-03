@@ -13,7 +13,7 @@ license: This program is free software; you can redistribute it and/or modify it
 
 ## Why Choose this Product?
 
-PostGIS brings advanced **spatial capabilities** to the industry-leading **PostgreSQL** database, allowing you to store, query, and analyze both spatial and non-spatial data in one system. 
+PostGIS brings advanced **spatial capabilities** to the industry-leading **PostgreSQL** database, allowing you to store, query, and analyze both spatial and non-spatial data in one system.
 
 Built on open-source technologies and hosted for you in the cloud, this product delivers a complete, secure, and ready-to-use spatial database environment, no setup or server management required.
 
