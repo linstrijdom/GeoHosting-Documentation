@@ -61,7 +61,7 @@ The pgAdmin interface is organized into three main areas:
 
 ## Menu Bar
 
-The <span class="ui-page-label">Menu Bar</span> sits at the top of the pgAdmin interface and provides quick access to the tools and actions you'll use while managing your database. 
+The <span class="ui-page-label">Menu Bar</span> sits at the top of the pgAdmin interface and provides quick access to the tools and actions you'll use while managing your database.
 
 The options shown in each menu depend on what is currently selected in the **Object Explorer**, some items will be unavailable (grayed out) until they are relevant.
 
@@ -167,7 +167,7 @@ Additional tabs may appear when using pgAdmin tools like the **Query Tool**, **D
 
 The left pane of pgAdmin displays the <span class="ui-page-label">Object Explorer</span>, providing access to all objects on your server. Expand nodes to explore databases, schemas, tables, and other objects.
 
-Right-clicking a node opens a **context-sensitive menu** for common tasks. Options include creating objects, connecting or disconnecting servers, performing backups/restores, managing properties, running scripts, and viewing or modifying table data. 
+Right-clicking a node opens a **context-sensitive menu** for common tasks. Options include creating objects, connecting or disconnecting servers, performing backups/restores, managing properties, running scripts, and viewing or modifying table data.
 
 Table-specific options allow importing/exporting data, truncating rows, viewing data, and resetting statistics.
 
