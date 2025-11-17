@@ -55,19 +55,15 @@ Once logged in, the pgAdmin interface displays a clean workspace consisting of t
 
 ## Changing Your Password
 
-After your first login, it’s strongly recommended that you update your default password to keep your database secure.
+After your first login, it’s highly recommended to update your default password to keep your database secure.
 
-1. In the **Object Explorer**, expand the <span class="ui-generic-label">Geospatialhosting Databases</span> group. 
+1. Click the <span class="ui-generic-label">User</span> button in the upper-right corner of the pgAdmin interface.
 
-2. Locate your server, it will have the same name as your hosted product.
+2. From the dropdown menu, select <span class="ui-generic-label">Change Password</span>.
 
-3. Expand <span class="ui-generic-label">Login/Group Roles</span>.
+3. Enter your **current password**, then type your **new password** and re-enter it to confirm.
 
-4. Right-click <span class="ui-filename">kartoza_postgis</span>, and select <span class="ui-generic-label">Properties</span>. 
-
-5. Under the **Definition** tab, enter your new password in the <span class="ui-filename">Password</span> field. 
-
-6. Click <span class="ui-generic-label">Save</span> to confirm your changes.
+4. Click <span class="ui-generic-label">Change</span> to save your updated password.
 
 <br>
 
@@ -81,7 +77,7 @@ After your first login, it’s strongly recommended that you update your default
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/postgis-img-10.png" alt="Login/Group Roles">
+  <img src="../../img/postgis-img-10.png" alt="Change Password">
   <div class="caption">
     Image credit: <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a>
   </div>
