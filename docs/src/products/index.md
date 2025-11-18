@@ -36,4 +36,10 @@ Select the one that best fits your workflow to learn more and get started:
       GeoServer
     </a>
   </div>
+    <div class="product-item">
+    <a href="postgis/">
+      <img src="./img/PostgreSQL_logo.png" alt="PostGIS" /><br />
+      PostGIS
+    </a>
+  </div>
 </div>
