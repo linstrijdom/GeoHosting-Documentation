@@ -56,7 +56,7 @@ You’ll run your SQL statements inside pgAdmin’s built-in editor.
 
 Begin by exploring your data using simple <span class="ui-filename">SELECT</span> statements.
 
-1.  **Show all rows**
+1. **Show all rows**
 
     ```sql
     SELECT * FROM places;
@@ -100,7 +100,7 @@ These simple <span class="ui-filename">SELECT</span> queries let you preview and
 
 Sorting and limiting output helps you quickly find useful information.
 
-1.  **Sort by population (descending)**
+1. **Sort by population (descending)**
 
     ```sql
     SELECT name, population
@@ -133,7 +133,7 @@ Sorting and limiting output helps you quickly find useful information.
 
 You can use SQL to calculate values on the fly.
 
-1.  **Calculate population density**
+1. **Calculate population density**
 
     ```sql
     SELECT
@@ -167,7 +167,7 @@ You can use SQL to calculate values on the fly.
 
 PostGIS extends SQL with geometry functions to allow spatial filtering and analysis.
 
-1.  **Find features within a bounding box**
+1. **Find features within a bounding box**
 
     ```sql
     SELECT *
@@ -193,7 +193,7 @@ PostGIS extends SQL with geometry functions to allow spatial filtering and analy
 
     <br>
 
-3.  **Measure distance between two features**
+3. **Measure distance between two features**
 
     ```sql
     SELECT
@@ -223,7 +223,7 @@ Each spatial function returns a true/false result, distance, or filtered rows, p
 
 SQL can also modify records. Make sure you understand what you’re updating before running these.
 
-1.  **Update a field value**
+1. **Update a field value**
 
     ```sql
     UPDATE places
@@ -243,7 +243,7 @@ SQL can also modify records. Make sure you understand what you’re updating bef
 
     <br>
 
-3.  **Delete a record**
+3. **Delete a record**
 
     ```sql
     DELETE FROM places
@@ -267,7 +267,7 @@ SQL can also modify records. Make sure you understand what you’re updating bef
 
 PostGIS makes it easy to summarise spatial relationships.
 
-1.  **Count how many features fall inside a polygon**
+1. **Count how many features fall inside a polygon**
 
     ```sql
     SELECT COUNT(*)
