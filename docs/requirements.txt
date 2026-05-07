@@ -36,3 +36,12 @@ shortuuid
 
 # Generate QR codes for PDF back page
 qrcode
+
+# Mermaid diagram rendering in MkDocs
+mkdocs-mermaid2-plugin
+
+# Bootswatch themes for MkDocs
+mkdocs-bootswatch==1.1
+
+# Git pre-commit hooks framework
+pre-commit
