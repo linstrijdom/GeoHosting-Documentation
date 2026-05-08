@@ -100,6 +100,17 @@ To share a resource:
 
 2. Click <span class="ui-generic-label">Share to New User(s)</span>.
 
+    <br>
+
+    <div class="image-with-caption">
+      <img src="../../img/geosight-img-28.png" alt="Share Resource">
+      <div class="caption">
+        Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
+      </div>
+    </div>
+
+    <br>
+
 3. Select the relevant users.
 
 4. Choose a permission level:
@@ -136,7 +147,7 @@ To share a resource:
 <br>
 
 <div class="image-with-caption">
-  <img src="../../img/geosight-img-28.png" alt="Share Resource">
+  <img src="../../img/geosight-img-29.png" alt="Share Resource 2">
   <div class="caption">
     Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
   </div>
@@ -150,84 +161,6 @@ To share a resource:
   <div class="alert-icon">📝</div>
   <div class="alert-text">
     You can also share access to specific datasets within an indicator, rather than the entire indicator.
-  </div>
-</div>
-
-<br>
-
-### Sharing Projects
-
-Projects (dashboards) can be shared with individual users or groups. To share a project:
-
-1. Open the project and click the <span class="ui-generic-label">Share</span> icon.
-
-2. Use the available tabs to manage access:
-
-    <br>
-
-    <table class="my-table-style">
-      <thead>
-        <tr>
-          <th>Access Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Public Access</td>
-          <td>Control whether the project is public or restricted.</td>
-        </tr>
-        <tr>
-          <td>User Access</td>
-          <td>Manage individual user permissions.</td>
-        </tr>
-        <tr>
-          <td>Group Access</td>
-          <td>Assign access to groups.</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <br>
-
-3. Click <span class="ui-generic-label">Apply Changes</span>.
-
-<br>
-
-Within the sharing interface, you can:
-
-- Add new users
-- Change permission levels
-- Remove users
-- View all users with access
-
-<br>
-
-<div class="image-with-caption">
-  <img src="../../img/geosight-img-29.png" alt="Share Project">
-  <div class="caption">
-    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
-  </div>
-</div>
-
-<br>
-
-## Access Requests
-
-Users can request additional permissions if they need extended access. To submit a request:
-
-1. Navigate to <span class="ui-page-label">Access</span> → <span class="ui-page-label">Access Request</span>.
-
-2. Submit your request for elevated permissions.
-
-3. An administrator will review and respond.
-
-<br>
-
-<div class="image-with-caption">
-  <img src="../../img/geosight-img-29.png" alt="Access Request">
-  <div class="caption">
-    Image credit: <a href="https://geosight.unicef.org/" target="_blank">GeoSight</a>
   </div>
 </div>
 
