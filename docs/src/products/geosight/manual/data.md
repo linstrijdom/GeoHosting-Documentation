@@ -149,7 +149,7 @@ Required columns:
       <td>The observation values.</td>
     </tr>
   </tbody>
-</table> 
+</table>
 
 <br>
 
