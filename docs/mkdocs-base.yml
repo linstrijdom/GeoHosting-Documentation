@@ -145,11 +145,13 @@ nav:
             - Managing Users & Permissions: products/geosight/guide/permissions.md
             - Glossary of Terms: products/geosight/guide/glossary.md
           - Manual:
-            - Projects: products/geosight/manual/projects.md
+            - Data Preparation: products/geosight/manual/data.md
+            - Reference Datasets: products/geosight/manual/reference.md
             - Indicators: products/geosight/manual/indicators.md
-            - Indicator Layers: products/geosight/manual/indicator_layers.md
+            - Indicator Data: products/geosight/manual/indicator_layers.md
             - Context Layers: products/geosight/manual/context_layers.md
             - Basemaps: products/geosight/manual/basemaps.md
+            - Projects: products/geosight/manual/projects.md
             - Styles: products/geosight/manual/styles.md
             - Import Data: products/geosight/manual/import_data.md
             - Widgets & Filters: products/geosight/manual/widgets_filters.md
