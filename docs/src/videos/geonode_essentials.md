@@ -23,7 +23,7 @@ Learn the fundamentals of GeoNode through short, focused video tutorials. Follow
 <div class="alert alert-warning">
   <div class="alert-icon">⚠️</div>
   <div class="alert-text">
-    Videos Coming Soon! 
+    Videos Coming Soon!
   </div>
 </div>
 

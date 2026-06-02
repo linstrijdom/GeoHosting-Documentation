@@ -79,7 +79,7 @@ Learn the fundamentals of G3W-SUITE through short, focused video tutorials. Foll
 <div class="alert alert-warning">
   <div class="alert-icon">⚠️</div>
   <div class="alert-text">
-    More Videos Coming Soon! 
+    More Videos Coming Soon!
   </div>
 </div>
 
