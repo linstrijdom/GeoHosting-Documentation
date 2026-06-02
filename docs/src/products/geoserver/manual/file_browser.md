@@ -68,6 +68,20 @@ Once uploaded, your data will be immediately available within the GeoServer Web 
 
 <br>
 
+## Video Tutorial
+
+<div style="max-width: 400px; margin: 0 auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/ZxvQMgEegc4"
+      title="Upload Data with the File Browser"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
 ---
 
 **Next up:** Learn how to create Workspaces to organize and group related layers within GeoServer.

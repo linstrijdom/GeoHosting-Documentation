@@ -165,6 +165,34 @@ A new browser tab will open displaying your shaded relief raster layer on an int
 
 <br>
 
+## Video Tutorial
+
+<div style="max-width: 400px; margin: 0 auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/Z0vrn1-BsM4"
+      title="Managing Raster Data Stores"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+<br>
+
+<div style="max-width: 400px; margin: 0 auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/UUB5QAze6ro"
+      title="Publish Your First Raster Layer"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
 ---
 
 **Next up:** Discover how to combine multiple layers into a single, cohesive map view using a Layer Group.

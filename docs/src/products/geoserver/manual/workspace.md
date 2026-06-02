@@ -85,6 +85,20 @@ The new <span class="ui-filename">manual</span> workspace will now be listed on 
 
 <br>
 
+## Video Tutorial
+
+<div style="max-width: 400px; margin: 0 auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/yR3M6f7HZJM"
+      title="Organizing Data with Workspaces"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
 ---
 
 **Next up:** Learn how to create a Store — a crucial step that enables GeoServer to connect to and manage your spatial data seamlessly.

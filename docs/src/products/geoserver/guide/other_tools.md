@@ -59,6 +59,22 @@ Click <span class="ui-generic-label">OK</span>, then <span class="ui-generic-lab
 
 <br>
 
+### Video Tutorial
+
+<div style="max-width: 400px; margin: 0 auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/5qiIIr5f1Y0"
+      title="Connect to GeoServer from QGIS"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+<br>
+
 ## Embedding GeoServer WMS in a Leaflet Map
 
 You can also embed GeoServer layers in an interactive web map using **Leaflet** with just a few lines of code.

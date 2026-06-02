@@ -162,3 +162,33 @@ With your base style created, you can now make adjustments to refine the layerâ€
 </div>
 
 <br>
+
+## Video Tutorial
+
+<div style="max-width: 400px; margin: 0 auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/ZWEeZuz1krY"
+      title="Vector Styling with SLD"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+<br>
+
+<div style="max-width: 400px; margin: 0 auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/AQCLrmHOJzg"
+      title="Raster Styling & Color Maps"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+<br>
