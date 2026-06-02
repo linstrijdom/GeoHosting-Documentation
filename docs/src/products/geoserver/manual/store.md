@@ -106,6 +106,20 @@ You’ll be redirected to the <span class="ui-page-label">New Layer</span> page.
 
 <br>
 
+## Video Tutorial
+
+<div style="max-width: 400px; margin: 0 auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/7P4-P6JBnng"
+      title="Managing Vector Data Stores"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
 ---
 
 **Next up:** Discover how to publish your layer and preview it in GeoServer.
