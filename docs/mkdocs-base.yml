@@ -157,6 +157,7 @@ nav:
             - Basemaps: products/geosight/manual/basemaps.md
             - Projects: products/geosight/manual/projects.md
             - Styles: products/geosight/manual/styles.md
+            - Context Layers: products/geosight/manual/context.md
             - Widgets & Filters: products/geosight/manual/widgets_filters.md
           - Help: products/geosight/help.md
       #- MyCivitas:
