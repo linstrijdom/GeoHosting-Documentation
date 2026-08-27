@@ -53,6 +53,7 @@ nav:
       - GeoServer Essentials: videos/geoserver_essentials.md
       - G3W Essentials: videos/g3w_essentials.md
       - GeoNode Essentials: videos/geonode_essentials.md
+      - GSH Workflows: videos/gsh_workflows.md
   - Products:
       - products/index.md 
       - GeoServer:
