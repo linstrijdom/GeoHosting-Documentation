@@ -36,10 +36,22 @@ Select the one that best fits your workflow to learn more and get started:
       GeoServer
     </a>
   </div>
-    <div class="product-item">
+  <div class="product-item">
     <a href="postgis/">
       <img src="./img/PostgreSQL_logo.png" alt="PostGIS" /><br />
       PostGIS
+    </a>
+  </div>
+  <div class="product-item">
+    <a href="qgis_cloud/">
+      <img src="./img/QGIS_Cloud_Desktop_logo.png" alt="QGIS Cloud Desktop" /><br />
+      QGIS Cloud Desktop
+    </a>
+  </div>
+  <div class="product-item">
+    <a href="cloudbench/">
+      <img src="./img/CloudBench_logo.png" alt="CloudBench" /><br />
+      CloudBench
     </a>
   </div>
 </div>

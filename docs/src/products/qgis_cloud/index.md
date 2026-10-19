@@ -24,7 +24,7 @@ Each user's desktop has a **persistent home folder**, allowing files and setting
 <br>
 
 <div class="image-with-caption">
-  <img src="./img/qgis-cloud-img-1.png" alt="QGIS Cloud Desktop Logo" style="width: 15%;">
+  <img src="./img/qgis-cloud-img-1.png" alt="QGIS Cloud Desktop Logo" style="width: 30%;">
 </div>
 
 <br>
