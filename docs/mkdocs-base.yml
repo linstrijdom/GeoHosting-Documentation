@@ -164,6 +164,9 @@ nav:
       - QGIS Cloud:
           - products/qgis_cloud/index.md
           - Overview: products/qgis_cloud/overview.md
+      - CloudBench:
+          - products/cloudbench/index.md
+          - Overview: products/cloudbench/overview.md
       #- MyCivitas:
       #    - products/mycivitas/index.md
       #    - Guide: products/mycivitas/guide.md
