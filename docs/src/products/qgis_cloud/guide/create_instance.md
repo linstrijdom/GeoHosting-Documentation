@@ -40,7 +40,7 @@ Your organisation will serve as the central space for managing End Users, deskto
 
 Select the new <span class="ui-page-label">QGIS Cloud Desktop</span> tab.
 
-On this page, you can manage QGIS Desktop session timeouts and view a breakdown of compute and storage costs for your organisation. 
+On this page, you can manage QGIS Desktop session timeouts and view a breakdown of compute and storage costs for your organisation.
 
 You can review monthly billing totals by End User and compute tier, track running and closed session charges, monitor storage usage and costs, and archive or restore the organisation.
 
